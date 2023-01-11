@@ -1,0 +1,175 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU03-05RegenerUnMotDePasseOublie" version="4">
+  <OBJECT>
+    <ID name="CU03-05RegenerUnMotDePasseOublie" mc="Standard.UseCase" uid="b38f5d37-61e0-4b32-8906-7afbf11605e2"/>
+    <PID name="User" mc="Standard.Package" uid="f40de221-e08b-4f13-ad13-e9a280821324"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU03-05RegenerUnMotDePasseOublie]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="b4ca83d7-ff37-4afe-98c3-0adf5ed8ade3"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="f76c56b2-2d29-4b97-9bc5-d29f90d5bc81"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.CODE	CU03-04
+
+2. REFERENCE
+
+Titre: 	 Régénérer un mot de passe oublié d'un compte utilisatuer
+Date:      10/09/2021
+
+3.	MODIFICATIONS
+
+Date			Rev	Auteur								Observation
+25/08/2021  	 1		Alzouma Moussa Mahamadou		Identification et Spec détaillée
+
+
+4. DESCRIPTION
+
+L'utilisateur souhaite régénérer un nouveau mot de passe en cas d'oubli de l'ancien mot de passe.Pour ce faire , il specifie le l'adresse mail avec laquelle il a crée son compte.Ensuite, le système vérifie l'existence de son compte et lui génére un nouveau mot de passe.Enfin, le système lui envoie par notification, son nouveau mot de passe généré.
+
+5. LISTE DES ACTEURS
+
+Principal :  utilisateur non authentifé]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="84dfe26e-9d0d-4ea2-9711-b4191426a084"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="8851785a-3678-47a8-aa45-8420db61481f"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="Infrastructure.NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="06204603-a629-4c58-a6d3-3e2f94994e2d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="149edca6-f6d3-47eb-9c05-a3e31a1e6f68"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="41dafcd7-2d66-4a8c-aa7e-4333ca4bcb5c"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scenario nominal" mc="Infrastructure.Note" uid="f5aee1f8-5a61-4ffa-ba07-14dc38f557b5"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1. L'utilisateur spécifie son adresse mail
+
+2. Le système vérifie l'existence de son compte user
+
+3. Le système génére un nouveau mot de passe pour le compte user
+
+4. Le système lui envoie par notification, le mot de passe généré
+
+5. Fin]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scenario nominal]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scenario alternatif" mc="Infrastructure.Note" uid="01a40000-134b-4d99-95e0-4180e93be8dc"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+Scénario alternatif A1 : Echec à la verification de l'email
+
+Condition :  L'email ne correspond à aucun compte user existant
+
+Branchement:	  Aprés  l'étape 2
+
+		1.  Le système renvoie un message d'echec
+		
+		2. Aller au   use   case CU03-01CreerModifierUnCompteUser
+
+]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scenario alternatif]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

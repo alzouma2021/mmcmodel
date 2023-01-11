@@ -1,0 +1,195 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU04-10-3RefuserDemandeReservationLogementParPromoteur" version="4">
+  <OBJECT>
+    <ID name="CU04-10-3RefuserDemandeReservationLogementParPromoteur" mc="Standard.UseCase" uid="9a086d22-2608-44fb-b0fd-99c04a4baba2"/>
+    <PID name="EPIC04_EvaluerUneDemandeReservationLogementParPromoteur" mc="Standard.Package" uid="bb531d2f-4adf-4708-b8eb-c7b479d175a4"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU04-10-3RefuserDemandeReservationLogementParPromoteur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="75a74530-fff9-4a5a-ab65-4114faec9fea"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="CU04-10-1TraiterDemandeReservationLogementParPromoteur" mc="Standard.UseCase" uid="8164e05c-6795-4dc6-ad8b-92fa1b71618b"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="7910e743-d4ed-4751-aa52-68a7a7006785"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="39d4b455-a2e9-4e99-9b9d-03a19721fef1"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.CODE	CU04-10-3
+
+2. REFERENCE
+
+Titre: 	Refuser une demande réservation d'un logement par le promoteur
+Date:     22/11/2021
+
+3.	MODIFICATIONS
+
+Date			Rev	Auteur								Observation
+22/11/2021  	 1		Alzouma Moussa Mahamadou		Identification et Spec détaillée
+
+
+4. DESCRIPTION
+
+Un collaborateur d'un promoteur souhaite  refuser  une demande réservation d'un logement evaluée déjà par le système.Pour ce faire,il refuse la demande réservation en indiquant la raison du refus.
+
+Ensuite,le  système notifie le prospect. 
+
+5. LISTE DES ACTEURS
+
+Principal: Collaborateur Promoteur]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="8d850bcd-37c9-4e4d-b478-a248c59420fc"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+-	Le statut de la demande de réservation de logement doit être " Refus  par le promoteur " pour notifier le prospect du refus de sa demande de réservation de logement]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="50c0d0a9-e34d-49a3-bc00-3652d2ee8b35"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="Infrastructure.NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="4658e026-9713-4788-b439-fe6af87ebf71"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="36ba8df4-8b66-49d8-ba6c-29ad0d709dc7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+-C'est une extension du use case  CU04-10-3
+
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="e51b3b03-6927-4931-afc6-1321db74d4d9"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario nominal" mc="Infrastructure.Note" uid="f7d18ff3-969f-4e48-a16f-47f451842009"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.	Le promoteur confirme le refus de la demande reservation en indiquant la raison du refus
+
+2.	Le système actualise le statut  de la demande de reservation à "Refus par le promoteur" 
+
+3.	Le système notifie le prospect de la non acceptation de sa demande de rservation
+
+4.	Le système actualise le staut de la demande de réservation par  " Demande réjetée "
+
+5.	Fin
+
+
+
+ ]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario nominal]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario alternatif" mc="Infrastructure.Note" uid="a1218efa-d636-4be1-95d5-dc9db20dfb95"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+
+
+
+]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario alternatif]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

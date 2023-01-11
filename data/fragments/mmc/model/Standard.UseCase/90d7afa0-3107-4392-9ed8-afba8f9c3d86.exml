@@ -1,0 +1,333 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU06-13-2GenererEtSignerUnContratReservationParProspect" version="4">
+  <OBJECT>
+    <ID name="CU06-13-2GenererEtSignerUnContratReservationParProspect" mc="Standard.UseCase" uid="90d7afa0-3107-4392-9ed8-afba8f9c3d86"/>
+    <PID name="EPIC06_ReserverUnLogement" mc="Standard.Package" uid="06145806-9aeb-4355-8140-19c559ae4600"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU06-13-2GenererEtSignerUnContratReservationParProspect]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="a5f88390-546b-4075-abfc-40efbd4a8c64"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="CU06-13-3SignatureElectroniqueDocument" mc="Standard.UseCase" uid="91df0e86-1986-4273-aa65-50492eef8e62"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="Note" mc="Infrastructure.Note" uid="0e176b46-c74a-4527-be90-2061a384287b"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[
+Condtitions du point d'extension:
+
+ le prospect choisit la signature electronique]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"><![CDATA[Note]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="2bbb0ba3-5445-42be-9efb-23d1049425da"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="CU06-13-4SignatureManuelleDocument" mc="Standard.UseCase" uid="77a185ba-6e78-44bc-895e-ae840f8c46df"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="Note" mc="Infrastructure.Note" uid="3ab7dfa3-7570-4d41-a55a-843b27a58db2"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[
+Condition du point d'extension:
+
+le prospect choisit la signature manuelle]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"><![CDATA[Note]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="97b8608c-a4ac-43ec-8baf-11f6d8008092"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="a870d1af-ee9c-406d-ba9b-03ef13ca71ea"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.CODE	CU06-13-2
+
+2. REFERENCE
+
+Titre: 	Signer un contrat de réservation par le prospect
+Date:     13/12/2021
+
+3.	MODIFICATIONS
+
+Date			Rev	Auteur								Observation
+13/12/2021  	 1		Alzouma Moussa Mahamadou		Identification et Spec détaillée
+
+
+4. DESCRIPTION
+
+Un prospect souhaite signer un contrat de réservation.Pour ce faire, il selectionne sa demande de réservation de logement  acceptée.
+
+Le système génére et retourne  le contrat de réservation correspondant à la demande de réservation.
+
+Si le délai de signature n'est pas depassé :
+
+	-	Le prospect signe son contrat de reservation ( signature electronique du contrat si le promoteur  accepte ce mode de signature sinon signature manuelle du contrat de réservation ).
+
+	-	Le système actualise le statut de la demande en  "Demande pré-reservée" 
+
+Ensuite, le système enregistre le contrat de reservation en notifiant le promoteur de la signature du contrat par le prospect.
+
+Dans le  cas contraire (Délai de signature depassé) :
+
+       -	Le système annule la demande de reservation et invite par notification le prospect à formuler une nouvelle demande de réservation.
+
+5. LISTE DES ACTEURS
+
+Principal: Prospect]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="3ec9d731-bc1b-42b0-90cd-b677a942ff81"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+
+Contraintes liées à la notification :
+
+-	Le promoteur sera notifié ( de la signature du contrat de réservation par le prospect) si le statut de la demande de réservation est à  "Demande pré-réservée".
+
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="36b7d9f8-9efe-427a-8251-9fcf79170901"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="Infrastructure.NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="6a3270d6-2374-4ef5-87f5-f5db24208ef4"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="8743b1ac-c645-4915-89f9-67ad835acf7f"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+
+1.	Le statut de la demande doit être  " Demande validée  "
+
+
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="e75d0c76-f08d-442c-b4a4-5adb0fc9d249"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario nominal" mc="Infrastructure.Note" uid="efd5bf02-627d-4d4f-a826-bb4faab55f93"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.	Le prospect selectione une demande de réservation de logement 
+
+2.	Le système vérifie le délai de signature du contrat de réservation
+
+3.	Le système génére le contrat de réservation
+
+4.	Le système affiche le contrat de réservation 
+
+5.	Le prospect signe le contrat de réservation (CU06-13-3 Etendu)
+
+6.	Le système enregistre le contrat de réservation signé en actualisant  le statut de la demande à " Demande pré-reservée "
+
+7.	Le sysème notifie le promoteur de la signature du contrat de réservation
+
+8.    Fin.
+
+]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario nominal]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario alternatif" mc="Infrastructure.Note" uid="9d5f1860-9f0e-49e1-b2fc-361113854be9"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+Scénario alternatif A1: Echec de la signature du contrat de reservation
+
+Condition : Le délai fixé pour la signature du contrat de réservation est depassé
+
+Branchement:	  Apres l'etape 2
+
+		1.	Le système notifie le prospect
+
+		2.  Aller Au use case CU03-08-5AnnulerUneDemandeReservationLogement
+
+
+
+Scénario alternatif A2: Signature Manuelle Document
+
+Condition :Le collaborateur promoteur ou prospect  souhaite signer manuellement un document
+
+Branchement:	  Aprés  l'étape 4
+
+	        1. Aller au use case  "CU06-13-4SignatureManuelleDocument"
+
+		2. Aller à l'etape 6 du scénario nominal
+
+
+
+
+]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario alternatif]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="9219e352-0f22-4353-9614-58fdde403728"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.	Le prospect selectione une demande de réservation de logement 
+
+2.	Le système vérifie le délai de signature du contrat de réservation
+
+3.	Le système génére le contrat de réservation
+
+4.	Le système affiche le contrat de réservation 
+
+5.	Le prospect signe le contrat de réservation
+
+6.	Le prospect valide la signature du contrat de réservation ( CU06-13-3 Etendu)
+
+7.    Fin.
+
+
+
+
+
+Comment:
+
+
+7.	Le système enregistre le contrat de réservation en actualisant  le statut de la demande à " Demande pré-reservée "
+
+8.	Le système notifie le promoteur de la signature du contrat de réservation
+
+9.	Fin]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

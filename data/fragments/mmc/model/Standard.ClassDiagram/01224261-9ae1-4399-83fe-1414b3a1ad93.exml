@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="contratReservationLogement" version="4">
+  <OBJECT>
+    <ID name="contratReservationLogement" mc="Standard.ClassDiagram" uid="01224261-9ae1-4399-83fe-1414b3a1ad93"/>
+    <PID name="Classes de dialogue" mc="Standard.Package" uid="78b9d791-3645-4965-854c-e68ec093f092"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">4</ATT>
+      <ATT name="UiData"><![CDATA[eJztmltv4joQgP9KxDsBBxaoynbVwopTLb2onF1pz0vlJAN469jINi30168dCKdQSkOShrbKE3gSj2/fTGZst7/NAmrdg5CEs68lZFdL1reT9pX7BzxlEV+LSpaaT+BriYuRHXAfKOH2NKC2VFiRO5/gkcCBDT5RXNhAIQCm5OKpFz3tBYOw3F2US1aA/3Bxu2q3WjppXws+AaHmFsOBbo7iOZ+qLlZYP/uF6RSW/WBTSkuVk3YlqvCs6kDNKZTWRuFsG0XUO2nel7bHBdiLujH618HSwz74UWPfZ+oGhjFbudQqljUtmKmue677GP41fy4WNa2aPdsYaGUxpF2DF0CxAl/3ZWPeLozIujcSM0WY+Vj4dodiKZfLYlWR49SdBiofYUDleu3oqNyqDaGM6qju1jDC/lFt99RrbeoH4w+sj12gGz0YKEHYqHTicaYE1tMlQdxrLDjr81HITbsSvr9zfJzCOevwYMIlMXVfaCSGqs6YUF+A0dAnUq0BU0uGvUfx46PGPZzWVJjf6J5gNjKELNcMNdExQo1jp1k9blX3NoH6m5uA4X9hbLlQa8EXHzBq1coYmm657jnDsguoWR66fr0xbNVwrQUZ4Ho6HBJvDKLzIrbXeATvB90vGaB7LUiAxfxS186Y4upxNSnBjbgEa1WzeWqM6wXGqTC+wIQZgFLi3EyGs1EsJ9iDMejFFRrsy0jyTyjJPwhp5ctvo+A3Fb8LTGIolGP+cEu8Z4rOuG4Js9W8DTGVr8xEqOoO5g9c+BloU9i7u5UKBPBXtCkxjdM1umWB9leFXamX0FMJRriC+IldHSX+4ElJhiR0Dp1VQYNFHrFLoSf4dJK/l0DVwk18JDeR8vOGEibYWOn23amCkcFUE3waCQ7FbewcOxtu0WYAWYC7H7jrwCTBuLL82e2eUcJc2ugMxx8RfhUJDkV47BS6IPxdEH4Basz9t8Y7Yb5NmI7LmA5xdLzkqammphecL2WDSHYAyHPOsgvIU0IeMZM2DkmYZ8fC+FAOO+eMG32yWDpDSt/aCSfMAWPR+x9nB3DETs554GeDN3dHbDDJmPB48DsJU0jCGIhwFySkXhfSH1sZ4xmZzdXl2pfR/uAXieTHAj9EJ2X44SRMEl9g+EABh5NzhugUR63vOixxEueGW6kGeaBQJOecsMD6Q4Uizx9ttEPkL10iHk5wdBS/ledXF+wlfK/EKJt3mrZactL0ONAruzqLDo/PjEkbqTmPHhjpAp0so67NqwsxTDznVLm4XJHOwgd6KiglKo7Oz3A+HbdvCQ+oM3FzfcLu5A5fuvH62agr8INezT6ea9tdN8et+xkrJxN5F3+hQNrUqNCOZU1jPnHCfrUOez2VbEIbmVO3Z/dPf3+/uT077fzo3Vz9vOxm/f18UcvTNfsfn6d3UXfuBBUwvBkM/15d5xZF/QUIlMvU]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,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]]></ATT>
+      <ATT name="Name"><![CDATA[contratReservationLogement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="AfficherContratReservationLogementPage" mc="Standard.Class" uid="e5dea183-ae7b-4c2f-be17-fbd46f83a38e"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="fcd930d6-1b60-4d86-a48d-1687a68bf37f"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Classes DAO" version="4">
+  <OBJECT>
+    <ID name="Classes DAO" mc="Standard.Package" uid="3a0c46d3-5dd1-4b06-a70e-27aa971b67db"/>
+    <PID name="Classes de conception" mc="Standard.Package" uid="a173770d-68aa-48b1-8ffe-ca847ea0e671"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Classes DAO]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ProduitLogementDAO" mc="Standard.Class" uid="8a0782b5-673c-47a6-9258-b8498ad6f2fa"/>
+        <COMPID name="RequeteEnregistreeDAO" mc="Standard.Class" uid="a3945caa-e277-4b25-a954-5345cc6afe8c"/>
+        <COMPID name="UserDAO" mc="Standard.Class" uid="bb6f5ba2-7e25-4029-9295-1ffdc42e4ce7"/>
+        <COMPID name="ProprieteProduitLogementDAO" mc="Standard.Class" uid="44c64294-dddc-4f54-a2d3-a8b46d5ae04a"/>
+        <COMPID name="ProgrammeImmobilierDAO" mc="Standard.Class" uid="52114903-034b-4ab9-b24b-abeac2923c36"/>
+        <COMPID name="CreditBancaireDAO" mc="Standard.Class" uid="37ab1c38-b5bd-48eb-af54-fe1631c957d1"/>
+        <COMPID name="ModeFinancementDAO" mc="Standard.Class" uid="c23b7a0f-0f5e-4d31-9b61-0ea11c1d16b9"/>
+        <COMPID name="CaracteristiqueProduitLogementDAO" mc="Standard.Class" uid="a8f53bef-35ad-4d2c-9c62-8f2d224a6d5b"/>
+        <COMPID name="DocumentDAO" mc="Standard.Class" uid="d38750f6-1052-4204-9916-d15d5a9c1a70"/>
+        <COMPID name="ProduitLogementDocumentDAO" mc="Standard.Class" uid="ab717666-f164-4d40-b32f-d51812fd5823"/>
+        <COMPID name="ProgrammeImmobilierDocumentDAO" mc="Standard.Class" uid="4828ff0f-5115-410f-a72b-a9f2270a2785"/>
+        <COMPID name="CompteOrganisationDAO" mc="Standard.Class" uid="ffa9ed00-7779-4b5c-abba-77f03445cc5e"/>
+        <COMPID name="LogementDAO" mc="Standard.Class" uid="5aed99d8-547f-4ba9-a57c-953ef59764a0"/>
+        <COMPID name="DemandeReservationLogementDAO" mc="Standard.Class" uid="50d506f0-6566-4d28-a918-b6bf71f6b1db"/>
+        <COMPID name="OffreFinancementDAO" mc="Standard.Class" uid="957a5b84-c659-498f-97aa-aece0ee220f5"/>
+        <COMPID name="OffreFinancementTemparemmentDAO" mc="Standard.Class" uid="fee407b0-eb5f-4606-8066-23686e0cbff7"/>
+        <COMPID name="OffreFinancementCreditDAO" mc="Standard.Class" uid="830fffc4-0730-4723-8855-cb2e81b4a484"/>
+        <COMPID name="OffreFinancementParPallierDAO" mc="Standard.Class" uid="3604bd68-6818-4b91-ac8a-7e6d9c39d661"/>
+        <COMPID name="SimulationFinancementImmobilierDAO" mc="Standard.Class" uid="8477d1da-18c3-447e-8649-6394c11fd94c"/>
+        <COMPID name="FinancementDAO" mc="Standard.Class" uid="a9abe24a-b254-44d6-8ae3-e9d61a638f43"/>
+        <COMPID name="ValeurCaracteristiqueDemandeReservationLogementDAO" mc="Standard.Class" uid="4922f99a-0b11-4c11-bae7-025c0cb75784"/>
+        <COMPID name="ContratReservationDAO" mc="Standard.Class" uid="034f555b-b128-4d75-91d9-00d9a1edabae"/>
+        <COMPID name="CaracteristiqueDemandeReservationLogementDAO" mc="Standard.Class" uid="f9b56dbb-51f2-45e1-ab6f-943771791c8b"/>
+        <COMPID name="TypeDocumentDemandeReservationLogementDAO" mc="Standard.Class" uid="0c726978-929c-497b-8bd4-e236c34d83fa"/>
+        <COMPID name="FinancementCreditImmobilierDAO" mc="Standard.Class" uid="6c745ce2-06a9-4a4f-99a9-ad59d0c97763"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme Produit Logement DAO" mc="Standard.ClassDiagram" uid="ec466147-53e6-4d43-b990-8a6e8d929df0"/>
+        <COMPID name="Diagramme Requete Enregistree DAO" mc="Standard.ClassDiagram" uid="ee45fb1c-1849-483d-af8e-d0cb887de396"/>
+        <COMPID name="Diagramme de classe Ouvrir un compte user DAO" mc="Standard.ClassDiagram" uid="d73af997-a47c-43cb-9cd8-dc56d6a0e493"/>
+        <COMPID name="Diagramme de classe ProprieteProduitLogementDAO" mc="Standard.ClassDiagram" uid="53aea8ad-91da-40a2-87de-4a74c28fb7f5"/>
+        <COMPID name="Diagramme Programme Immobilier" mc="Standard.ClassDiagram" uid="ada9e107-102e-4be0-a1c5-a981b58cf361"/>
+        <COMPID name="Diagramme de classe Credit Bancaire" mc="Standard.ClassDiagram" uid="b79bc581-b6ea-4416-a843-feb69d130062"/>
+        <COMPID name="Diagramme de classe Mde Financement" mc="Standard.ClassDiagram" uid="02e86751-b8f9-467b-8cbb-1bcc57264359"/>
+        <COMPID name="caracteristiqueProduitLogement" mc="Standard.ClassDiagram" uid="ac0b2af4-cc4d-4539-9c1b-86f768f07f22"/>
+        <COMPID name="Document" mc="Standard.ClassDiagram" uid="50405746-8bc9-4b4d-af09-ebb5bf3a24f7"/>
+        <COMPID name="ProduitLogementDocument DAO" mc="Standard.ClassDiagram" uid="0765eccf-1632-4277-90f0-6a88459cf91d"/>
+        <COMPID name="ProgrammeImmobilierDocument" mc="Standard.ClassDiagram" uid="bf64a790-98e2-45e2-8717-d647ef865d1c"/>
+        <COMPID name="CompteOrganisation" mc="Standard.ClassDiagram" uid="2455b76f-0b05-450d-8335-71d81f56ccd5"/>
+        <COMPID name="Logement" mc="Standard.ClassDiagram" uid="9ab9f158-e31d-4c7b-b114-89c24861db5e"/>
+        <COMPID name="DemandeReservationLogement" mc="Standard.ClassDiagram" uid="9bb2e16c-bfb4-461e-87c4-714a8267e1b2"/>
+        <COMPID name="OffreFinancement" mc="Standard.ClassDiagram" uid="5b63e6ba-b6b9-404c-b68e-5662fd18cb32"/>
+        <COMPID name="SimulationFinancementImmobilier" mc="Standard.ClassDiagram" uid="2fc701b8-55ab-41b4-866a-7ec6931c88ae"/>
+        <COMPID name="planFinancement" mc="Standard.ClassDiagram" uid="f0db6ba7-6cb5-4a21-a5c4-45f4754f98e1"/>
+        <COMPID name="ValeurCaracteristiqueDemandeAcquisationDAO" mc="Standard.ClassDiagram" uid="ff4d49e4-d3ea-4fb0-be79-657fb3f69414"/>
+        <COMPID name="OptionLogement" mc="Standard.ClassDiagram" uid="462fdefd-4ca3-48f0-b08a-002f8436a1b1"/>
+        <COMPID name="ContratReservation" mc="Standard.ClassDiagram" uid="4d814e2e-3d6d-4e7d-86db-4ba1cbfde23d"/>
+        <COMPID name="CaracteristiqueDemandeReservationLogement" mc="Standard.ClassDiagram" uid="6e8c66b7-e21e-43c7-ab9b-a65f8cbe9aa7"/>
+        <COMPID name="TypeDocumentDemandeReservationLogement" mc="Standard.ClassDiagram" uid="438cdb06-0778-4738-9c9b-2be3e99104a7"/>
+        <COMPID name="FinancementCreditImmobilier" mc="Standard.ClassDiagram" uid="338f1205-c7ae-4d19-83e3-a1c6a3272c19"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

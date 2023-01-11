@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagramme de suppression de mode financements" version="4">
+  <OBJECT>
+    <ID name="Diagramme de suppression de mode financements" mc="Standard.ClassDiagram" uid="c81b19f9-ddb4-42e4-b915-79a0a9932449"/>
+    <PID name="Classes de contrôle" mc="Standard.Package" uid="82bb5a09-3cb9-4b78-a7f2-ff937b5922ef"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">5</ATT>
+      <ATT name="UiData"><![CDATA[eJztmm1z2jgQgP+Kx98xtnEaPKHpJNDjMiUvA3edufuSke2FqJElRhIN5NefZGMaSEKNcUwu40+gNdrVy7PLrqXOl3lMjJ/ABWb0s+lYtml8Oe1cBz8glAaOlMg05GIKn03GJ1bMIiCYWbOYWEIiie8jjCYcxRZEWDJuAYEYqBTp0zB72o9HSbuXtk0jRj8Yv13Ztc3Tzg1nU+ByYVAUK3MELdhM9pBE6tl3RGawHAedEWI2TzvNrMOzriO5IGCuzcJ9aRbZ6IT+vbBCxsFK++YYXxeJEEUQZca+zuUQxjmtXCkVy54GzGUvuFBjTL7qL5dpT6NlzTcm2kyntG3yHAiSEKmxbKzbpRYZP7VELxGiEeKR1SVIiOW2GGHbCRx/7DeiKPAangteI/Cdo8axj2zk+y3X8/ztS6+0yW+UPdABCoBsjGAkOaYT83RpLgYjAkPMplMOQq+zbupVM8aYIhqmJHWaiYqtU2YELmiXxVMmsFSKXrGbQ1X3DpOIg9YwwEKuMdQq5gkhQY+PygOSld6L/KEaCaITDc1yG1u2e+J4zonr+Cdte2ev8N7cK7RLpP5XCchG4NgtH/njRuiC3fBsFxpBezxu+N7RcQDg+r7TLoHgkYYWx8C1q/7xi9auJO+H16MSeL1Rs0R8caV6l4yufWIXxfZTXmyVqvlib3a9mt3d2b1EmGpq9mT4uBjDWrGYohDuQO0oVzRfZZI/E0n1GUi7Wmg/1dDuDm3KRg6F4o493OLwmaJzpiwhulqsMSICtk8/UXUPiwfGoxK0SRTe3woJHNhvtEk+yzM08sKu7K4KBUJyFMoCM1yR+8SZ/MJ/bSrRHOMkInRXjSEI/IgCAn3OZtPqQ4Nj17Hh3ceGPf/InIJ1NJLKfjCTMNFsKmzPMsGhYM1dSpcDq7OZH9a05qB1nZIi7DaXH9sDsVOwKNY6kR5/hvV1JjgU1rlr4RrrA1YVIO9Y9NZMFyycMVVpF1UZjEqHQjlTqPTji6VslMkOQHbF5XJNdhGyM1D2TTMKFsy52D1UaK64dHY+WH5cIqVvHXkL1nW56P2X0QNEX7fi2u6jwVtN9NVslIx1PuLdgmUhphR48jojQV019j9e0h4z0a9GlxvecHanvS4O/we0J7zsmWi4BQu/V8A9UGrhVlz1ufU56PvLOtzC9d6LKIM4UKZRcZ1Xs/z+M43njzbsYPFdtXCIChzx5Lfy/DKBtSTuNylIK8dZkFu05I3RBFYHxckxl/ZjLdWHxSMtTXkpM6navEyQw68rLn/r6w4F3Hqk5k8Ilnl8+yMcHucdW8HT41Ji2wDTe7ElgG78/HzS4+hB7eYALZTDrvvgiy8mVpElCylRqkBYRKtQ0WRNYzUZwW69DntbFG9Cu7oh2rcGZ/98Hd6en3W/9YfXf1/1yv7TfFXL0z37hc/Te6BbX+nUMLwZDH9d31SWOv0HZayTBw==]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMcAAABkCAIAAAC977PRAAALY0lEQVR4nO3aeVzN6R4H8OdoOZ2lmkpTkbIbrUIvSyo0tsjgWi7lYgiRaZE27VFjLS0MisyNO7haTysqCqG9UE3LadEuhaJOufP8fueUfjONjDmvy8vr+319/jiv5/V7zu8557x7nu85oP9BQQm70KdeANQXWKAKSvgFqqCEX6AKSvgFqqCEX6AKSvgFqqCEX6AKSvgFqqCEX0OoOum1BgL5Y/6uqu62AjKF79JeRM0jah4PDO/FE2qKqSl5l5el1PxKTRklr8qpqaCmsj89HVxqqqippqSzhppaap6+y+s6auqpaRiY3jeN1DRR0/wuXS3UPKOmlZLu59S0UdM+MG95LwbkJTWvKOnpoKaTmtc4oApUgSpQBapAFaj6v6qqibVdP0tVQVKczpIdPXWhe2Rat9BV5diqIaTlmiwcVekWqgjXV9s5XL6q7oRN8sSIqnPmB6jKc8CLUdufOriqO3vIJx9QI7bfyXdUR0jb/S6o+jBVVYeMGYg+cYl3wKEwP4vFyiJIQi+kQtiqGpITwoMScwqEp0pETIymbBnBV3XPRoUmKjpMeKrkDM0P+7of9vUgEhRR23wn6VJocn4lqPowVdc3K+FdxIXDP/iepQeEhIUUVj/hxZnKIbQw8AFBKsuK+BicOLy7u8YjNGuX09ZpCkw6a6yxU1ZjKe/ebnLQuW/QOauxjJdhMQZPt3dfPYap63Xz3V51d/dYhBa4HLWYKsdgyM+wupBzaSOeJzVyptv1QhJTBTfqBxMNBUkJlqqeOaeC5HXXEs9a6OC1egxL1/sWqUpUZ8okNN4yl1CV6jYZaWiq0fpUNd/2Np2qJCkuxlJSW+cb1diJMVXmnVg+SZrOUtKx8NqoLlD1lBtta6KpSN7LgsOt71c1zi6JcgL271X3bcbhlXiF2huMYjNlJy3zfPgck6rLPW06e7QskykzzuD7qyXNhKQHe4krvc/3Xen1sA17elZ33XWlzqivWNIq01YeSaskVT2virU30VQiljFnT1wNCStrHzHd4/TuafIMhsJM28i8q+bTFVlSyvruaXWkqhfVcY7LiVls1Tk/xNW+IiRlO+BZiw6EOxiqEDc18f1Ue9VREzZCzNEmu/aGXP7Pr0+LBH3VoKrIBzSFb4NvJWX4GMggNMU9iZdt0zeYnOFjSA4m87KsJyMk+bXuNj8/zoO8d6qybSaTdwuMP2c3TRQhtup39omxe+cwkYi+Vx1WVXzQgInkF7ul37tgrSVKn+dTh1Xl7FUjnm2GuV9A3MNH/BPwHzs3K6LJBwpqekrddJH87p3GghOwJnCpJGJomoVEXwzbqcVAzGUhhT1PXKfSkJSeVUzKRXcjWRG+qtJDxL2WeKXfv2StJUaff7i+T5Wq+b/LS7LKS7KJVFXw+lXlOeKVMEcu8uYkRFtpiyHRBSeLewtdtIYhFdNTmTdcDJmIufLsS6wq34m8crE3Jynaegpx5anS3pqTi9hIao7N1fifrabRkeya6OdtveV+eJa8sW/6w2vW2mJ0I/8GrKpwPzF99Oqg69fsp4vhV6+6yjM50VUfv1GGxxuwqnJ/ctahjOwoG2JWQANWVehKzFI29o5PjbbRwTf9RKraHzemum83mjCcTvYQ4sNnbz9e1vo+VYo7womDr+30BiZCBu6NpCrFHReJ46/tDDnoyR+UMQt587u+inwwwuIyPv6eeGjgd2DTNXxKZvvr4afYnN7B5R6ajqlti8EHYlW9/2xEmxHErerJtSOebWNY14C+alXo+X9Jo9mH79cH6g+TXhsTKlDVHGyIX8a6S5XE8dd2bh1ez4KjFUEGCDHMrlbjU4+XtEWeVMU9oos/rW2xxDlYf2IOos0Mrhmsr9L3bexXle+EHyjsiOzBp16V72z8WnZzepvzC3IyKhvxFpXrMxWhibb5WFWBM3Hlzuge/LjqEHGlZfyzn4wQkjCLaMFbVEdpUkxkVGFjW9XRmcQy4oijsCHQANH0gp++eFvkok5MScIHX8mBKQixtsS0veVxT+gjpLQzg/eq+hgxyzyBOAcbgwwRbU5wXefbIjfiphYJvVhYzTF800+mSpCmjPyYH+0MhyNE/y7kwXtUaeyPJ9upy5b47NS0LiYBaexPIJuqK+SgTd9g4u+7dcGD61hVzbEZCI3cdxs3VcWhixGS3XCzg5vnNAFvfGIMJovFZEngzWykfbpAlYbLzYHd+qoLJVfWsEQWegebiLPXnm2/IFBVsH8SfmNtUvl9VZy1Mp5pF++JBSva3iL7KpIIVpXnPJF6L2X7OwJViis8Iq6ERVy5QCQl6zVVFfEAq3oWuBB3YObXeuui3I3VlaTo4nS6KA2hsVbZfaq0Pe4Tp2FrMHllZIEr3qmVbNMpfVWeyzfUZYxyyBSo0vbMxqrqsHik4pCJ+6qWc/hVym1N4b3KF8xiEUXMUnG4L1Cl7ZlLnIZtZxZ9KlUVEbaWGzaFP+r7ZSFtqwpelms8j+y3ZvmmYlVdsevlBqgavuV8F1bVcmKlOELzvVtIQMO3hHVhVS0B5OAB/qCWa9JfVdUUiP8YpU3PpRUX3CKTUd8iUKXllkpVVfn83CJxKWVVabEV50ve9Kl6dnIu3qvWXqwgVLWeWSWBG43j5cQHI7HhShVW1RVrKkOqasJ/4vhe5+8VF/HzoOH5UH3VYKoe2uOuT3VXYkV3V6ab2vtUNQXjtUmsv9qEMb0u+CXA/0RKZVvzyXn4+6zphdySJ0RKiwsbXwytquXUfDzL7OeC0mJ+HjW+/GxUtUf/U4mGWBONbD2c/A5amGlLIZqiVVIRr9zTUASJT9kSmfST8wIF1gBVYnIzHcPPXdyjzcTn08EUfl9FDp7vG0zjfayqnlIfQwZSMnaOTw4/tkFHy9Dqduufqup5esQIt0gi+mfravtV9dQGL5dCEpobw2Iuhnw/mY6kVoc/7ilwxJsVe4bFL7Fn7Axkxfl9Vdlh4l5L3eJvXD5mOlVr7t7b7R+jKnWXAt7dNoQmpwSuVpeSQDImocWV3YOp6q3ynyeBl2F5OT7cUY+NZFb8t6mtt9KfXIZ3QkrUcbPp2vMc018Nrept5Ym5eNYyn4S02OMbdbXnOaV3fDaqutvzCsO2LtdR/potLiEpN1bHaF8Y5yWxb+Xe8Zo7XkaCrazrEGaD/5q+cYjhq5qy3WHndHkmS157jUd+cykf0IBBz/zmso9X1VHOjbRcqqYgyWCP0PjWjZNNfAf8M1WdOX56NJqe59POAao6a5vSPE1njJFnsxQm6G46Ht9C/KBQlumzaJIcgz1S1yZ4D25JJtpf73ldy42yXqquKMmQHKG50C2ucOjvgIOp4hUFrVOXZTCG65gGZEZsm8CiS6841Tqoqu6Wao7dUo2R0kwpZZ0VP6aWk4dga1WM3VJ1JXIZS9wTy4jvgEOq4rVXc+yXCWYZuydVEpI+G1V/5bd1UpWWayLl96p+QPDbOvxeBapAFagCVV+qKvjXZVAFqkAVqAJVn5+qhzdOffL/JQ353AJ7FexVn99eBapAFagCVaAKVIEqUAWqQBWoAlWgClSBKlAFqkAVqAJVoApUgSpQBapAFagCVaAKVIEqUAWqQBWoAlWgClSBKlAFqkAVqAJVoApUgSpQBapAFagCVaAKVIEqUAWqQBWoAlWgClSBKlAFqkAVqAJVoApUgSpQBapAFagCVaAKVIEqUAWqQBWoAlWgClSBKlAFqkAVqAJVoApUgSpQBapAFagCVaAKVIEqUAWqQBWoAlWgClSBKlAFqkAVqAJVoApUgSpQBapAFagCVaAKVIEqUAWqvixVEMgf87dU9VdLA/dxzg0IhB/hqIKC+vACVVDCL1AFJfwCVVDCL1AFJfwCVVDCL1AFJfwCVVDCL1AFJfwCVVDCr98AgHSi4HSxO9UAAAAASUVORK5CYII=]]></ATT>
+      <ATT name="Name"><![CDATA[Diagramme de suppression de mode financements]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="SupprimerModeFinancementCtl" mc="Standard.Class" uid="b1039a9f-c2e0-402e-b8ff-9457bee29918"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="b193f4c3-8a05-4ace-a9b6-e0b62e90dea3"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

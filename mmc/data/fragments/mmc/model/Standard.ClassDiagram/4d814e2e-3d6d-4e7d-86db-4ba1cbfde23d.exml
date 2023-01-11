@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ContratReservation" version="4">
+  <OBJECT>
+    <ID name="ContratReservation" mc="Standard.ClassDiagram" uid="4d814e2e-3d6d-4e7d-86db-4ba1cbfde23d"/>
+    <PID name="Classes DAO" mc="Standard.Package" uid="3a0c46d3-5dd1-4b06-a70e-27aa971b67db"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">4</ATT>
+      <ATT name="UiData"><![CDATA[eJztmuFT4joQwP+VDt8ptBTFEb1RuOE5h+LIvZt574uTNgvmTBMmCQr+9ZcUygkqllIK4/QTdNtssslvt7tNmt8mIbWeQEjC2VnJsasl69t5s+f/hkBZBGtRyVLTEZyVuBjaIcdACbfHIbWlQoo8YoKGAoU2YKK4sIFCCEzJ2d0gvtsJ+9F1e3ZdskL0m4v7Rb/V0nnzVvARCDW1GAp1dxRN+Vi1kUL63i9ExzAfBxtTWqqcNytxgzdN+2pKobRkhfueFfHopHle2gEXYM/aJhhfC8kAYcBxZ98n6g4GCXu50SrmLS2YqLZ/pccY/TV/rmctrZo9WTG0MjNpnfECKFKA9VhW5u3aiKwnIzFThBhGAtstiqScL4vl4YbjgQvlGj7CZQ+OcblxhP2y5yMn8AcY3BpeP/Vam/rB+DPrIh/oygj6ShA2LJ23OFMC6emSIJ40Fpw1K9Fza+3iFK5Yi4cjLolp84HyBKpaD4RiAUZDl0i1BEotHe4BRS8vGvNoOrfC+06PBLGhIWO+VjWncep43qnr1k4b1Y3R93aOvuF+5mS50GpVa96gXq/7Zd9xG2UPH9fLJw4+KVer+AQ5gJGPYCeYti96h0NqPQNSbwUJkZje6NYZQ1s9raYF9igpsFrVZLo1tV5B7SbUXiPCDC9b0nucjl6jWI5QAA+g11Jojm9iyT+RJP/UopEvrkcFrpvgOqMigUL5wJ/vSfBG0SXXPSG2mKYBovITwyNVjzB95gJnoE2h4PFeKhDAP9GmxDjJ0Og767G5KuRLvXKBSmHhgtlXbnSS+nUmJRmQKBa0FheaJ/KCfAodwcej/IOCUy2iwgFHhS1fXk7Kohgp3b8/VjA0VGpgL2LBvjBNXBdng6mzmg0WnK7ldJmPNNRW5j/rg6+Tsuw1OiOzY6B7sWBfQCeudgug91I9gHrgeNc0pyyNCdNJFtP5ik5+AjXWkHTCq7msH8v2wHTOBXHB9GZMx4hsm1SkLIkTUbuvcJxzcex8sTw4Q0p3HXNT1m+J6P2fsz3EXTfnGu6rwbvruGuoyBjoZKy7Kcs/whiI6INFBLm+2H67yPjK0Hz2nC912dmc86IIPGjOI1K2TC7clAXeB8juKZ1wc67u3GJH85ByDDd1XfcuxCD3lFfkXM8VFB9yXvH21ko/RP7SVyRAKbZskvfy9kCAPWftk4SjlmBvx01b2oZoCIst32jbyniwkZpt376RzkjJMoVaPRCQwKNzLnOLIwsbOXRfW04pUUm8+itsAycdW8p94EyiWpewR7kmdK48fjlsC/SsV7OLptpVl73v3U8Pi5gSBxM8UyBtalToOLKkMZ8sYLNW+z3KSVahjd2p3bG7F/99v7u/vGj96Nz1/r1pZ/26/FDL6zX7i8/r85trP9oUMOwMhp+929ySpj9SK29n]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABkCAIAAADCEmNlAAAFe0lEQVR4nO3Ze0xTdxwF8G8RSh+Uh0wR3+J8gIUoyiabKDofU1AZcxIlLs63LGh9YUSoj4mIhqgRR5y4JotkyGQIDpcJIg4RWOWhVqBa9YKKwhwgygjUZLttgXE3tmHcrqmek/Pnj+Tm019ObwP9hvASetkP8LoE0DwF0DwF0DwF0DwF0DwF0DwF0DwF0DzlX6A/3/kR2s2+KHRrw9XWhmucPtZwe53bss7VN5ZzW8GtltMnN7i9ya2O06e3uL3N7Z3OfdbEcFvZqVWc/nqX23vc3ue0ubqjgAY0oAH9mkHXnk1UTPccaCcSit8YOHJmyJ6iB88NzaQrY1Jyuw9deXp7TGq+gfhiyCDqSA+J4wDPOaHpFVWvHnTusRl2RBbO4/xCFCtW+Y+wE5DD1N23nw86N2oMOa34utvQlwznVyZ3QDtOWhqzOyImasvWxeN6EVn77GJeNejclYOJJJN3MI9Nu3G9MNLXe7Yi855BuTZHGezZRya0kjq7BkWdePjklv7Spy5E07fHbfLpZyNxGO4X/lNtxqYh7TfSK5wxHdi8Y94QqddnOc+abpbEz/ce7CCR2A/1WZR8ndX/Psyl43wEY4QeuuFM+2gURo8lEgWmGYjvMmmK2XInmUg66N1V3zH3zRi6Pn4SkSDgmKaLjWZi/WxI7L4gIVWlWikXk8T/C7W+aJ0r+8H0e2/nqZOpoXIr6jHtUB6Ts3Y8eysDowpLLjcXr3cjkvV+a/n+gxlqzbPSMHcLGrhgf8EPYRMlJAmIa2y6UXlhneH8h9GFJSXNRuhBy1S68nxd+cWStHXv2JDFmC1aFlq7h/2TXu9vzy1MVHhYWU+JqTZfaO1OOZHtitNdfBnWHppAJAxKLDcsRt2RIAnR1N11Rken5Ymt7G7otnkT9V2drK/ZN53ap6NkA3vAYZGqxTQdD/Ovqs/err5jmgsaFnqFnY6aWMP5TtPRKRY9RwXEq2+xi8Hs9WI/smXp99iL/ODgBBKMj6syW+jHR6awN3rO0at/QNdrm43QV8KHE/VWnDNN87dr+xONUpQZoT0iMw0DXbOX9XJcevyv0PKIzLaNvpuknOnqLLMWWgstBUQuq4u6gu4zNzLlREJyhK8t9RitzNYbp7nU8AACK7FEKpVIRZZE/cPyzBZar14zkp3EiZG6BhN02eXNcsfh/iqN7tHhieyNnn+8zAD9KC5QxE7vnobuQXsoz5mg1RvZ/R4QknGtpem80vVvods2uilbKbcgm8kqxgBdG8c+gF3wl3kVmkvGFjyoM1/oJ+qUhX0E7FuH1+zQjSFrPnCzF5Cdz7aKRp2+8sAcWxK5L1SlqRKWjLQm23lfFem7hK4/NFdAlqMXJ2Xm1HOhz6/uzZIuPHoq+2CAm0xE9rMSNJqWhsPG80uSsnLruV+GdcmBjuwns+zEU/ZS34yZJCbnWZFnspJigz09fNf/2GDG0Df09RfSt/qPH2IvFop6DhgxY1V0UXXbTNdkRwS/PbiXVOL05tiPY1N/Zq92l9BPi09+MsxWaOXgo9RyoVtLY4PcHMRix9EL9hV8s3iYVGg398AvTaUpbee3af/81pEXPc6SLOW7itlfMVXMqTV+bk4ysayv+zRlxhUzfuvAL0NAAxrQgAY0oF83aHVW/Ev/d5xZFDfaTG40oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaEADGtD/JzTazb4QdEcePWTKirPQf+h/A428YADNUwDNUwDNUwDNUwDNUwDNUwDNUwDNUwDNU34HRVhsGkvcnMEAAAAASUVORK5CYII=]]></ATT>
+      <ATT name="Name"><![CDATA[ContratReservation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="ContratReservationDAO" mc="Standard.Class" uid="034f555b-b128-4d75-91d9-00d9a1edabae"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="d73c3bc9-3939-4bfd-8eca-66b51b96682f"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Classes ServiceWeb" version="4">
+  <OBJECT>
+    <ID name="Classes ServiceWeb" mc="Standard.Package" uid="a808c02b-77eb-41bb-a6a9-561f93ab1143"/>
+    <PID name="Classes de conception" mc="Standard.Package" uid="a173770d-68aa-48b1-8ffe-ca847ea0e671"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Classes ServiceWeb]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ProgrammeImmobilierCompletServiceWeb" mc="Standard.Class" uid="5c6cfb63-d0f8-4c55-b489-de901d72e4e4"/>
+        <COMPID name="ProduitLogementServiceWeb" mc="Standard.Class" uid="667d52f7-4bfe-4e82-a7e5-b36cf3fbb821"/>
+        <COMPID name="SimulationFinancementImmobilierServiceWeb" mc="Standard.Package" uid="4d153a13-ecb2-4f07-97e0-7e91dcc6afd5"/>
+        <COMPID name="LogementServiceWeb" mc="Standard.Class" uid="90642702-e925-4d00-a701-17016b011439"/>
+        <COMPID name="CreditBancaireServiceWeb" mc="Standard.Class" uid="1b3d3abb-41f4-400d-b017-22cb974df5a8"/>
+        <COMPID name="DemandeReservationLogementServiceWeb" mc="Standard.Class" uid="fba1d33d-d421-465a-abb2-7d3dc3017ca1"/>
+        <COMPID name="OrganisationServiceWeb" mc="Standard.Class" uid="15166c65-a387-4238-a26a-cf518289dd12"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="CU08-20 ServiceWeb" mc="Standard.ClassDiagram" uid="7ec9c7f0-ffc6-4fc3-a00b-4c346b8011c6"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

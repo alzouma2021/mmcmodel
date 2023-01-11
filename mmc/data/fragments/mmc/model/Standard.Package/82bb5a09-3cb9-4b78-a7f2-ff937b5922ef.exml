@@ -1,0 +1,208 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Classes de contrôle" version="4">
+  <OBJECT>
+    <ID name="Classes de contrôle" mc="Standard.Package" uid="82bb5a09-3cb9-4b78-a7f2-ff937b5922ef"/>
+    <PID name="Logique" mc="Standard.Package" uid="5fbf73df-437e-4f23-ba89-fd505a7b6795"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Classes de contrôle]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="RechercherProduitLogementCtl" mc="Standard.Class" uid="a5342141-e2b1-4331-b26f-f700ae698a69"/>
+        <COMPID name="CreerModifierUnCompteUserCtl" mc="Standard.Class" uid="2c4cc0ed-7ac7-45ac-bda7-ec151504c89e"/>
+        <COMPID name="RechercherProduitLogementClientCtl" mc="Standard.Class" uid="233df49f-b268-4ef5-8d5c-a38084546ed3"/>
+        <COMPID name="CreerModifierUnProgrammeImmobilierCtl" mc="Standard.Class" uid="0a0be4e2-d1aa-42ad-9b09-9ee645bb3fa5"/>
+        <COMPID name="CreerModifierUnProduitLogementCtl" mc="Standard.Class" uid="a5595067-f002-4b5d-9704-9c2d2a580ffb"/>
+        <COMPID name="ActiverDesactiverUnProduitLogementCtl" mc="Standard.Class" uid="d3fcde50-e6a5-4778-b504-48a6b52d3709"/>
+        <COMPID name="ActiverDesactiverUnProduitLogementClientCtl" mc="Standard.Class" uid="0efddd53-ea52-4bb4-8537-6a95f97174ba"/>
+        <COMPID name="RechercherUnProgrammeImmobilierCtl" mc="Standard.Class" uid="7f35aeff-9722-4939-9276-874c4dba436e"/>
+        <COMPID name="RechercherUnProgrammeImmobilierClientCtl" mc="Standard.Class" uid="a2eba2ce-98ff-4523-ad30-f293e76546b3"/>
+        <COMPID name="ValiderUnProduitLogementCtl" mc="Standard.Class" uid="4f4b9f93-cdac-4129-a8e1-faa5e217bf91"/>
+        <COMPID name="ValiderUnProduitLogementClientCtl" mc="Standard.Class" uid="b016747a-4c28-40c6-9582-6b5db80cac2d"/>
+        <COMPID name="ValiderUnProgrammeImmobilierCtl" mc="Standard.Class" uid="0a708a34-aaf1-4568-91af-b6427546d9b5"/>
+        <COMPID name="ValiderUnProgrammeImmobilierClientCtl" mc="Standard.Class" uid="dadf5207-b18b-4f58-abd6-d154c9b5bb22"/>
+        <COMPID name="RechercherUnModeFinancementCtl" mc="Standard.Class" uid="2e1e8bff-a10a-4aa4-9cf3-500fae6fe24c"/>
+        <COMPID name="RechercherUnModeFinancementClientCtl" mc="Standard.Class" uid="279ded17-df9b-4cb3-afcf-d1fa658161cc"/>
+        <COMPID name="validerUnModeFinancementClientCtl" mc="Standard.Class" uid="2aaa0193-f369-4237-b084-8d9d6b4bdd2f"/>
+        <COMPID name="CreerModifierCaracteristiqueProduitLogementCtl" mc="Standard.Class" uid="609fb61a-1371-4704-a486-afaa79510b98"/>
+        <COMPID name="CreerModifierModeFinancementCtl" mc="Standard.Class" uid="2fc63819-44f7-4144-a2df-8e10afa0dea8"/>
+        <COMPID name="ValiderModeFinancementCtl" mc="Standard.Class" uid="70f15ecd-2443-4e2c-935c-84a879751280"/>
+        <COMPID name="DocumentCtl" mc="Standard.Class" uid="08b33a4b-42aa-42af-96bd-93709fddf826"/>
+        <COMPID name="ProduitLogementDocumentCtl" mc="Standard.Class" uid="1711749c-7c5e-4f06-9af6-7746360981a4"/>
+        <COMPID name="SupprimerUnProduitLogementCtl" mc="Standard.Class" uid="82649eb4-2da2-4dec-8320-8a681850fdd4"/>
+        <COMPID name="SupprimerUnProgrammeImmobilierCtl" mc="Standard.Class" uid="9f0af77b-d6df-423b-b96e-bb19ead26f6b"/>
+        <COMPID name="SupprimerModeFinancementCtl" mc="Standard.Class" uid="b1039a9f-c2e0-402e-b8ff-9457bee29918"/>
+        <COMPID name="ProgrammeImmobilierDocumentCtl" mc="Standard.Class" uid="614bcea1-52dd-43ea-b4a6-63532e3ff8e8"/>
+        <COMPID name="RechercherModeFinancementCtl" mc="Standard.Class" uid="869e3443-6641-4089-bb00-7bac9c910b4a"/>
+        <COMPID name="validerCreditBancaireCtl" mc="Standard.Class" uid="4af6b253-5f2c-43bb-82c6-723c8f2dd1c1"/>
+        <COMPID name="SeConnecterCompteUserClientCtl" mc="Standard.Class" uid="67fd08a2-9e06-486b-a855-40e8456610a9"/>
+        <COMPID name="SeConnecterCompteUserCtl" mc="Standard.Class" uid="edd69b5e-5c25-4e58-afde-f3f1d8777850"/>
+        <COMPID name="CompteOrganisationCtl" mc="Standard.Class" uid="8fdca45f-9630-48c5-891b-62680051158e"/>
+        <COMPID name="CompteOrganisationClientCtl" mc="Standard.Class" uid="a5924686-5183-41c7-8a68-a057e6cc1673"/>
+        <COMPID name="RechercherCompteOrganisationCtl" mc="Standard.Class" uid="624a69a4-abaa-4ac9-aaec-266dc329d531"/>
+        <COMPID name="RechercherCompteOrganisationClientCtl" mc="Standard.Class" uid="5a4b4ce8-05bf-4235-b3cc-96f4cf34c480"/>
+        <COMPID name="CreerModifierUnCompteOrganisationClientCtl" mc="Standard.Class" uid="a0ed17aa-a541-4177-8303-17f301f3ecc8"/>
+        <COMPID name="CreerModifierUnCompteOrganisationCtl" mc="Standard.Class" uid="16da603d-d921-4b8f-9869-45874ab5ac32"/>
+        <COMPID name="CreerModifierUnCompteUserClientCtl" mc="Standard.Class" uid="08c2da3b-8076-48f9-ac47-c11e8da70bdb"/>
+        <COMPID name="ActiverDesactiverUnCompteUserClientCtl" mc="Standard.Class" uid="9585f674-78b6-46e8-8267-89b35a69f036"/>
+        <COMPID name="ActiverDesactiverUnCompteUserCtl" mc="Standard.Class" uid="1eb40c3f-398b-4898-a596-30f74a6b0bf8"/>
+        <COMPID name="SupprimerUnCompteUserClientCtl" mc="Standard.Class" uid="e810f169-8b5b-4717-a796-feaa205c7ee7"/>
+        <COMPID name="SupprimerUnCompteUserCtl" mc="Standard.Class" uid="b0345f82-75ec-4fe6-8176-aa0f45f0b00b"/>
+        <COMPID name="RechercherUnCompteUserClientCtl" mc="Standard.Class" uid="d2feaf85-2479-43e0-8a81-449b921b2429"/>
+        <COMPID name="RechercherUnCompteUserCtl" mc="Standard.Class" uid="2f916dcc-9031-4feb-ba38-8d4ff576a8e5"/>
+        <COMPID name="ActiverDesactiverUnCompteOrganisationClientCtl" mc="Standard.Class" uid="d5cba4ba-4159-4cc8-84a3-6db965b1497e"/>
+        <COMPID name="ActiverDesactiverUnCompteOrganisationCtl" mc="Standard.Class" uid="aa7f1ffa-c625-4435-b62f-f5b6626f08e3"/>
+        <COMPID name="SupprimerUnCompteOrganisationClientCtl" mc="Standard.Class" uid="4d837c45-cb44-42bc-bd4e-b99a5ffcddc9"/>
+        <COMPID name="SupprimerUnCompteOrganisationCtl" mc="Standard.Class" uid="c2a27d28-6370-442a-908e-08725e4b0d17"/>
+        <COMPID name="CompteUserClientCtl" mc="Standard.Class" uid="893cf2b1-64f1-40a2-8d43-763db89e7939"/>
+        <COMPID name="CompteUserCtl" mc="Standard.Class" uid="7fb92462-db19-4e50-9d0a-03be8fe27520"/>
+        <COMPID name="CreerModifierModeFinancementClientCtl" mc="Standard.Class" uid="b9a11b4d-da3d-447b-b07e-64f8f46db30b"/>
+        <COMPID name="CreerModifierUneDemandeReservationLogementClientCtl" mc="Standard.Class" uid="240289ab-067f-4a12-8c8a-5ae5f670526c"/>
+        <COMPID name="CreerModifierUneDemandeReservationLogementCtl" mc="Standard.Class" uid="410e1b46-2c7e-4c34-a292-be32290490d7"/>
+        <COMPID name="SoumettreUneDemandeReservationLogementClientCtl" mc="Standard.Class" uid="b766e8f0-cd7c-4a3a-be7f-8fd995c23b4a"/>
+        <COMPID name="SoumettreUneDemandeReservationLogementCtl" mc="Standard.Class" uid="980da5cd-d8b5-4090-9788-342d5ac0c9bb"/>
+        <COMPID name="SupprimerUneDemandeReservationLogementClientCtl" mc="Standard.Class" uid="71bba069-66b5-4697-bea5-8cf3a426d388"/>
+        <COMPID name="SupprimerUneDemandeReservationLogementCtl" mc="Standard.Class" uid="409947f0-073b-4f21-9c2c-57b6486502db"/>
+        <COMPID name="RechercherUneDemandeReservationLogementClientCtl" mc="Standard.Class" uid="521e4c41-1015-4510-a98c-1fd0c211c5ef"/>
+        <COMPID name="RechercherUneDemandeReservationLogementCtl" mc="Standard.Class" uid="342233c6-d138-4ef9-91b3-1209bf1274f1"/>
+        <COMPID name="CreerModifierUneSimulationFinancementImmobilierCtl" mc="Standard.Class" uid="41146a8d-cfc3-4c71-bbe0-557e50a59363"/>
+        <COMPID name="ExecuterUneSimulationFInancementImmobilierCtl" mc="Standard.Class" uid="10d278cd-8bf8-40a2-bd86-fb7f00fbbb55"/>
+        <COMPID name="SupprimerUneSimulationFinancementImmobilierClientCtl" mc="Standard.Class" uid="7116dc2a-4a74-4361-900a-63cbafb6303e"/>
+        <COMPID name="SupprimerUneSimulationFinancementImmobilierCtl" mc="Standard.Class" uid="b0330aac-b4a8-4d70-bb67-6b51516a82cd"/>
+        <COMPID name="RechercherUneSImulationFinancementImmobilierClientCtl" mc="Standard.Class" uid="4854ded3-4307-4b26-9513-22fc8b50c4cd"/>
+        <COMPID name="RechercherUneSimulationFinancementImmobilierCtl" mc="Standard.Class" uid="025e8fba-e751-456d-a9de-98134e961abb"/>
+        <COMPID name="TransformerUneOffreFinancementCtl" mc="Standard.Class" uid="1161153d-7647-49d8-a14f-2959b2c18ea7"/>
+        <COMPID name="TransformerUneOffreFinancementClientCtl" mc="Standard.Class" uid="5821817e-d3a6-453a-9ed7-faed19e153ff"/>
+        <COMPID name="AccepterRefuserUnFinancementCreditImmobilierCtl" mc="Standard.Class" uid="6c48367f-115b-46c4-8c71-20748129d264"/>
+        <COMPID name="CreerModifierUnLogementClientCtl" mc="Standard.Class" uid="3325a090-6505-48ae-9058-fe01d1444b8f"/>
+        <COMPID name="CreerModifierUnLogementCtl" mc="Standard.Class" uid="6a3df370-1c39-4575-a754-28ea5f0e56fc"/>
+        <COMPID name="ActiverDesactiverUnLogementClientCtl" mc="Standard.Class" uid="a24aa000-7d30-442e-9178-c5d521e5c94c"/>
+        <COMPID name="ActiverDesactiverUnLogementCtl" mc="Standard.Class" uid="8be0a845-f392-4a93-8953-f2febccc6d17"/>
+        <COMPID name="RechercherUnLogementClientCtl" mc="Standard.Class" uid="e2f4fb93-0ecd-4d83-8606-e2c27cd392f0"/>
+        <COMPID name="RechercherUnLogementCtl" mc="Standard.Class" uid="9bc01a32-83bf-459f-ad4d-46f0272bb590"/>
+        <COMPID name="SupprimerUnLogmentClientCtl" mc="Standard.Class" uid="51cfe7c3-da7d-4d0a-8559-b4a19cedd78d"/>
+        <COMPID name="SupprimerUnLogementCtl" mc="Standard.Class" uid="d30c7ec7-a26d-4bf0-8edf-71807bf0b70a"/>
+        <COMPID name="ExtraireInformationClientCtl" mc="Standard.Class" uid="17931e02-695a-46e3-b349-bf2656a650e8"/>
+        <COMPID name="AccepterRefuserUnFinancementCreditImmobilierClientCtl" mc="Standard.Class" uid="8d2bc466-38b9-401c-a6f6-4821d4265592"/>
+        <COMPID name="AccepterRefuserUneDemandeReservationLogementParPromoteurClientCtl" mc="Standard.Class" uid="3432ea1a-0ca2-454c-8ce6-ea9e2fa8f1b9"/>
+        <COMPID name="AccepterRefuserUneDemandeReservationLogementParPromoteurCtl" mc="Standard.Class" uid="1f5b7c2a-2449-4b13-bb38-f4b0828a1feb"/>
+        <COMPID name="AssocierCaracteristiqueDemandeReservationLogementClientCtl" mc="Standard.Class" uid="4e448fb1-9479-4f31-9085-70da4fc7e25a"/>
+        <COMPID name="AssocierCaracteristiqueDemandeReservationLogementCtl" mc="Standard.Class" uid="e646b0d2-0ccc-4799-8197-4947c61ac2bb"/>
+        <COMPID name="AssocierTypeDocumentDemandeReservationLogementClientCtl" mc="Standard.Class" uid="9e489c28-760f-4a84-80a4-d449c25bcc9c"/>
+        <COMPID name="AssocierTypeDocumentDemandeReservationLogementCtl" mc="Standard.Class" uid="5b1b03ee-4884-4fa1-a1fd-146145fd3fe2"/>
+        <COMPID name="ChangerLogementDemandeReservationLogementClientCtl" mc="Standard.Class" uid="787301df-2030-4ff7-a742-5a61a3d89e1e"/>
+        <COMPID name="ChangerLogementDemandeReservationLogementCtl" mc="Standard.Class" uid="6795dc4e-73fa-4429-af68-f952fbf9ff0e"/>
+        <COMPID name="RechercherProprieteProduitLogementClientCtl" mc="Standard.Class" uid="a377d128-fe1f-4a02-995b-066fc85c55ea"/>
+        <COMPID name="RechercherProprieteProduitLogementCtl" mc="Standard.Class" uid="15edd48e-3546-4b89-9b2a-b8563ae9a6fb"/>
+        <COMPID name="RechercherRequêteEnregistreeClientCtl" mc="Standard.Class" uid="5773921f-93f7-4a60-80e4-d9335bdd2784"/>
+        <COMPID name="creerModifierRequêteClientCtl" mc="Standard.Class" uid="c31ce83d-020a-4bae-a343-8d703d2d15a9"/>
+        <COMPID name="ValeurCaracteristiqueDemandeReservationLogementCtl" mc="Standard.Class" uid="389959d3-103f-4ac0-92a3-c2788c6f1664"/>
+        <COMPID name="creerModifierFinancementCtl" mc="Standard.Class" uid="99f60336-4638-4967-abe8-5881ac1a6fd3"/>
+        <COMPID name="DemandeReservationLogementCtl" mc="Standard.Class" uid="0a0bdac4-1bad-4510-9672-d25f33d92f9d"/>
+        <COMPID name="DemandeReservationLogementClientCtl" mc="Standard.Class" uid="e3a3e344-0804-40ed-bce5-1dfba1f314bd"/>
+        <COMPID name="GénérerEtSignerUnContratReservationLogementCtl" mc="Standard.Class" uid="39f7a332-b549-493b-8156-50e95d9c10d8"/>
+        <COMPID name="SignerElectroniquementUnDocumentCtl" mc="Standard.Class" uid="1558c7ad-87a2-49af-aef1-7c78cf2ba399"/>
+        <COMPID name="SIgnerUnDocumentManuellementCtl" mc="Standard.Class" uid="46a18ff6-f085-46b1-8903-d56b40c37d70"/>
+        <COMPID name="TraiterUneDemandeReservationLogementCtl" mc="Standard.Class" uid="f78f6e01-1ef3-44fb-ac62-d4a21f5f82cd"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Control CU01-01 Rechercher un produit logement" mc="Standard.ClassDiagram" uid="d2ac5e43-1bdb-4b2a-aaf7-6f0956c6ca1a"/>
+        <COMPID name="Control CU01-02 Consulter les specificites d un produit logement" mc="Standard.ClassDiagram" uid="073f455b-0a00-40f5-808b-f818c0009f6a"/>
+        <COMPID name="Control CU03-01 Ouvrir un compte user" mc="Standard.ClassDiagram" uid="17e85e41-7b02-4200-bc1a-2e7eaeedf4c2"/>
+        <COMPID name="Control CU01-01 Client" mc="Standard.ClassDiagram" uid="ebf6a505-65bf-47e5-b3d8-b444584d6487"/>
+        <COMPID name="Control CU01-02 Client" mc="Standard.ClassDiagram" uid="10b2e295-0e19-48eb-9ebc-297fff602eff"/>
+        <COMPID name="Control CU03-01 Client" mc="Standard.ClassDiagram" uid="5e2e7c10-522b-42ee-b33a-1617adc31106"/>
+        <COMPID name="Control CU08-20 Creer un programme immobilier" mc="Standard.ClassDiagram" uid="604a4f5e-0bd7-43ef-8d9a-df4d84070f9c"/>
+        <COMPID name="Control CU08-20-02 Creer un produit logement" mc="Standard.ClassDiagram" uid="9e93b09c-9e9f-4dd8-b37a-f4d9db68735a"/>
+        <COMPID name="Control CU08-20-02 Client" mc="Standard.ClassDiagram" uid="e8401190-61cd-4406-aa40-9fc12cf312e8"/>
+        <COMPID name="Control CU08-21 ActiverDesactiverUnProduitLOgement" mc="Standard.ClassDiagram" uid="5b16ef65-e4e9-4bb2-aa72-bc8084d7aeea"/>
+        <COMPID name="Control CU08-21 Client" mc="Standard.ClassDiagram" uid="5d9322c1-8693-40b1-9d49-991e9265554e"/>
+        <COMPID name="Control CU08-20 Rechercher Un Programme Immobilier" mc="Standard.ClassDiagram" uid="945d900f-4f41-415a-b39c-fc2f4efabdf4"/>
+        <COMPID name="Control CU08-20 ClientRechercher" mc="Standard.ClassDiagram" uid="f4f45490-4ed4-45c1-9e75-d2f671f47e41"/>
+        <COMPID name="CU08-20-03 Valider Un Produit Logement" mc="Standard.ClassDiagram" uid="c21d828b-a509-4440-adf7-ff0a5fb35dd4"/>
+        <COMPID name="Control CU08-20-03 Client" mc="Standard.ClassDiagram" uid="6107424e-cb35-4d29-90fe-7839daf6ed55"/>
+        <COMPID name="Control Cu08-20-04  Valider un programme immobilier" mc="Standard.ClassDiagram" uid="a12f265e-f664-4bc3-a52c-e2501b21b192"/>
+        <COMPID name="Control CU08-2004 Client" mc="Standard.ClassDiagram" uid="e1c79964-b0a4-4dac-82c6-b5fd582514fd"/>
+        <COMPID name="Control CU09-24-01 RechercherUnCreditBancaire" mc="Standard.ClassDiagram" uid="73d3316d-f1a0-439c-a2d3-f1dc32258bf3"/>
+        <COMPID name="Control CU09-24-01 Client" mc="Standard.ClassDiagram" uid="d8e8feeb-b132-42f7-bee9-5b525c3122b9"/>
+        <COMPID name="Diagramme de classe Valider Mode Financement" mc="Standard.ClassDiagram" uid="f141b21a-a0e1-43e9-a7f9-e0c7de94d607"/>
+        <COMPID name="control valider client" mc="Standard.ClassDiagram" uid="b39d7a45-9808-47e0-9fcd-70bd855c7da6"/>
+        <COMPID name="CaracteristiqueProduitLogement" mc="Standard.ClassDiagram" uid="12e1c921-8327-45f0-a314-c796e268ca25"/>
+        <COMPID name="control CU08-20-04" mc="Standard.ClassDiagram" uid="57b07b4a-738a-4797-a135-c4daf8264982"/>
+        <COMPID name="document controleur" mc="Standard.ClassDiagram" uid="7487cad7-3cba-4ae6-bf6a-2017cc108d5d"/>
+        <COMPID name="ProduitLogementDocumentCtl" mc="Standard.ClassDiagram" uid="a1479307-eb91-4162-8ff0-80f3f5c5dcb5"/>
+        <COMPID name="SupprimerUnProduitLogement" mc="Standard.ClassDiagram" uid="7ab2f72f-b0b7-47d0-9111-32b9203b01c8"/>
+        <COMPID name="Suppression d'un programme immobilier" mc="Standard.ClassDiagram" uid="c8056500-693b-4694-9132-d3c8aa9bd6e9"/>
+        <COMPID name="Diagramme de suppression de mode financements" mc="Standard.ClassDiagram" uid="c81b19f9-ddb4-42e4-b915-79a0a9932449"/>
+        <COMPID name="ProgrammeImmobilierDocument" mc="Standard.ClassDiagram" uid="107cce1a-651c-4f19-a11a-63ee3e5ebb3b"/>
+        <COMPID name="Rechercher Mode Financements" mc="Standard.ClassDiagram" uid="b734b92e-e53b-48bf-bbfe-d59df42d48bd"/>
+        <COMPID name="valider credit bancaire" mc="Standard.ClassDiagram" uid="fb0cfad5-c6b5-4efe-8ba1-8798f03fd836"/>
+        <COMPID name="Diagramme de classe controle se connecter" mc="Standard.ClassDiagram" uid="5f088997-945a-4cbf-88a3-ace7c08fcfd0"/>
+        <COMPID name="ConfimerUneInscription" mc="Standard.ClassDiagram" uid="5691e3ad-5b02-463f-8336-ef802acec565"/>
+        <COMPID name="InscrireUnCompteUser" mc="Standard.ClassDiagram" uid="9a137272-c206-4f5e-8e12-2488588febe2"/>
+        <COMPID name="CompteOrganisation" mc="Standard.ClassDiagram" uid="e908a1c4-ba5c-4d1c-b42d-e4fa811a6cf8"/>
+        <COMPID name="RechercherCompteOrganisationCtl" mc="Standard.ClassDiagram" uid="451ccd0b-45ab-4e56-a982-a0e001c014d1"/>
+        <COMPID name="ConsulterCompteOrganisation" mc="Standard.ClassDiagram" uid="ab4d9536-1cf8-4fe3-b645-db59f89f05b2"/>
+        <COMPID name="CreationCompteOrganisation" mc="Standard.ClassDiagram" uid="8b3dda78-69f1-4a78-a1c6-9d62f2606e34"/>
+        <COMPID name="ActiverOuDesactiverUnCompteUserClientCtl" mc="Standard.ClassDiagram" uid="58330dcf-e952-44e6-b534-b98f6f95a3a1"/>
+        <COMPID name="SupprimerCompteUser" mc="Standard.ClassDiagram" uid="446b58b9-a930-4900-a1b2-7ea7215e9235"/>
+        <COMPID name="RechercherUnCompteUser" mc="Standard.ClassDiagram" uid="4d869e93-92ea-4916-8e88-ba61df138cdb"/>
+        <COMPID name="ActiverDesactiverUnCompteOrganisation" mc="Standard.ClassDiagram" uid="8e2ac5fc-8829-4ad1-88d3-7ef6ae699f5f"/>
+        <COMPID name="SupprimerUnCompteOrganisation" mc="Standard.ClassDiagram" uid="a50d4fe2-7519-4b1f-bbb8-312eacc7265f"/>
+        <COMPID name="ValiderUnMotDePasseUserCtl" mc="Standard.ClassDiagram" uid="aea52840-cd7f-4918-9833-040eed921933"/>
+        <COMPID name="CompteUser" mc="Standard.ClassDiagram" uid="18e20d01-3c22-4685-bd32-b52d49fedefb"/>
+        <COMPID name="CreerModeFinancement" mc="Standard.ClassDiagram" uid="86009e5e-498c-4f0d-a7f8-e2343a5f510a"/>
+        <COMPID name="CreerModifierUneDemandeAcquisationLogement" mc="Standard.ClassDiagram" uid="b9c8adf8-61ed-4c4e-9c90-7f057aa650da"/>
+        <COMPID name="SoumettreUneDemandeAcquisationLogementClientCtl" mc="Standard.ClassDiagram" uid="6e5a6b36-9a58-4041-a364-bf361eb9a452"/>
+        <COMPID name="SupprimerUneDemandeAcquisationLogement" mc="Standard.ClassDiagram" uid="35179f80-8cde-41f9-b628-5beb06a5bdbf"/>
+        <COMPID name="RechercherUneDemandeAcquisationLOgement" mc="Standard.ClassDiagram" uid="946cc882-166a-466b-bb02-706a5d7ee640"/>
+        <COMPID name="CreerModifierUneReservationLogement" mc="Standard.ClassDiagram" uid="ab64de0d-9e02-4514-a7eb-eca0c340bce5"/>
+        <COMPID name="SoumettreUneReservationLogement" mc="Standard.ClassDiagram" uid="d13427b9-e1b3-4478-9bd6-0fdfab3d0152"/>
+        <COMPID name="SupprimerUneReservationLogement" mc="Standard.ClassDiagram" uid="0d862247-5cdd-4d1b-ac39-9df39f0cbc18"/>
+        <COMPID name="RechercherUneReservationLogement" mc="Standard.ClassDiagram" uid="cf04fc8f-bf13-4d37-9f03-6449f569e8a9"/>
+        <COMPID name="CreerModifierUneSimulationFinancementImmobilier" mc="Standard.ClassDiagram" uid="76d7a0a5-682d-496f-adb2-819c76f9b771"/>
+        <COMPID name="ExecuterUNeSimulationFinancementImmobilier" mc="Standard.ClassDiagram" uid="6bd9c27c-e771-4ff4-a9eb-3b6ef5780604"/>
+        <COMPID name="SupprimerUneSimulationFinancementImmobilier" mc="Standard.ClassDiagram" uid="a1375bc0-8515-4d14-8d59-91bcd9d47132"/>
+        <COMPID name="RechercherUneSimulationFinancementImmobilier" mc="Standard.ClassDiagram" uid="487ed3ce-e9c5-422f-84cf-ed721874ffb2"/>
+        <COMPID name="TransformerUneOffreFinancement" mc="Standard.ClassDiagram" uid="ceabf459-feac-494a-ad35-e8be5e8b2eec"/>
+        <COMPID name="EvaluerDemandeAcquisationLogementParEfi" mc="Standard.ClassDiagram" uid="3ce2dcfd-c972-44d5-bcf9-c4d24a2f9eec"/>
+        <COMPID name="Logement" mc="Standard.ClassDiagram" uid="8023722d-8356-4459-a352-a419eaa723aa"/>
+        <COMPID name="ActiverDesactiverUnLogement" mc="Standard.ClassDiagram" uid="dd95a64c-11ba-4398-8de4-6271f19bff89"/>
+        <COMPID name="RechercherUnLogement" mc="Standard.ClassDiagram" uid="5084f5e3-af94-43b2-8289-41ef38fbd625"/>
+        <COMPID name="SupprimerUnLogement" mc="Standard.ClassDiagram" uid="6452d5c7-60e2-42e8-8b4d-a3d1a3f35dd9"/>
+        <COMPID name="RechercherUnLogementPage" mc="Standard.ClassDiagram" uid="011b429f-3415-4c05-bda8-219b470152ee"/>
+        <COMPID name="PlanFinancement" mc="Standard.ClassDiagram" uid="09b23231-b86f-40b1-bf59-16d021180308"/>
+        <COMPID name="ValeurCaracteristiqueDemandeReservation" mc="Standard.ClassDiagram" uid="200ed664-483c-449f-ac98-b759341e614a"/>
+        <COMPID name="SupprimerUneSimulationFinancementImmobilier" mc="Standard.ClassDiagram" uid="90ce1d19-0e4d-4071-bee5-fb7cc3d6e945"/>
+        <COMPID name="SelectionnerUnLogement" mc="Standard.ClassDiagram" uid="dfc56d04-c844-47b2-bde1-47ce2d3af8cb"/>
+        <COMPID name="DemandeReservationLogement" mc="Standard.ClassDiagram" uid="48abcc2f-37e7-4235-bc6e-c1ba502b9305"/>
+        <COMPID name="ValiderReservationLogement" mc="Standard.ClassDiagram" uid="a5084ba2-ae48-4416-8ab9-17f90a8f950c"/>
+        <COMPID name="RechercherUneReservationLogement" mc="Standard.ClassDiagram" uid="8f6526b6-3346-4cd9-b97f-29dfcff48f3d"/>
+        <COMPID name="ExtraireInformation" mc="Standard.ClassDiagram" uid="1834486d-339a-4e2b-899f-4737aef2c60c"/>
+        <COMPID name="AccpeterRefuserUneDemandeReservationLogementEfi" mc="Standard.ClassDiagram" uid="bc9d791d-9d85-43dd-a439-dddaf03e3ca7"/>
+        <COMPID name="AccepterRefuserUneDemandeReservationLogement" mc="Standard.ClassDiagram" uid="fdfa9efd-2200-4f13-8c55-2abe7e6129a6"/>
+        <COMPID name="OptionLogement" mc="Standard.ClassDiagram" uid="cbaf152d-228f-4bbf-9d26-6071979b08aa"/>
+        <COMPID name="ContratReservation" mc="Standard.ClassDiagram" uid="58328944-3ee8-4f3c-9002-0a1665e79302"/>
+        <COMPID name="SupprimerUneOptionLogement" mc="Standard.ClassDiagram" uid="9b175fdb-4cb9-45b4-b3a1-8980e70b5a74"/>
+        <COMPID name="CaracteristiqueDemandeReservationLogement" mc="Standard.ClassDiagram" uid="e10bdc2d-57b4-41a7-8a30-d80c5f44a7b2"/>
+        <COMPID name="TypeDocumentDemandeReservationLogement" mc="Standard.ClassDiagram" uid="51334131-61c8-4264-a798-34739a196c5b"/>
+        <COMPID name="ChangerLogementDemandeReservationLogement" mc="Standard.ClassDiagram" uid="00693d16-b46f-49f6-adb3-2381dd2fe444"/>
+        <COMPID name="RechercherProprieteProduitLogement" mc="Standard.ClassDiagram" uid="3ccca186-887a-4116-82a3-ae8777249114"/>
+        <COMPID name="RechercherRequêteEnregistre" mc="Standard.ClassDiagram" uid="49696350-190a-4c37-8cf9-a2f7b1ead36a"/>
+        <COMPID name="EnregistrerRequête" mc="Standard.ClassDiagram" uid="02916eca-c847-4879-9cb7-6f23580b3cdc"/>
+        <COMPID name="creerModifierFinancement" mc="Standard.ClassDiagram" uid="e46cbd03-a64f-4596-b4c0-3df25aa19028"/>
+        <COMPID name="DemandeReservationLogement" mc="Standard.ClassDiagram" uid="7b685289-60aa-4b11-890d-75a59931c669"/>
+        <COMPID name="GénérerEtSignerUnContratReservation" mc="Standard.ClassDiagram" uid="c6419f4c-8d43-4601-975f-21985c944926"/>
+        <COMPID name="SignerElectroniquementUnDocument" mc="Standard.ClassDiagram" uid="ca9d67b7-7ab1-4199-b05c-b5c78d901eb6"/>
+        <COMPID name="SignerUnDocumentManuellement" mc="Standard.ClassDiagram" uid="7b98b494-72eb-44d2-a3ba-9edc79d89912"/>
+        <COMPID name="TraiterUneDemandeReservationLogement" mc="Standard.ClassDiagram" uid="d99f1311-11b5-468c-95f0-4c9e2203d4b0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

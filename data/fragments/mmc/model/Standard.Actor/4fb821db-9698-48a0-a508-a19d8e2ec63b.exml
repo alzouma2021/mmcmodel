@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BoiteEmail" version="4">
+  <OBJECT>
+    <ID name="BoiteEmail" mc="Standard.Actor" uid="4fb821db-9698-48a0-a508-a19d8e2ec63b"/>
+    <PID name="EPIC03_DemandeReservationLogement" mc="Standard.Package" uid="5220e292-dad3-49a3-a555-b2d74ffe4a79"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[BoiteEmail]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

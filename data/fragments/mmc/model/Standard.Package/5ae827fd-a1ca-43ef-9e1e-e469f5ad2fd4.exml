@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SimulationFinancementViewModel" version="4">
+  <OBJECT>
+    <ID name="SimulationFinancementViewModel" mc="Standard.Package" uid="5ae827fd-a1ca-43ef-9e1e-e469f5ad2fd4"/>
+    <PID name="Classes ViewModel" mc="Standard.Package" uid="1d920d09-6e0b-4b3c-8923-d17b0275eb3e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SimulationFinancementViewModel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="FinancementViewModel" mc="Standard.Class" uid="9ef57936-7986-4bd4-a230-e700392ae8b6"/>
+        <COMPID name="ValeurCaracteristiqueDemandereservationViewModel" mc="Standard.Class" uid="3d8862d3-9178-4089-a6dc-f4c0d0b0a1fd"/>
+        <COMPID name="SimulationViewModel" mc="Standard.Class" uid="29bb6002-5035-4ece-90c1-2b2de6496a72"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="SimulationViewModel" mc="Standard.ClassDiagram" uid="4568e1ff-2810-4bd9-b67c-51c457da32b8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

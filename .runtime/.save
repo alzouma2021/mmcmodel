@@ -1,0 +1,12 @@
+#Fri Jun 17 11:08:16 UTC 2022
+org.modelio.app.diagram.editor.OpenedDiagrams3='Financement' {b8f110a4-5c7b-4c88-ad46-79ae3da06da5} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams2='Simulation1' {d5b95393-4cc4-4d16-906a-6478f7ae6d0d} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams1='CU02-05-02' {4d2d71bd-02d6-46a6-a98e-20e4347aa426} Standard.SequenceDiagram
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///home/sysadmin/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
+org.modelio.app.diagram.editor.OpenedDiagrams0='EffectuerRecherche' {2cdea130-7a20-442b-9f81-3624b3f4872a} Standard.SequenceDiagram
+>>>>>>>=79a7dc8a50fc283698112aee54ecd63049179932
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///home/sysadmin/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
+<<<<<<<=HEAD
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///home/sysadmin/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
+org.modelio.app.module.propertytab.JavaDesigner\ v3.10.00\ GModule\ @file\:///home/sysadmin/.modelio/4.1/modules/JavaDesigner_3.10.00/JavaDesigner_3.10.00.jmdac\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
+=\=\=\=\=\=\=

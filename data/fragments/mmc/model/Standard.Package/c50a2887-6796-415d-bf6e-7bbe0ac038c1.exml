@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="User" version="4">
+  <OBJECT>
+    <ID name="User" mc="Standard.Package" uid="c50a2887-6796-415d-bf6e-7bbe0ac038c1"/>
+    <PID name="Classes de domaine" mc="Standard.Package" uid="9ec1ff16-fa1a-4e22-8537-7e99385de7fa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[User]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="User" mc="Standard.Class" uid="29e9adb4-dc24-4ac1-955d-1378a1c1c546"/>
+        <COMPID name="CodeConfirmation" mc="Standard.Class" uid="25dd6617-bbde-49f5-9af8-07bb2124468a"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="User" mc="Standard.ClassDiagram" uid="afcb3cf5-307d-4583-ab86-60397feaec0a"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="30626108-8ac5-429a-8cf2-c77962f5e7f2"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[- Activité et Historique: Ce sont des informations qui seront inscrites dans les      entités, On privilégiera à historiser les actions de création et de modification.
+
+- Espace personnel: a un aspect organisationnel relatif au compte utilisateur
+
+- Client: est ici un élément transitoire. Le client sera défini comme un rôle. On 	               le prendra en compte dans la sécurité globale des informations.
+
+- Logement: Cette entité ne sera pas retenue puisqu’elle sera traitée plus  tard. Un compte est crée en vue de l’acquisition d’un logement.]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

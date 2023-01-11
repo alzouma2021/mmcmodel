@@ -1,0 +1,209 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU04-10-1TraiterDemandeReservationLogementParPromoteur" version="4">
+  <OBJECT>
+    <ID name="CU04-10-1TraiterDemandeReservationLogementParPromoteur" mc="Standard.UseCase" uid="8164e05c-6795-4dc6-ad8b-92fa1b71618b"/>
+    <PID name="EPIC04_EvaluerUneDemandeReservationLogementParPromoteur" mc="Standard.Package" uid="bb531d2f-4adf-4708-b8eb-c7b479d175a4"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU04-10-1TraiterDemandeReservationLogementParPromoteur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="5c01dfef-2e32-4d3c-8ded-f3d7c7c0d20e"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="CU04-10-4DemanderInfosComplémentaires" mc="Standard.UseCase" uid="82f70f1d-3ca9-497a-af74-f87e7dc8b0ed"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="26de2106-1100-41bd-bfbb-c9f66497c008"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="fa26a2b7-607e-4efd-8ca9-6fc64824cddc"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.CODE	CU04-10-1
+
+2. REFERENCE
+
+Titre: 	Traiter une demande reservation d'un logement
+Date:     22/11/2021
+
+3.	MODIFICATIONS
+
+Date			Rev	Auteur								Observation
+22/11/2021  	 1		Alzouma Moussa Mahamadou		Identification et Spec détaillée
+
+
+4. DESCRIPTION
+
+Un collaborateur d'un promoteur souhaite  traiter une demande reservation d'un logement evaluée déjà par le système.Pour ce faire,il vérifie toutes les informations relatives à ladite demande.
+
+Ensuite,il peut accepter ,rejeter la demande reservation ou demander des informations complémentaires.
+
+
+5. LISTE DES ACTEURS
+
+Principal: Collaborateur Promoteur]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="3665418e-6579-4271-b387-4272f48aa213"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="ada48928-cba2-4b97-9fd0-0668bd387191"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="Infrastructure.NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="24f7653a-94f9-41e3-b679-0f265f6a8f40"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="f122eac0-e646-4486-ad17-1c3cd49a88c2"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+
+1.	Le statut de la demande de réservation de logement doit être   "  soumis au promoteur  "
+
+2.	La demande de réservation doit avoir été évaluée au préalable par le système.
+
+
+
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="73ca13e7-de7b-42ae-a5ac-ba2564671fbe"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario nominal" mc="Infrastructure.Note" uid="946d1300-5fc7-4e73-a5ec-a1b6d018cc57"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.	 Le collaborateur promoteur selectionne une demande reservation d'un logement
+
+2.	 Le système affiche  la demande de réservation  selectionnée
+
+3.	Le système alerte le promoteur de l'existence  des messages d'erreurs et d'avertissements issus de son évaluation 
+
+4. 	Le collaborateur promoteur vérifie toutes les informations de la demande reservation de logement.
+
+5.	Le collaborateur promoteur accepte la demande ( CU04-10-2 Etendu )
+
+6.	Fin]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario nominal]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario alternatif" mc="Infrastructure.Note" uid="a4fc599d-9d3b-4362-85d4-de704dbf831d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+Scénario alternatif A1: Refus d'une demande de réservation de logement
+
+Condition :Le collaborateur promoteur souhaite refuser la demande de réservation
+
+Branchement:	  Aprés  l'étape 4
+
+	        1. Aller au use case  "CU04-10-3RefuserDemandeReservationLogement"
+
+
+
+
+
+
+
+]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario alternatif]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

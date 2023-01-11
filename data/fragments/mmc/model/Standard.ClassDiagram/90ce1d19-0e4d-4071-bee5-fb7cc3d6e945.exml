@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SupprimerUneSimulationFinancementImmobilier" version="4">
+  <OBJECT>
+    <ID name="SupprimerUneSimulationFinancementImmobilier" mc="Standard.ClassDiagram" uid="90ce1d19-0e4d-4071-bee5-fb7cc3d6e945"/>
+    <PID name="Classes de contrôle" mc="Standard.Package" uid="82bb5a09-3cb9-4b78-a7f2-ff937b5922ef"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">12</ATT>
+      <ATT name="UiData"><![CDATA[eJztU11P2zAU/StW3uumaxmqVIogYVVFoKgZSHtCN/GlM/gjsh1o/v2cpmW0rFUmofGyJ39cn3PPvT53dLqUgjyjsVyrk6BHw4Ccjkez7BFzRzjzVwFxVYEngTYLKjVDwTUtpaDWgeNPjMPCgKTIuNOGokCJytkmmm+iE5muznFzDoiER23uX/OGwXh0Y3SBxlVEgfTpBFS6dDE48LE7ECWudahSiKA7HnU3gHfQ1FUCg60qvvypio06W7+3NNcGaYNtoS8CmwNDtkl2sXRzfGiZ5dpTrJEEly7Opl7jaltvrhok6dPlTqHdpqRDxRsU4JB5LTt9u6qvyHN9U7cIFAPDaCTA2vW3kGGYY4/1hp0QB6wzCI97nQzxqPOQHed5n33F4eDocOs9m7tU+kUlkKHYUZA6w9UiGKdlURgu0dwqTLksvWDf5W9cgcpX9plKqTMuOJpRd0VwsGAtcKoiLQtteU20J2sLqugnF8xgzZBwW7d5vexFJFw92fbPzxexgRcvJ4EKzbZF+4cs+jpXrMFbKmoGP1hbhP9mrv4O9bmG5GyPHeIJTc5+XMzvz8+iy8l8dnsdf4xDWszo2z/77Z43Xhj898KneOH77OajTbA39AvOY54I]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAIAAAAmdTLBAAAAGElEQVR4nGP4TxlgGNU/qn9U/6j+EaofAB8cJiE1IQRUAAAAAElFTkSuQmCC]]></ATT>
+      <ATT name="Name"><![CDATA[SupprimerUneSimulationFinancementImmobilier]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="7097abd1-f7dc-4579-85c0-33a2d055b221"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

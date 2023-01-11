@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="valider credit bancaire" version="4">
+  <OBJECT>
+    <ID name="valider credit bancaire" mc="Standard.ClassDiagram" uid="fb0cfad5-c6b5-4efe-8ba1-8798f03fd836"/>
+    <PID name="Classes de contrôle" mc="Standard.Package" uid="82bb5a09-3cb9-4b78-a7f2-ff937b5922ef"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">4</ATT>
+      <ATT name="UiData"><![CDATA[eJztmltv4joQgP9KxDuBhEupynbVwopTbW+CsyvteakmjkO9dWxkmy30168dCKdQCiGkAVV5qIon8XgcfzOZid3+Ogmp9QcLSTj7UnLsasn6et6+835jpCzia1HJUtMR/lLiYmiH3MeUcHscUlsqUOTJJzAUENrYJ4oLG1McYqbk7CqKr/bCQdTuztolK4TfXDwsxq2Wztv3go+wUFOLQaiHozDlY9UFBfraT6BjPLeDjSktVc7blbjDm64DNaW4tDQLd90sYuukuV/aiAtsz/omsK8DEoGP/XiwbxPVx0HCUW61inlPC09U17vSNkY/zY+bWU+rZk9WJlqZTWnT5AWmoLCvbVl5bjdGZP0xEvOIgPkgfLtDQcr5sliBV0UB+I0yanqNch0HuNzywCm3Tk5bQbUW+K1ac/Oj19rUd8af2TV4mK5YMFCCsGHpXNtAfCwsJAw1lgcMARG4XYlu3jg5TvEV6/BwxCVRemneGSGBqs4job7ARsM1kWqJllo65hGFlxfNevRM92K8ry0BNjR4zBfMPXXOnJOW/quetao781//cP4N/DNPywVZqw5B03MbtXIjcFG5XvO8cstFzfKJW0OtwPV9BznZsdqJUL2ck9pR9HhgbWQA670gIYjpre6dMbfVs2paZptJmdWqJtO9wa0X4O4I7g0QZpDZE+CTdAAbxXIECD9ivZxCo3wbS/6JJPlnGa18iV19FxfEbiN2BkYChfKRPz8Q9EbRJdcjAVs8qQCoxJvnHql6wtNnLvwMtClATw9SYYH5Fm1KjJOYRtcsye6qwJNKAFIpZrjA9pUnnaZ+qUlJAhKFg86i0ceSvIBHcU/w8Sj/uOBUi8Bw3IFhz1eYk7JKBqXH98YKDw2YmtmLWHAoUhMXytmQ6qymhQWq21BdRiQNuJX5v80h2ElZBRudYOyPmb6LBYdiOnHxWzB9qEoCq0fufzTQKStlwnS2xXTiorMgpMaak154NZcNYtkBsM65Pi6w3hnrmJJ9s4uUFXIicA8VlHOulZ1PlhNnSOlHh92UtVwiev/j7ACh1825nvts8OYQeg0YGTOdDHc3ZSlIGMMi+n4Rca4b+28jGXcZmg+h89Uub1m8dagXBeGxox7BsmeK4aYs9t6h9kBJhZtzpecWm51Hlmy4qWu8tRxjeaAEI+fargD5yBOMt5dWxiHyp24RBCm2cpKP8va4gD3HbUvmUUuw5+OmLXNDGOLFbnC0nWWc2EjNjvDASGewZJlLrR4XSODUOZe8xYGGXX16oCdPKVFJHPsz7BAntS3lFnEmge2asCe5IXqu3H457Ap41qt5DVPtrcsOuPZLxCKsxPHEnymQNjUqdChZ0phPLrBbr8Oe+SSr0Mbu1O3Z1xe/vvUfLi8633v9ux+33azfmO9qeb1m/+Pz+oznxm84BQwfBsO/d/e55U1/ARxCfyY=]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,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]]></ATT>
+      <ATT name="Name"><![CDATA[valider credit bancaire]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="validerCreditBancaireCtl" mc="Standard.Class" uid="4af6b253-5f2c-43bb-82c6-723c8f2dd1c1"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="8d86d85d-808c-4330-b24b-d99813a948a4"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

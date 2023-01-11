@@ -1,0 +1,336 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU03-08-01CreerModifierUneDemandeReservationLogement" version="4">
+  <OBJECT>
+    <ID name="CU03-08-01CreerModifierUneDemandeReservationLogement" mc="Standard.UseCase" uid="53442bed-faf0-4763-a820-c8dc0902f2e0"/>
+    <PID name="EPIC03_DemandeReservationLogement" mc="Standard.Package" uid="5220e292-dad3-49a3-a555-b2d74ffe4a79"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU03-08-01CreerModifierUneDemandeReservationLogement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="c71a9f74-e39f-4f47-befc-894b1cc0c799"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="CU02-05-1CreerModifierUneSimulationFInancementImmobilier" mc="Standard.UseCase" uid="85785482-c197-4261-8dc2-b6913396ef86"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="50169ad5-75c8-462f-8181-e6abc05633c3"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="CU02-05-2ExecuterUneSimulationFinancementImmobilier" mc="Standard.UseCase" uid="02d18574-7bec-4328-b008-4215731a1c86"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="650944c6-e6e8-48e6-bb17-ee941e062c34"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="CU01-03 RechercherUnLogement" mc="Standard.UseCase" uid="bd63d91e-b2f4-446d-a5b7-75db4ee6c55d"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="1df2ad2a-2a54-473e-97be-c2fc616a23bd"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="e61815dc-dc17-4fc3-bcb6-97e92153926f"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.CODE	CU03-08-01
+
+2. REFERENCE
+
+Titre: 	Creer ou modifier une demande reservation  d'un logement
+Date:     23/11/2021
+
+3.	MODIFICATIONS
+
+Date			Rev	Auteur								Observation
+23/11/2021  	 1		Alzouma Moussa Mahamadou		Identification et Spec détaillée
+
+
+4. DESCRIPTION
+
+Le prosepect souhaite faire une demande de reservation. 
+Pour cela, il prépare et exécute la simulation d'acquisition du logement souhaité. 
+Il saisit les informations complémentaires necessaires pour la demande d'acquisition. 
+
+Puis il scanne et joint les documents démandés à sa demande de reservation.
+
+Il peut egalement créer sa demande en transformant une simulation existante en demande de reservation.
+
+Il peut enfin créer sa demande sans passer par une simulation préalable. dans ce cas, il saisit toutes les informations nécéssaires manuellement.
+
+
+5. LISTE DES ACTEURS
+
+Principal: Prospect]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="99c98b2b-a237-41ed-be47-f04ecafa2c67"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="52413a73-81ad-4820-a23f-9f0817a38360"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="Infrastructure.NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="ea90a1aa-ff44-4f25-ac0c-8452b4470a58"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="5f3940ec-062a-4d59-bbfa-dff702a65b2d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.	Le prospect doit s'être préalablement authentifié.
+
+
+Pré-condition pour la modification uniquement:
+
+	Statut de la demande = "Demande enregistrée"
+
+
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="98bdf38e-7045-41cf-89e9-e0dae54b3e13"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+Le statut de la demande doit être "Demande enregistrée"   .]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario nominal" mc="Infrastructure.Note" uid="13a35772-641a-44c3-bc67-24043f862254"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1. Le prospect prépare une simulation (voir Use Case CU02-05-1)
+
+2. Le prospect execute la simulation (voir Use case CU02-05-2)
+
+3. Le système transforme la simulation en une demande 
+
+4. Le prospect saisit les informations complémentaires
+
+5. Le prospect scanne et joint les documents necessaires à la demande de reservation
+
+6. L système vérifie l'intégrité des informations communiquées
+
+7. Le système enregistre la demande
+
+8. Fin
+]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario nominal]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario alternatif" mc="Infrastructure.Note" uid="4e6974e7-4b63-4582-8cd6-d31ae1dd9744"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Scénario alternatif A1: Demande de reservation par transformation d'une simulation existante
+
+Condition :Le prospect dispose d'une simulation existante et déja exécutée qu'il souhaite utiliser pour créer sa demande de reservation
+
+Branchement:	  Avant  l'étape 1
+
+	1. le prospect recherche et selectionne une simulation déja exécutée
+	 
+	2. Aller à l'étape 3 du scénario nominal
+
+
+Scénario alternatif A2: Demande de reservation manuelle
+
+Condition :Le prospect ne souhaite pas créer sa demande à partir d'une simulation et possède toutes les informations nécéssaires
+
+Branchement:	  Avant  l'étape 1
+
+	1. le prospect recherche et selectionne un logement et ses options (voir Use case CU01-03).
+	 2. le prospect  renseigne les informations portant sur son profil et son plan de  financement  
+	3. Aller à l'étape 4 du scénario nominal
+
+		
+
+
+]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario alternatif]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="89aa31a7-ffe3-4ac5-91bb-a4d7d396af53"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[A la mise en oeuvre de la reconnaissance automatique des documents, la description du cas d'utilisation incluera les elements ci après:
+
+
+
+Le prospect souhaite  créer  une demande reservation d'un logement.Pour cela, il selectionne un produit logement et ses options.
+Le système  retourne  la liste de logements disponibles correspondant au produit logement selectionné.
+
+Le prospect selectionne un logement.
+
+Puis, le système retourne la liste de documents requis pour la demande de réservation de ce logement.
+
+Le prospect scanne et joint les documents requis.
+
+Le système analyse chaque document.Par une reconnaissance automatique,le système extrait les informations et les propose au prospect pour correction et validation.
+
+Ensuite, le prospect  renseigne les autres informations portant sur son profil et son plan de  financement (qui pourraient provenir de la simulation) et  eventuellement d'autres informations complementaires.
+
+
+Scénario nominal
+1.	Le prospect selectionne un produit logement
+
+2.	Le système retourne la liste de logements  disponibles correspondant au produit logement selectionné.
+
+3.	Le prospect selectionne un logement disponible
+
+4.	Le système retourne la liste de documents requis pour la demande de réservation de ce logement
+
+5.	 Le prospect scanne  les documents requis
+
+6. 	 Le prospect joint les documents requis scannés
+
+7.	 Le système extrait les informations de documents par une reconnaissance automatique
+
+8.  	Le système propose au prospect les informations extraites
+
+9.  Le prospect  corrige et valide les informations extraites 
+
+10.   Le prospect  renseigne les autres informations portant sur son profil et son plan de  financement (qui pourraient provenir de la simulation) et  eventuellement d'autres informations complementaires.
+
+
+11.    Le prospect approuve la création de sa demande réservation de logement
+
+12.    Le système vérifie les informations portant sur la demande de réservation
+
+13.    Le système enregistre la demande  de réservation de logement avec le statut " Demande enregistrée"
+
+14.    Fin
+
+
+
+Scénario alternatif
+
+Scénario alternatif A1: Echec à la vérification de la demande de réservation de logement
+
+Condition :Toutes les informations de la demande de réservation ne respectent pas les contraintes d'intégrité
+
+Branchement:	  Avant  l'étape 12
+
+		1.  Aller à l'etape 6
+
+]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EPIC06_ReserverUnLogement" version="4">
+  <OBJECT>
+    <ID name="EPIC06_ReserverUnLogement" mc="Standard.Package" uid="06145806-9aeb-4355-8140-19c559ae4600"/>
+    <PID name="CUs" mc="Standard.Package" uid="137d2496-e2ef-4b12-b3b4-92c230756efb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[EPIC06_ReserverUnLogement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CU06-13-2GenererEtSignerUnContratReservationParProspect" mc="Standard.UseCase" uid="90d7afa0-3107-4392-9ed8-afba8f9c3d86"/>
+        <COMPID name="CU06-13-3SignatureElectroniqueDocument" mc="Standard.UseCase" uid="91df0e86-1986-4273-aa65-50492eef8e62"/>
+        <COMPID name="CU06-13-4SignatureManuelleDocument" mc="Standard.UseCase" uid="77a185ba-6e78-44bc-895e-ae840f8c46df"/>
+        <COMPID name="Impression" mc="Standard.Actor" uid="057a19cc-edb9-4d3c-8af7-e534256cf3a5"/>
+        <COMPID name="OutilSignatureELectronique" mc="Standard.Actor" uid="466e2902-5460-48d5-8a83-6763141a977b"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation EPIC06_ReserverUnLogement" mc="Standard.UseCaseDiagram" uid="738fbf1e-47d7-4574-9422-16a470ea1ce4"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

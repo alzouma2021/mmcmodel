@@ -1,0 +1,178 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU10-04SupprimerUnCompteOrganisation" version="4">
+  <OBJECT>
+    <ID name="CU10-04SupprimerUnCompteOrganisation" mc="Standard.UseCase" uid="a1a16c84-1b25-4dba-b27f-0ecf1e1e4e6a"/>
+    <PID name="EPIC10_AdministrerLaPlateforme" mc="Standard.Package" uid="27feae94-1a16-47f0-8e4b-f95667837dd6"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU10-04SupprimerUnCompteOrganisation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="717ba782-7fdf-45a6-8a5d-5db09d80802d"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="704346e1-bc22-47ee-a1fd-678651dc80ff"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[1.CODE	CU10-04
+
+2. REFERENCE
+
+Titre: 	 Supprimer un Compte d'organisation
+Date:     07/04/2021
+
+3.	MODIFICATIONS
+
+Date			Rev	Auteur								Observation
+03/09/2021  	 1		Alzouma Moussa Mahamadou		Identification et Spec détaillée
+
+
+4. DESCRIPTION
+
+Le gestionnaire de la plateforme souhaite supprimer un compte d'organisation.Pour cela, il selectionne le compte d'organisation à supprimer.Ensuite, le système supprimer le compte d'organisation.
+
+5. LISTE DES ACTEURS
+
+Principal: Gestionnaire ]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="97527634-66d8-4cff-b034-608c85df5c59"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Contraintes à vérifier :
+
+ -  Aucune transaction ne soit associée compte d'organisation
+
+-  Suppression de tous les comptes user associés au compte d'organisation]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="d3c823a6-422b-4363-8d61-cf3c308f78a4"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="Infrastructure.NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="c1a8df88-b80f-406d-88bd-92d7c2e4461f"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="bfac2e0e-6cbe-40d1-b2f0-e5843a075efd"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Le compte d'organisation doit exister.]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="b27ae904-6672-402d-99b4-b4daa965c25f"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scenario nominal" mc="Infrastructure.Note" uid="4b75d6f2-ffc1-4a55-b667-003a94d558fc"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[1.  Le gestionnaire de la plateforme selectionne le compte d'organisation à supprimer
+
+2.  Il confirme la suppression du compte d'organisation selectionné
+
+3.  Le système vérifie les contraintes de suppression
+
+4.  Le système supprime le compte d'organisation
+
+5.Fin.
+
+
+
+]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scenario nominal]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scenario alternatif" mc="Infrastructure.Note" uid="4371ca26-82ba-49f0-8731-87c7714bdcce"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Scénario alternatif A1 : Echec à la verification des contraintes de suppression
+
+Condition :  Les contraintes de suppression ne sont pas respectées
+Branchement:	  Aprés  l'étape 3
+
+		1.  Le système renvoie un message d'echec
+		
+		2. Aller à l'etape 1
+]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scenario alternatif]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

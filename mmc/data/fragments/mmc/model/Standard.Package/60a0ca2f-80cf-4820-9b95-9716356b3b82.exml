@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Common" version="4">
+  <OBJECT>
+    <ID name="Common" mc="Standard.Package" uid="60a0ca2f-80cf-4820-9b95-9716356b3b82"/>
+    <PID name="Classes de domaine" mc="Standard.Package" uid="9ec1ff16-fa1a-4e22-8537-7e99385de7fa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Common]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="document" mc="Standard.Package" uid="f110a5a1-42d3-4446-ab5e-b9cf9783bf1b"/>
+        <COMPID name="Historique" mc="Standard.Package" uid="23cd4baf-3180-47b4-a288-3996121b4fbd"/>
+        <COMPID name="Message" mc="Standard.Package" uid="d595dc46-600f-47ef-ba14-fd71711832ed"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

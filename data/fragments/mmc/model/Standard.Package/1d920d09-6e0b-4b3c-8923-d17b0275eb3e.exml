@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Classes ViewModel" version="4">
+  <OBJECT>
+    <ID name="Classes ViewModel" mc="Standard.Package" uid="1d920d09-6e0b-4b3c-8923-d17b0275eb3e"/>
+    <PID name="Classes de conception" mc="Standard.Package" uid="a173770d-68aa-48b1-8ffe-ca847ea0e671"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Classes ViewModel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ViewModel" mc="Standard.Class" uid="a7500020-f4d6-460a-84a0-5e9fd2f00f56"/>
+        <COMPID name="LoadableViewModel" mc="Standard.Class" uid="55d97fcf-e1a0-4114-96ee-9ee2cc8f9469"/>
+        <COMPID name="ProgrammeImmobilierCompletViewModel" mc="Standard.Class" uid="4a7dc1da-1a6c-48a5-b0d5-2971019b8c83"/>
+        <COMPID name="ProduitLogementViewModel" mc="Standard.Class" uid="ed8f035e-5ef1-4c11-a3fa-4edddff02e7f"/>
+        <COMPID name="SimulationFinacementViewModel" mc="Standard.Package" uid="5ae827fd-a1ca-43ef-9e1e-e469f5ad2fd4"/>
+        <COMPID name="LogementViewModel" mc="Standard.Class" uid="6e5d3270-45d6-483a-a38e-773a71167423"/>
+        <COMPID name="CreditBancaireViewModel" mc="Standard.Class" uid="ea2fe7e9-de55-4c1a-99ca-4e6a26881531"/>
+        <COMPID name="DemandeResrvationLogementViewModel" mc="Standard.Class" uid="5c151b34-957a-4def-af60-0ff1ec20c2f3"/>
+        <COMPID name="OrganisationViewModel" mc="Standard.Class" uid="2992af37-0232-4dcb-ba22-45181c471c7d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="ViewModelMain" mc="Standard.ClassDiagram" uid="daf07d36-12b6-4ea4-a36c-54d7d487fe4f"/>
+        <COMPID name="CU08-20 ViewModel" mc="Standard.ClassDiagram" uid="a144c3e9-f8f7-4801-a342-97956e293f40"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Historique" version="4">
+  <OBJECT>
+    <ID name="Historique" mc="Standard.Package" uid="23cd4baf-3180-47b4-a288-3996121b4fbd"/>
+    <PID name="Common" mc="Standard.Package" uid="60a0ca2f-80cf-4820-9b95-9716356b3b82"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Historique]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Historique" mc="Standard.Class" uid="aebc5142-9a49-43db-8fea-819b31002f00"/>
+        <COMPID name="HistoriqueEvent" mc="Standard.Class" uid="cbb93915-81db-44bd-9345-515436b59ce2"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Historique" mc="Standard.ClassDiagram" uid="87c662bb-4bf5-46bd-a2f7-eefaf2fae738"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

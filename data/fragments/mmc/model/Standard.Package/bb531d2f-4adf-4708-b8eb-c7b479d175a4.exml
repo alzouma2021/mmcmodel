@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EPIC04_EvaluerUneDemandeReservationLogementParPromoteur" version="4">
+  <OBJECT>
+    <ID name="EPIC04_EvaluerUneDemandeReservationLogementParPromoteur" mc="Standard.Package" uid="bb531d2f-4adf-4708-b8eb-c7b479d175a4"/>
+    <PID name="CUs" mc="Standard.Package" uid="137d2496-e2ef-4b12-b3b4-92c230756efb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[EPIC04_EvaluerUneDemandeReservationLogementParPromoteur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CU04-10-1TraiterDemandeReservationLogementParPromoteur" mc="Standard.UseCase" uid="8164e05c-6795-4dc6-ad8b-92fa1b71618b"/>
+        <COMPID name="CU04-10-2AccepterDemandeReservationLogementParPromoteur" mc="Standard.UseCase" uid="53288974-3e88-45c3-92b9-f07fa2231cc9"/>
+        <COMPID name="CU04-10-3RefuserDemandeReservationLogementParPromoteur" mc="Standard.UseCase" uid="9a086d22-2608-44fb-b0fd-99c04a4baba2"/>
+        <COMPID name="CU04-10-4DemanderInfosComplémentaires" mc="Standard.UseCase" uid="82f70f1d-3ca9-497a-af74-f87e7dc8b0ed"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation EPIC04_EvaluerUneDemandeReservationDunLogementParPromoteur" mc="Standard.UseCaseDiagram" uid="245cf757-d696-422a-8894-9782e7d76b29"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

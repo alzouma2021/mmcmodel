@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagramme de classe Credit Bancaire" version="4">
+  <OBJECT>
+    <ID name="Diagramme de classe Credit Bancaire" mc="Standard.ClassDiagram" uid="b79bc581-b6ea-4416-a843-feb69d130062"/>
+    <PID name="Classes DAO" mc="Standard.Package" uid="3a0c46d3-5dd1-4b06-a70e-27aa971b67db"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">4</ATT>
+      <ATT name="UiData"><![CDATA[eJztmltv4joQgP9KxDuBhEtBZbtqYcWplpYKzq6056VykoF668TINlvor187F06hlLohBFTlAUEmeDyOv5nMZNL5uvCJ8QcYxzT4UrLMasn4etEZOr/BFQb2pKhkiOUMvpQom5o+9YBgas59YnKBBH70MJoy5JvgYUGZCQR8CASPzrrJ2b4/Do970XHJ8NFvyu5X81ZLF507RmfAxNIIkC+nI2hJ56KHBJLnfiIyh9iOYE5IqXLRqSQDXg0diyWB0toq7G2rSKzj6v/cdCkDMxqrYV8XcRd54CWTfVuIEUw0Z7mVKuKRBixEz7mWNoY/1Y+baKRRMxcbC61ES9q1eAYECfCkLRvX7UaJjD9Koi4RCjzEPLNLEOfxthjOWdtxGy2r7DQBlet1q1lGrXqtPAGn2fasWrXatHdfeqlNfA/oUzBADpANC8aC4WBauoin88HwwHCVAWB0mSLIuEKBizCDTiUcuHOhlMB10KX+jHIs5Da9MZuGqu4DJh4DpWGAuVgjp5aOf7ms52fJfXh99+J9JC1BwVShEm+e3bLPrXZVftrnreqHfaF+cF9QjhB5XS74GrUz5FhurVV2Go5XrrfAKaNJoy65tZo1y203zjwrA24jRhNEe5fD06G0kQGldwz7iC1v5eiMga2ep4a1qQurVLVY7k1svSBWl9gbhAPFyp7knqUjVynmM+TCA8h9ZJLh20TyTyjJP8do5Ytqs0BVF9WICA2F/IE+3WP3laIrKmdCweoSTRDhsHvRoapHWD5R5mWgTSD38Z4LYEDf0SbYXMc0smUvPq4KOVww5IoUK1zx+sKF2qlvY5zjCQ7jQHd1MAKOn5FDoM/ofJZ/QLCqRUQ40Yiw503LSlkVIyHnd+YCpopICetlIjgWotqFcTaIWpsZYMHom4yus5GG2Er8tTvoWilLXKUTKfsTmIeJ4Fgwa1e2Bcy5VwsgHqh3aJJTlsE4kIlVIHMUmfC4Yi4B6fvXsWycyI7Ac87Fb8GzPs8JHvsmEinLXy1ijxWGcy6ErU+W92ZI6aHjbcp6TYve/2hwhJhr51yzfTZ4DxlzFREZw6zHuZ2y3MNBACx8OBECLg/2bwcpP5mqx5vxNpff2bVtjBdF38kyHlKyZ1Jhpyzo3sD1SGmEnXM1ZxfdylPJK+zUddxWgIEfKZfIuX4rCD7VXOL1qY15MP8pj7CLUrRk9Gd53eg3Y87eSTJqGr0bO20p66MprNq5YVtKea+SqpbuWEkjSrJMmzYb/RrenHNZW7yKoO3MY7lqQrDQ8ejP0OLVtS1ljzeTiDbAwSPfETY3/n417TH0JHdzgJbSTdc9b+tjhlU8SQKJFyngJlEqZAxZ05jP3f9jo477ribehHb1fmbfHFz++ja6v7rsfu+Phj9ue1nfKt/U8nLP/sfn5fuYOx/QFDAcDIZ/h3e5JUx/AR3PXGc=]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABkCAIAAADCEmNlAAAFWklEQVR4nO3ZfUzUdRwH8M/ZedwDcJyoiA8IOkUPZGSikOJTBoaCOmsVVk4zpVNEDPCBeJDEYpUhulMG5lhqTiMD0VCYFOgQAQ9RnoyHw0DATEEN1KPVlzuF3zkXLurnkPd77z/YgDvudd+9f78b9BfCS+hZ/wF9JYDmKYDmKYDmKYDmKYDmKYDmKYDmKYDmKd1Aq6PeQJ+yPYV+0Fz8oPmSUVsuc1rCaSm3uttlnJYbt6Krd65w+otxK7t6t8q41ZzWdLb9D61xazm9atTWXzmt47TeqG3XOG0wbmNn/7zXBGhAAxrQfQ/6+qkD6zwn2sjFIslAm/GvqWIKG/8VtCZISaTcnGH4wik8i/nWHouMOZrbAX1GNZIepZ/IwnrcXP895bf7EPTZvZ4W7KVbT5qnClzl520vF5BizrbqnkA3ZaXv33NSU9remhv9IlmtOtwJPcgjIF79efzOyBCP4f1IOO2L830GOsfPlkg6a4u2xTAdZXlhM918AjPqq3RnVXZEHhsiX7eTukRlse/WHPX3drQyE8tGTv0grdogXlEUO99ebiKzdv5wyxIHoxOdEDLq0RF2+Virhx790YmH01ES6kykWHZQD63V7HnLzVYhlVqMdl96uKy+gzgvYDR79qiEkOnDTaUK+/nh+Td7M/St3TOJBAv3ljxhowsDxxOZDZ684qvYtPPFurKt06U0aG5YTm7SOiehyaxt1xh0yeaJAjKf6p+amRQxe8ALRtDptdmBrkSWiz/N02ja9NC2fgfqajR1lWd/jnI3I5l3YnEH9MVNE/qRjW/cuYyN7CmkC3ffZtCaEPYg0mEeUalpP6x16k/CV9UlvRi6ImoCkfnKY0+6GF5Yz16q4t2v7+mnoyZmEpHp+ynV7CA3xL5Mgsm7tNrrO92JJO8crmLToUt/b9BjG319uwcZTQcnQhuvrUU39RvdVFBccLq6sa69LY9NDY0NuMigizYoO343Wcd2oybajWjo6pReDN0SP5udaJ+ES13QzVfaONCOoScNG63ZNIb9ZH+JVCaTysRComEhOdrSSLYWQ9Zn6Te6KMihO2jrxZ8cT9l/PCXp2x3Lp8hJ5hpRxqDrj4R7jbc2NxGZiIQColFrCh9BO0Wc6Rjo33awx7FccaQXQ+vyA8YRiaeHVTYboMsLNjpajp2/7/JDaKewDAN0U9w0IvmSvT+VFxua03BDf7RJ7Huo40TfT31b0R1010a3Xj24iL1bbuq6+vxgdi2wUZ0ov9+WHa58XqHvFCT7DhGwuw4XH//g1WsXKS0EJHePKL/zOLSuInqGhKy9Np849c2Xvs5OMwKyb2rbi4Id2aBMWXkoVR3kPkD0GHSLeoGAhM7LD2Xm3OLedahjYkMXKCVEI1bmttZnqazY2+GbmHY6bpHSXEwW8xJLK+4/d9CVulvZqaHernYWEpF4wAh7T7/PChu6pqML+m5lzfdr5imtzCSmQx3nhKcV6O86Ss9Fe9hbSkyHvRS4S8UufWODf+TcR19MXjbGXNRf4R5RYbTRApHZYOUrS/flV7HT/aA49k0HhUQy0Nl3+7nvlo+RieQLdv7+HELjkyGgAQ1oQAMa0H0GOj9z9zP/d1yvKE50LznRgAY0oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaED/n9DoU7ZH0J250agtvZCJ/kP/G2ikhwE0TwE0TwE0TwE0TwE0TwE0TwE0TwE0TwE0T/kbvoGMz6KmfNMAAAAASUVORK5CYII=]]></ATT>
+      <ATT name="Name"><![CDATA[Diagramme de classe Credit Bancaire]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="CreditBancaireDAO" mc="Standard.Class" uid="37ab1c38-b5bd-48eb-af54-fe1631c957d1"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="cd882782-2491-4398-9b78-5133401ed7f1"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

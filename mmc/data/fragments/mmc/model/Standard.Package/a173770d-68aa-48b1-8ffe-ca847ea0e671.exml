@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Classes de conception" version="4">
+  <OBJECT>
+    <ID name="Classes de conception" mc="Standard.Package" uid="a173770d-68aa-48b1-8ffe-ca847ea0e671"/>
+    <PID name="Logique" mc="Standard.Package" uid="5fbf73df-437e-4f23-ba89-fd505a7b6795"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Classes de conception]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Classes DAO" mc="Standard.Package" uid="3a0c46d3-5dd1-4b06-a70e-27aa971b67db"/>
+        <COMPID name="Classes ViewModel" mc="Standard.Package" uid="1d920d09-6e0b-4b3c-8923-d17b0275eb3e"/>
+        <COMPID name="Classes ServiceWeb" mc="Standard.Package" uid="a808c02b-77eb-41bb-a6a9-561f93ab1143"/>
+        <COMPID name="Classes de Transfert" mc="Standard.Package" uid="692a9330-ff4a-41ec-ba2c-a21ae5ee009f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

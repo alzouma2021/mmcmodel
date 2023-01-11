@@ -1,0 +1,320 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU01-01 RechercherUnProduitLogement" version="4">
+  <OBJECT>
+    <ID name="CU01-01 RechercherUnProduitLogement" mc="Standard.UseCase" uid="62055243-92b0-4fde-81b6-835d80aa7835"/>
+    <PID name="EPIC01_RechercherDesLogements" mc="Standard.Package" uid="96399449-7850-4b46-add8-966ff3a32ae1"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU01-01 RechercherUnProduitLogement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="bf0bc1ef-fc88-4b2c-af63-c634a4529dc3"/>
+        <COMPID name="Activity" mc="Standard.Activity" uid="d06d7d17-b960-4ebc-926b-514e44a77a9b"/>
+      </COMP>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="a06a1371-d5a4-4e44-a370-04122075e44c"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.InstanceNode" uid="97e945a0-6c3f-448e-9c5d-a959b1db0e9b"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="effectuer la recherche en fonction des criteres definis" mc="Standard.OpaqueAction" uid="608b3df3-5e36-47bc-96e7-fce07840dc60"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="80e43704-2fa8-4e84-8e1a-b04bdbb1267b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.InstanceNode" uid="97e945a0-6c3f-448e-9c5d-a959b1db0e9b"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Afficher les resultats de la recherche" mc="Standard.OpaqueAction" uid="a5770a83-f1c8-483c-80f8-1452ca81e4f3"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="4b75465c-090f-4653-8ba6-1ba1c05d9a3d"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.InstanceNode" uid="ba56032b-35d6-49ef-9842-3c98863ecf4f"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Specifier les criteres de la recherche" mc="Standard.OpaqueAction" uid="3a62f42a-ab7c-4c08-8141-90077c1c8467"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="faceb00a-587d-42cd-aa54-ebc8fec5f260"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.InstanceNode" uid="754ba92f-460f-4c97-920c-7ecf115a41fb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Enregistrer la requête" mc="Standard.OpaqueAction" uid="c823b59b-6aef-4e1c-ad75-ac935d015f23"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="2a8c4ff5-b578-45f9-b1c9-62c6e59fbf20"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <REFOBJ>
+                <ID name="" mc="Standard.InstanceNode" uid="754ba92f-460f-4c97-920c-7ecf115a41fb"/>
+              </REFOBJ>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <REFOBJ>
+                <ID name="Selectionner une requête pre enregistree" mc="Standard.OpaqueAction" uid="bd5ffa50-2284-4bd2-9d05-f4d3505f9226"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="8a7057db-b975-4baa-9565-28a7c842a01f"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.	CODE :		CU 01-01
+
+2.	REFERENCE	DU CAS D'UTILSATION
+
+Titre: 	Rechercher un produit logement
+Date:    22/12/2020
+
+3.	MODIFICATIONS
+
+Date			Rev	Auteur								Observation
+23/12/2020  	 1		Alzouma Moussa Mahamadou		Identification et Spec détaillée
+
+4. DESCRIPTION
+
+Le Prospect effectue une recherche d'un produit-logement. Pour ce faire , il a deux possibilités:
+
+   -Soit en choisissant les critères correspondant à son produit-logement
+   -Soit en utilisant une requête pré-enregistrée
+
+Ensuite , le système lui renvoie tous les produits-logements correspondant à ses critères.
+
+5. LISTE DES ACTEURS
+
+Principal	:	Utilisateur non authentifé
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="438bc970-076b-4af8-b78e-2b7f2911fde0"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="da5fbec7-9233-45b3-aa68-498b42d6618e"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="Infrastructure.NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="bd1a3417-6108-4f55-88e9-cc878f30c255"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="b239b8d8-516c-4aa0-8ece-e8e9e77ce32c"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="c196948e-00c6-4cde-8991-aa7e88929b68"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[1. Le resultat de la recherche disponible.]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scenario nominal" mc="Infrastructure.Note" uid="493fa16d-2ffe-4b20-9103-e4ce84f21e06"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+    1.Le Prospect actionne la recherche d'un produit logement par critère liste
+
+    2.Le systéme lui renvoie l'ensemble de propriétes produit logement
+    
+    3. Le Prospect spécifie les critères de recherche d'un produit logement
+
+    4. Le système vérifie les critères de recherche (au niveau local)
+
+    5. Le système effectue la recherche en fonction des critères du prospect
+
+    6. Le système affiche les résultats de la recherche
+
+    7. Fin
+
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"><![CDATA[Scenario nominal]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scenario alternatifs" mc="Infrastructure.Note" uid="b50a5559-65ed-4c59-b60b-25a31bdf8e75"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+ Scénario alternatif A1 : Recherche à partir d'une requête pré enregistrée
+      Condition : Au moins une requête pré enregistrée existe 
+				et  a été choisie par le Prospect 
+      Branchement : avant l’étape 1
+    
+    1. Le Prospect sélectionne une requête pré enregistrée
+    2. Aller à l'étape 3
+
+
+
+
+Scénario alternatif A2: Rcherche d'un  produit logement à partir d'un mot clé
+      Condition :  Le mot clé doit être défini par le Prospect
+      Branchement : Avant l'étape 1
+    
+    1. Le Prospect enregistre la requête spécifiée
+     2. Aller à l'étape suivante du scénario nominal
+
+
+
+
+ Scénario alternatif A23: Enregistrement de la requête
+      Condition : La requête a été spécifiée
+				et le Prospect choisit de l'enregistrer
+      Branchement : Apres l’étape 1 ou 3
+    
+    1. Le Prospect enregistre la requête spécifiée
+     2. Aller à l'étape suivante du scénario nominal
+
+
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"><![CDATA[Scenario alternatifs]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="393249e7-1072-4228-b21c-c9619640ee22"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+
+- Ajout d'un critère sur l'état de logements associés à un produit logement.]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

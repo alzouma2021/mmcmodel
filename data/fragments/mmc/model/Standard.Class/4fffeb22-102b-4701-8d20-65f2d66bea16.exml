@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SelectionnerUneOffreFinancementPage" version="4">
+  <OBJECT>
+    <ID name="SelectionnerUneOffreFinancementPage" mc="Standard.Class" uid="4fffeb22-102b-4701-8d20-65f2d66bea16"/>
+    <PID name="Classes de dialogue" mc="Standard.Package" uid="78b9d791-3645-4965-854c-e68ec093f092"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SelectionnerUneOffreFinancementPage]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

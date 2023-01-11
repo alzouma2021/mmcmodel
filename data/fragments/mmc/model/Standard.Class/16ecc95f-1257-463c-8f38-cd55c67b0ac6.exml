@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ValeurCaracteristiqueDemandeReservationBoolean" version="4">
+  <OBJECT>
+    <ID name="ValeurCaracteristiqueDemandeReservationBoolean" mc="Standard.Class" uid="16ecc95f-1257-463c-8f38-cd55c67b0ac6"/>
+    <PID name="ProduitLogement" mc="Standard.Package" uid="9d5b40de-d063-46e7-85b5-34b264a3268e"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ValeurCaracteristiqueDemandeReservationBoolean]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="78c2633a-fac7-4ab9-846e-fcc012d37cce"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="ValeurCaracteristiqueDemandeReservation" mc="Standard.Class" uid="2a2031fc-be0c-42fc-a3c7-d950be100c0c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

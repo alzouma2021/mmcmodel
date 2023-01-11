@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EPIC02_SimulerUnFinancementImmobilierSurUnProduitLogement" version="4">
+  <OBJECT>
+    <ID name="EPIC02_SimulerUnFinancementImmobilierSurUnProduitLogement" mc="Standard.Package" uid="e2fd59c0-bde0-4284-9616-8c1036d24bd0"/>
+    <PID name="CUs" mc="Standard.Package" uid="137d2496-e2ef-4b12-b3b4-92c230756efb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[EPIC02_SimulerUnFinancementImmobilierSurUnProduitLogement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CU02-05-1CreerModifierUneSimulationFInancementImmobilier" mc="Standard.UseCase" uid="85785482-c197-4261-8dc2-b6913396ef86"/>
+        <COMPID name="CU02-05-2ExecuterUneSimulationFinancementImmobilier" mc="Standard.UseCase" uid="02d18574-7bec-4328-b008-4215731a1c86"/>
+        <COMPID name="CU02-05-4SupprimerUneSimulationFinancementImmobilier" mc="Standard.UseCase" uid="8f7ba425-1c84-4b3d-b53b-1f8138b2c0f5"/>
+        <COMPID name="CU02-05-5ComparerDesSimulationsFinancemenetImmobilier" mc="Standard.UseCase" uid="60075e0d-0416-4b10-b8aa-523739fbd3e2"/>
+        <COMPID name="CU02-05-6RechercherUneSimulationFinancementImmobilier" mc="Standard.UseCase" uid="f3debb48-a318-4e1a-bc0f-1fa83a19da6d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation EPIC02_SimulerUnCreditSurUnProduitLogement" mc="Standard.UseCaseDiagram" uid="6444de69-7f08-43e5-b30e-b45258885e3a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Suppression d'un programme immobilier" version="4">
+  <OBJECT>
+    <ID name="Suppression d'un programme immobilier" mc="Standard.ClassDiagram" uid="c8056500-693b-4694-9132-d3c8aa9bd6e9"/>
+    <PID name="Classes de contrôle" mc="Standard.Package" uid="82bb5a09-3cb9-4b78-a7f2-ff937b5922ef"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">5</ATT>
+      <ATT name="UiData"><![CDATA[eJztmt1z2jgQwP8VDy/3hLENccKEppNAh8uUfAxcO3P3kpHthaiRJUaSG8hfX8lgLpCEOsIxTcZP2Gu0q4/frnctdT7PYmL9BC4wo59qru3UrM8nnavgB4TSwpES1Sw5n8KnGuMTO2YREMzsJCa2kEjiuwijCUexDRGWjNtAIAYqxeJpmD3tx6P0vre4r1kx+sH4zcquUzvpXHM2BS7nFkWxMkfQnCWyhyRSz74jksCyHzQhpNY46TSyBk+ajuScQG1tFN5zo8h6J/T/hR0yDvaibY7+dZEIUQRRZuzLTA5hnNPKpVKxbGnBTPaCc9XH9FJfXCxaWk17tjHQxmJI2wbPgSAJkerLxrxdaJH1U0v0FCEaIR7ZXYKEWC6LFR45B/6B49T9djOot/x2q952m149aoZHCLWDyIf29qlX2uRXyu7pAAVANnowkhzTSe1klEynHISeWiv6K6HWlDNtPwYLxzELMMHAO4206dahMgLntMviKRNYKm0v2MuhqnuLScRBaxhgIdfYaZp5QEjQw4MiP53hnYgfqp4gOtGwLJfP85xj99A5brbc4yPn1d7QenNv0K6w8LtSALbaYweNDw+DeuRH43rLU/gGbR/qQeC2AUWeP/aDosjFMfBv9Dpj9nyFbFeSP4fagwKovVZjRXx+qVoXDLBzbAyvnxdepWo235ngVkWwKcEXCFPNzo4kH5qRrBWLKQrhVk0fcMX0ZSb5O5WUn4UclYuuX6Friu6CkBwKxS27v8HhE0VnTFlCdDVlY0QEbJ+EVNUdzO8ZjwrQJlF4dyMkcGC/0SZ5kqdr5Jm1eb0qFAjJUSgNRrji95FLtY1fcyr/HOM0LnRXN0MQ+AEFBPqcJdPyA4TrVBHinUSIHV9qrmFdjaSyHyQSJppQBe9pJtgXsrlL62KQdTczxorZ3Myus2JCcGP5sz0ou4Yls9aJdP8zuK8ywb7gzl0pV3DvG+4LkLcsemuyDctqTFUiRlVOoxKkUCYKmH58vpSNMtke+C65mK74Nuc7w2XXxMOwnM5F8L7CdMmFtfvB8uYCKX3r+GtY7+Wi9z9G9xCDvZJrvo8Gb5kxWBNSMNz5uPcMy0VMKfD0Y0cKvLrZfTtK+81Efz5dLnvdfT3zVdH4bphPqdkx6fAMC8IX8N1TmuGVXA161e7pn5qHeMZ14LNAg9hT7lFy/VcR/V5yj6ePNuxg8V3d4RAZbAnlt/L0IIK95O43SUkzx96RZ1oKx2gCq+3ldFtMe7OW6i3mkZYuqCkyzdo8iJDDu0sui6ujEsbOPVKzQAiWeTz8I2w55+2b4Z5zIRFugOmd2BJGN/5+NulxdK9Wc4Dmym3XPfHZzxar+JIFlmihQNhEq1AxZU1jOdnB61rt97Qp3oQ2c6de3x6c/vtleHN22v3aH159u+wV/ep8UcvjNfsfn8fnSbd+8KlgeDMY/rm6Li2B+gVHM7ok]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,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n2/CWyjcF2cW0Ru/8K6RDZfdtnt8HZCZmyOurLLaOsm9wrY3Z5kC+hRRMd/3uEkMtyZNMFpz2KKAB4D7FnDbZ9w/qiNcUZHfHHWiYrj8VHiQv9VwZdJ94ZlssVH+2DWBl/y2TOnJkQY3zkaLPi+WHI+KPbxAv7sK0Zh9PDu3udNwWx4dMOMSnVnbo2JCPL82NjJ3uFX7LuG2lBxnz3d1QETocWt9ZaK+MOg38Yyr1NtcEHw5yHYsjyiY7L3/phn3sbc5PcjZP0TFXfFcNs5oqlN83WtwRU8uLeunQLrpTFi8yWmr7UKjHgpE3cwz92V9a8PpeQpEcbRN8M2sZ4D7F+E2FJff9Fg6YVBvVb7WkHErPCMrmU++8hJ2zhymyVXtP852rxUdRfUFN16B25x5yFJfg8vtNXrJwcQQqyF8jvo8n+rOw20qy7+yeZa+thpXra/BTPeonA6fKnQebnNNRfzupSZ67PmarPCKq6Jbb6rjEEJM7Q+uH6/NU9Ua9W/P+8/f/KlCTUG442x9HfYgLdyvPmI+VXgV7ovWxpyf3Rd/qteTy+H2HKA/c72fsFo85haGWg/vzuFoTNn3oEvDffffnBXXlwrzi5lRQRRv8wkhU72z8M0Zvjn76OHm7zVTJMrG34bFBnvN0SGK+j8I8ZUv4H78cBue5JyxNh+iyVdR1R5qtunsnXr8WwXAlQe4H9lXvoALuIALuIALuIDbCbgf/P8eobpaJcScPYIdFztuF91xARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwARdwAffdwaUPgUK9/+osXLoehfog1Sm4CPJxBnARuQzgInIZwEXkMoCLyGUAF5HLAC4ilwFcRC4DuIhcBnARucz/AP2dlGlf3Nc+AAAAAElFTkSuQmCC]]></ATT>
+      <ATT name="Name"><![CDATA[Suppression d'un programme immobilier]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="SupprimerUnProgrammeImmobilierCtl" mc="Standard.Class" uid="9f0af77b-d6df-423b-b96e-bb19ead26f6b"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="4673b2ba-b83b-43cd-9ab9-673a6630cff1"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

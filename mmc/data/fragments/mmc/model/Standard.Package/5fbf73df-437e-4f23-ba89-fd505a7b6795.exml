@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Logique" version="4">
+  <OBJECT>
+    <ID name="Logique" mc="Standard.Package" uid="5fbf73df-437e-4f23-ba89-fd505a7b6795"/>
+    <PID name="mmc" mc="Standard.Project" uid="ff61c6b2-ec99-4f28-a2dd-d08eba728b51"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Logique]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Classes de domaine" mc="Standard.Package" uid="9ec1ff16-fa1a-4e22-8537-7e99385de7fa"/>
+        <COMPID name="Classes de dialogue" mc="Standard.Package" uid="78b9d791-3645-4965-854c-e68ec093f092"/>
+        <COMPID name="Classes de conception" mc="Standard.Package" uid="a173770d-68aa-48b1-8ffe-ca847ea0e671"/>
+        <COMPID name="Classes de contrôle" mc="Standard.Package" uid="82bb5a09-3cb9-4b78-a7f2-ff937b5922ef"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

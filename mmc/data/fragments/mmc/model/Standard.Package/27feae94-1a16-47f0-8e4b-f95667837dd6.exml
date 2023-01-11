@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EPIC10_AdministrerLaPlateforme" version="4">
+  <OBJECT>
+    <ID name="EPIC10_AdministrerLaPlateforme" mc="Standard.Package" uid="27feae94-1a16-47f0-8e4b-f95667837dd6"/>
+    <PID name="CUs" mc="Standard.Package" uid="137d2496-e2ef-4b12-b3b4-92c230756efb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[EPIC10_AdministrerLaPlateforme]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CU10-01ConfirmerCreationUnCompteOrganisation" mc="Standard.UseCase" uid="5bf67456-b8d2-4920-bb13-cfe085896d39"/>
+        <COMPID name="Gestionnaire" mc="Standard.Actor" uid="e89d642c-0c9a-4af1-9d89-a2fa2216b9da"/>
+        <COMPID name="CU10-02CreerModifierUnCompteOrganisation" mc="Standard.UseCase" uid="3806f0a5-3f1c-4a6a-b86a-dcff6f94a98c"/>
+        <COMPID name="CU10-03SupprimerUnCompteUser" mc="Standard.UseCase" uid="35167c61-2705-4751-a067-5e983198b453"/>
+        <COMPID name="CU10-04SupprimerUnCompteOrganisation" mc="Standard.UseCase" uid="a1a16c84-1b25-4dba-b27f-0ecf1e1e4e6a"/>
+        <COMPID name="CU10-05DesactiverUnCompteUser" mc="Standard.UseCase" uid="402f7056-7a5e-4c4d-967d-dd2ab6636a63"/>
+        <COMPID name="CU10-06DesactiverUnCompteOrganisation" mc="Standard.UseCase" uid="c4de86b7-897b-41fc-ad79-d98ae1e79b83"/>
+        <COMPID name="CU10-07ActiverUnCompteUser" mc="Standard.UseCase" uid="4129a558-c54b-4961-bdc1-c05db0e2cce0"/>
+        <COMPID name="CU10-08ActiverUnCompteOrganisation" mc="Standard.UseCase" uid="adf5f6df-442b-431f-b172-b5b167803f07"/>
+        <COMPID name="CU10-09CreerModifierUneReference" mc="Standard.UseCase" uid="ede9ca1e-abd2-49d1-8da8-9893d2319915"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation EPIC10_AdministrerLaPlateforme" mc="Standard.UseCaseDiagram" uid="3f0272bf-181c-4b53-9a4e-ab24a69358fc"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

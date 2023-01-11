@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DemandeInfosComplementaires" version="4">
+  <OBJECT>
+    <ID name="DemandeInfosComplementaires" mc="Standard.ClassDiagram" uid="49e8eba2-5414-48d3-8866-29f2e2a62a5c"/>
+    <PID name="Classes de dialogue" mc="Standard.Package" uid="78b9d791-3645-4965-854c-e68ec093f092"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">4</ATT>
+      <ATT name="UiData"><![CDATA[eJztmm1z2jgQgP+Kh+842BhKJjSdBDpcpuRl4K4zd18ya3shamSLkUQD+fWVbMwFklBHgGky/oS9Rrt6eXa9a6n9ZRZR6ydyQVj8ueLYtYr15bR97f/AQFokVKKKJecT/FxhfGxHLERKmD2NqC0kSHIfEhhziGwMiWTcRooRxlKkT4PsaS8aJvfd9L5iRfCD8dul3VrltH3D2QS5nFsxRMochTmbyi5IUM++A53ioh/xlNLK0Wn7KGvwrOlQzilWVkbhvjSKrHdC/1/YAeNop21z9K8DIoAQw8zY15kc4CinlSulYtHSwpns+heqj8mlvrhMW1p1e7Y20KN0SJsGz5GCxFD1ZW3eLrXI+qkleoogDoGHdoeCEItlsbxjbKEPbrXhOV7Va4X1aqvVbFbd45GLLjRdaASbp15pk99i9hD3wUe61oOh5CQeV067GCnreBGPmOiwaJIyA4SjaB8lDTYOkFHVVLdjgki1PK9YyaGqc0doyFFr6BMhV4ipm3EfUHh8VLwn87oV5wPVE4jHGpHFojn11onjuCdus37Sqr3ZB7y9+4B2gNTbCsHW8vzAc516sxq2sFb1vONWFRrep6rfcLxG4PtYC2AvvC5ovYEx/jnENnZA7A0nEfD5lWq9Y3hrJzVTcJt5wVWqZvOt6fVKek3ovQQSa262pPiTGcVasZhAgHeo1pQrnq8yyV+JpPico1Usts0SWxNsUzpyKBR37OGWBM8UnTNlCeLldI2ACtw8AYmqe5w/MB7uQJuE4P5WSOTIfqNN8mmertEX1uXtqsAXkkMgDUa4ZPeJOx0bv96EICOSxITO8maAgjyCT7HH2XRSfHBwamV0eAfRYcuXmWNYPYNU9v2pxLGmU4F7lgkOhWvuAno3uDrrWWLJay5eVzkxofdo8bM5GDuG5bHWCbr/GdjXmeBQYOeuikuwD1pdoLxj4b6pNiyhSaySr1jlMSopCuRUwdKLLhayYSY7ANsFF84l22ZsZ6hsm2wYls656D1UeC64iHY+WJ68Q0r3HXsN67tc9P7H4gPEX7fgGu+jwVtU/NV07BjsfMy7huUhiWPkyYeNBHZ1s/12k/aZsf5MuljyqvN23ssi8V3wnhCzZbLhGhaAr6B7oPTCLbj6c8ud0T8x93CN674XYUZxoHyj4HqvpPk95BvPH63ZIeK7uiMBGGz55Lfy/ICBvWDuN4lIPcfekGta+kZqZZdbx8m2l/ZkLdXbx0MtTYnZZWq1fsAgh2cXXAaXRyCMHHuoZoBSIvPo/AjbyXn7ZrifvJPo1ifxvdgQQtf+fj7ucnhQq9mHuXLZVS988RPFMrZkQSVMFQibahUqnqxoLCYreFurw54ZJevQLt22Z/fP/v06uD0/63zrDa7/ueru+rX5qpana/Y/Pk/Ph278uFPCsDcY/r6+KSx5+gUMzpN2]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABkCAIAAADCEmNlAAAFUUlEQVR4nO3Ze0xTVxwH8IO8em+pwAjyaCaKymZXUXETRR4bio8x9S+zCRtLdDhBFAuFIRME5pNAhkMkW5hmidNpZALCFGVORG1WtVWEQlFKmYLDkGUyICgm27m3zEjrxMTtuur3m+8fhHDPLR/O/fWQkj8RQUKe9Qt4UQJogQJogQJogQJogQJogQJogQJogQJogTIC9O6cZegT9mmh7/1ez/eqee80WLRxeHVmHexpsmizRfXm/aNleK9Z9Lp5e1starBom1nv9xmHt92iv5i3/8aDAhrQgAb08whdG+tDTBnlKPGQhy/Lqzw7IDy0JllGiCy9+tHQdXH0RU5IqvwHaIN6W5h1QLuFxuz4TJG2ap7MiYJ7ryhVWxX08VTfEST/L9C+isOm0dH/syLAntjIE3WcclPb9/GL5WMkItYnaMXR6zz6uXhfQiI25sYFuDGMe2DiHs3+6BkezGhpYMYJLQ+t0+xeNnucC8u6+AZHH2y4xkGfX0Ovmp+1KyVE6sS6+kVuUN+mvs3agkg/Z0ex19TVWVGvDUEbjGXrFss9JCKxz5zYSoNxGLRq7QS6TnZxKr/OK5EbL3Srtkznnkcrgx7s0Xw5l77swOJ2/aAuK5Qh7gvSz5wrSfS3c3wrp4NCX1w/mRDW553CqhLlDDtCnHyWKo9XKIJZYhuS1UGhNcopo8jY5Xmq6uRQlrBLd96h0JcU3FXSuTllh4+sldsT24jCi4MN6QE2ZHRQQnnN3k3hrrYm6OYt9Cr3hZl1qm/Wczfd2vkwNL/xWem8nPIjZeum2BO7iCL1TU1BtKf1QeuPfkDHh2xbvb5tewB1XFnGbeTOz2cRmzd2GVooGf1VveMO0KHRlEV3IfvhYfoD6oI5hHjGnKHQnXVX1MdaO+hGruX22qQ1lym0Jole5RH77T06NK5vms2tcKjri2BCmPcP0lHTdu9YjDsPbdzxOr3pRxX0vbH9VkEQsQncZXwIWqvk1ln13SCdG63Z3Drxpff7q5LGWh/0haI3CbEJLrmp16ZNpF/ZM4yYZcQiuuGkKbVD0P4Z1RT6Rt5M/pt0XDR+vYCQl5bXUOj2fZmLXvWSODo4OtjZEDL+44t/Q/tnnOSmc1fufPqusHKfbhP9O3kqTvEzWptsGh2XN0zib8qKxaxYRJ8YaWqdObR/5k/cgO7K59fZb5XQfap1U22JQ9Cnhh591066S0dHl5xsvmLqqc7bI0Ork8cR8nJcpXag90TG5MdBd9INS0RRB+jebxsof8+Vh75dGEKIc/Se0831tXzP3up+jqC5U8dmZWZC5DQXQmx90043cueNpuwwhngt+qSqem9+1FT/sITa7pGhT60eQx/uqK9KfyxYIpOIiMvCkqvagUdBD15WyumYCIw9UF6UHOLqYJrRLVu5m76d/sOJfflR0/3DEs/89hxBDx2kRc7jZy7eXFF3d+hsp2srjYuUjZEwTt7y8MyK89ypYyTou9rcd2UuDOM2bfl21aGYiWIH5yV53Y+E7m1UbY7wc2OcpDPWF8bNIsQvpep+X6vxSEKkzIO/6bzMykvDTh1WDI3/DAENaEADGtCABjQPfaGm+Jl/HGcVxY62kh0NaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaEADGtCABvR/CY0+YZ8K+kG6fzXqNDXoY/rvQCNPGUALFEALFEALFEALFEALFEALFEALFEALFEALlL8AuXrEuP6U1d8AAAAASUVORK5CYII=]]></ATT>
+      <ATT name="Name"><![CDATA[DemandeInfosComplementaires]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="DemandeInfosComplentairesPage" mc="Standard.Class" uid="4bc42136-d8e0-4498-a547-b5145cbbe0ca"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="ec9c414f-478a-4cb5-8d48-8cdf74798f44"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagramme de classe EPIC01_RechercherDesLogements" version="4">
+  <OBJECT>
+    <ID name="Diagramme de classe EPIC01_RechercherDesLogements" mc="Standard.ClassDiagram" uid="efc3ca21-d3d0-4b87-9728-c08b5b024efa"/>
+    <PID name="EPIC01_RechercherDesLogements" mc="Standard.Package" uid="96399449-7850-4b46-add8-966ff3a32ae1"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">1</ATT>
+      <ATT name="UiData"><![CDATA[eJztU11v2jAU/StW3jHhYyqTUqo2QQg1LQi6SXtCTnxJ3foD2aYl/342CV1hA2VStb7sIYrt63PuudfnRldbwdELaMOUvAw6OAzQ1TCaZk+QW8SoOwqQLddwGShdYKEocKbwRnBsLLHsmTJSaCIwUGaVxsBBgLSmiub76Fgsdvuk2gdIkCell295w2AYzbRag7YlkkS4dJyUamMTYomLfSd8A7UOueE8aA+j9h7wG3RhSw7BQRXdP1WxV2f8fYNzpQFX2Ab6YmJyQoHuk422dg6rhlnuHUWNRLC1STZxGndLv7irkKiHt0eFtquSzhWvgRML1Gk56tudP0Iv/sS3iEhKNMUxJ8bUz4Jglfdy0u20aI+GrX42uGh9vegOWnk4yL5kYbcPK3K+9Y7N3kr1KlOSAT9SsLCaySIY1ukEIAoo9wIAjWaTOOws55A/gvZfAiZVReWmqL2jOVu24jCRsRJrZZh1j3YidwOq+JFxqsEzpMz4Zte/k4iUyWfT/PpNkWjy6uSkpAR9aNTeOaO+TRet8AZzz+DG64Dw30zX36E+15aMnrLiGKfXP0bz5c11fDueT7/dJx/jkAaT+v7NfrnnnRf6/73wKV54mM4+2gQnQz8BRA6eMw==]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAIAAAAmdTLBAAAAGElEQVR4nGP4TxlgGNU/qn9U/6j+EaofAB8cJiE1IQRUAAAAAElFTkSuQmCC]]></ATT>
+      <ATT name="Name"><![CDATA[Diagramme de classe EPIC01_RechercherDesLogements]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="9353bedb-4591-4605-b0a1-762f50f23bc6"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

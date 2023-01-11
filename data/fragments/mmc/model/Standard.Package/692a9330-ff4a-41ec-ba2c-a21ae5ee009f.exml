@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Classes de Transfert" version="4">
+  <OBJECT>
+    <ID name="Classes de Transfert" mc="Standard.Package" uid="692a9330-ff4a-41ec-ba2c-a21ae5ee009f"/>
+    <PID name="Classes de conception" mc="Standard.Package" uid="a173770d-68aa-48b1-8ffe-ca847ea0e671"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Classes de Transfert]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ProgrammeImmobilierTransfert" mc="Standard.Class" uid="721e10ab-17a4-4d41-bd49-c97f4dcd2361"/>
+        <COMPID name="ProduitLogementTransfert" mc="Standard.Class" uid="c197f0cf-1ade-4d02-b998-ddbaeb44c4d3"/>
+        <COMPID name="LogementTransfert" mc="Standard.Class" uid="08a9223a-69ea-4454-9726-8d96e2e71d14"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

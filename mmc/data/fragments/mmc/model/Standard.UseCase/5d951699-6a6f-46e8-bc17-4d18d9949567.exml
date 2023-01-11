@@ -1,0 +1,245 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU08-13-1CreerModifierUnouDesLogements" version="4">
+  <OBJECT>
+    <ID name="CU08-13-1CreerModifierUnouDesLogements" mc="Standard.UseCase" uid="5d951699-6a6f-46e8-bc17-4d18d9949567"/>
+    <PID name="EPIC08_GererLesActivitesDuPromoteur" mc="Standard.Package" uid="e478737b-2917-4f2f-b612-4c3d49d0973d"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU08-13-1CreerModifierUnouDesLogements]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="f01f52df-96b5-456d-a3bb-978508bbf174"/>
+        <COMPID name="CreerModifierUnlogement" mc="Standard.Interaction" uid="cc218737-1154-4f66-8cd0-177d7b029b42"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="d653a7e7-6f37-4753-89e4-e63d46645e93"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[1.CODE	CU08-13-1
+
+2. REFERENCE
+
+Titre: 	 Créer un logement
+Date:     02/12/2021
+
+3.	MODIFICATIONS
+
+Date			Rev	Auteur								Observation
+02/12/2021  	 1		Alzouma Moussa Mahamadou		Identification et Spec détaillée
+
+
+4. DESCRIPTION
+
+Le Promoteur souhaite créer un logement.Pour ce faire , il renseigne les différentes informations concernant le logement.Ensuite , le système crée le logement.
+
+5. LISTE DES ACTEURS
+
+Principal : 	Promoteur]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="97e9259f-eb3f-4968-a2c7-7bb9e5ff0e37"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="048fab70-e237-4226-b36d-a78ee6b3bc0a"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="Infrastructure.NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="4369f46e-511a-4089-bb18-5a70eb579b95"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="de576b43-84bc-445a-bb63-acf1b8431974"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Le produit logement doit exister.]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="64f41ab8-aa70-422a-baa6-6c93b34ae1e1"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario nominal" mc="Infrastructure.Note" uid="c362b752-cc54-4bf4-9ae6-bf88e88c9cdd"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[	
+1.	Le promoteur selectionne un  produit logement
+
+2.	Le promoteur renseigne les informations relatives au logement
+
+3.	Le promoteur ajoute les caracteristiques spécifiques ( de plus de ceux du produit logement selectionné) s'ils existent
+
+4.	Le promoteur approuve la creation du logement
+
+5.	Le système vérifie toutes les informations renseignées
+
+6.	Le système enregistre le logement
+
+7.	Fin
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+COMMENT:
+
+1. Le Promoteur renseigne les différentes informations relatives au logement
+
+	2.Le Promoteur demande la sauvegarde
+
+	3.Le Systeme verifie les informations saisies
+
+	4.Le systeme sauvegarde le programme immobilier 
+
+	5.Fin	
+]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario nominal]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario alternatif" mc="Infrastructure.Note" uid="66121457-94d8-4882-b0d3-bc3130fc74e6"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Scénario alternatif A1 : Echec de la verification des informations
+
+Condition : Les informations ne respectent pas les règles d'integrité
+
+Branchement:	  Apres  l'étape 5
+
+		1. Retourne un message d'echec
+
+		2.Aller à l'etape  1
+		
+
+
+
+Scénario alternatif A2 : Creation d'une liste numérique de logements
+
+Condition :Le promoteur souhaite créer une liste numérique de logements
+
+Branchement:	  Apres  l'étape 1
+
+		1. Le promoteur renseigne les informations communes des logements
+
+		2.Le promoteur ajoute les caracteristiques spécifiques des logements
+
+		3.Le promoteur définit la plage de numéros de logements( n----n1 ; 1-10)
+
+		4.Aller à l'etape 5
+
+
+
+
+Scénario alternatif A3 : Creation d'une liste disparate de logements
+
+Condition :Le promoteur souhaite créer une liste disparate de logements
+
+Branchement:	  Apres  l'étape 1
+
+		1. Le promoteur renseigne les informations communes des logements
+
+		2.Le promoteur ajoute les caracteristiques spécifiques des logements
+
+		3.Le promoteur reseigne les éléments de la liste de codes de logements (liste disparate)
+
+		4.Aller à l'etape 5
+
+		
+		
+		]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario alternatif]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

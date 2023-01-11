@@ -1,0 +1,325 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU06-13-1SignerUnContratReservationParPromoteur" version="4">
+  <OBJECT>
+    <ID name="CU06-13-1SignerUnContratReservationParPromoteur" mc="Standard.UseCase" uid="ec30009e-ae97-4622-a6aa-d40ea16bea99"/>
+    <PID name="EPIC08_GererLesActivitesDuPromoteur" mc="Standard.Package" uid="e478737b-2917-4f2f-b612-4c3d49d0973d"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU06-13-1SignerUnContratReservationParPromoteur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="4b32f234-5212-45a0-86bc-dc0cbda5033e"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="CU06-13-3SignatureElectroniqueDocument" mc="Standard.UseCase" uid="91df0e86-1986-4273-aa65-50492eef8e62"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="Note" mc="Infrastructure.Note" uid="d3b07f5a-4de3-4af5-9cc3-573554403d06"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[
+Condtitions du point d'extension:
+
+-	Le promoteur supporte la signature electronique
+
+-	Et le signataire choisit la signature electronique]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"><![CDATA[Note]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="e1d69811-e8aa-4361-bee2-4bf7232f64dd"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="CU06-13-4SignatureManuelleDocument" mc="Standard.UseCase" uid="77a185ba-6e78-44bc-895e-ae840f8c46df"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+            <COMP relation="Descriptor">
+              <OBJECT>
+                <ID name="Note" mc="Infrastructure.Note" uid="49ce2033-e1f3-4c9f-98c0-abeb870583d9"/>
+                <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[
+Condition du point d'extension:
+
+-	Le promoteur supporte la signature manuelle
+
+-	Et	le signataire choisit la signature manuelle]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+                  <ATT name="Name"><![CDATA[Note]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="8f45b24d-92cb-48fa-86d8-04c9b66a405c"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="455c232e-ac05-40f9-95c2-660b6e8cafed"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.CODE	CU06-13-1
+
+2. REFERENCE
+
+Titre: 	Signer un contrat de réservation par le promoteur
+Date:     13/12/2021
+
+3.	MODIFICATIONS
+
+Date			Rev	Auteur								Observation
+13/12/2021  	 1		Alzouma Moussa Mahamadou		Identification et Spec détaillée
+
+
+4. DESCRIPTION
+
+Un promoteur souhaite signer un contrat de réservation.Pour ce faire, il selectionne une demande de réservation de logement au statut pré-reservé (dont le contrat a été au préalable signé par le prospect).
+
+Le système retourne le contrat de réservtaion de la demande selectionée.
+
+Le promoteur procède à la signature electronique du contrat s'il accepte ce mode de signature sinon il procède à la signature manuelle du contrat de réservation .
+
+Ensuite, le système enregistre le contrat de réservation et réserve le logement.
+
+Enfin, le système  notifie le prospect de la signature de la demande , et eventuellement l'Efi concerné si la demande contient un crédit immobilier.
+
+5. LISTE DES ACTEURS
+
+Principal: Promoteur]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="39a7d7c1-06bf-4e7f-8076-1e50f2a131c6"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+
+Contraintes liées à la notification:
+
+-	Le prospect , et evenuellement l'Efi  (si la demande contient un credit ommobilier) seront notifiés ( de la signature du contrat de réservation par le promoteur ) si le statut de la demande de réservation est à   "Demande réservée".
+
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="aa6cc607-1db9-48cb-84f7-4860a7975071"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="Infrastructure.NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="d523029c-4ba8-4805-a7e5-dcdf035cff58"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="66139de3-c71e-42b6-9f51-cfd74fde30e0"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+
+1.	Le contrat de réservation doit exister .
+
+2.	Le statut de la demande de réservation du contrat doit être " Demande pré réservée "
+
+
+
+
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="35f5c9b1-7ab0-4233-b86f-a4df9ca0d417"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario nominal" mc="Infrastructure.Note" uid="28b1c92c-d35c-4565-9efd-c1dbb4a4faf4"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.	Le promoteur selectione une demande de réservation de logement acceptée
+
+2.	Le système affiche le contrat de réservation 
+
+3.	Le promoteur signe le contrat de réservation (CU06-13-3)
+
+4.	Le promoteur joint le document signé
+
+5.	Le système enregistre le contrat de réservation  et actualise le statut de la demande à "Demande réservée"
+
+6.	Le système notifie le prospect de la signature du contrat de réservation
+
+7.	Fin]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario nominal]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario alternatif" mc="Infrastructure.Note" uid="dcb86639-f59b-40b5-ba7c-894ee018d9ac"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Scénario alternatif A1 : Envoie de notification à l'efi concerné
+
+Condition :Le contrat de réservation contient un crédit immobilier
+
+Branchement:	  Apres  l'étape 6
+
+		1. Le système notifie l'efi concerné
+
+		2.Aller à l'etape  7
+
+
+
+Scénario alternatif A2: Signature Manuelle Document
+
+Condition :Le collaborateur promoteur supporte la signature manuelle et la choisit pour la signature
+Branchement:	  Aprés  l'étape 2
+
+	        1. Aller au use case  "CU06-13-4SignatureManuelleDocument"
+
+		2. Aller à l'etape 6 du scénario nominal
+
+]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario alternatif]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="5c819544-c664-412b-b144-5e891cb98ff7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Observation:
+
+Découverte de deux variables  de type Boolean d'organisation denommées:
+
+ " Signature electronique acceptée" 
+ " Signature manuelle acceptée"
+
+de type reférence avec les valeurs:
+
+- mode signature electronique
+- mode signature manuel
+
+Au niveau de la plateforme , seul le mode de signature manuelle  sera accepté.
+
+
+
+Prévoir 2 Use cases:
+- Use case signature electronique de document
+- Use case signature manuelle de document
+	impression du document
+	signature manuscrite sur le document
+	scanne du document
+	telechargement du document
+	notification de fin de signature pour envoyer le document à l'étape suivante
+
+qui seront des extensions des Use Cases CU06-13-1 et CU0613-2]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

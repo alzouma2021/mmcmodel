@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ValeurCaracteristiqueProduitLogementNonDefinie" version="4">
+  <OBJECT>
+    <ID name="ValeurCaracteristiqueProduitLogementNonDefinie" mc="Standard.Class" uid="fa955c0a-f2ca-4b06-ba86-e975d9b1b392"/>
+    <PID name="ProduitLogement" mc="Standard.Package" uid="9d5b40de-d063-46e7-85b5-34b264a3268e"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ValeurCaracteristiqueProduitLogementNonDefinie]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Parent">
+        <OBJECT>
+          <ID name="Generalization" mc="Standard.Generalization" uid="0f62a33e-9658-47e8-bd7d-50a7d98f93da"/>
+          <ATTRIBUTES>
+            <ATT name="Discriminator"></ATT>
+            <ATT name="Name"><![CDATA[Generalization]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="SuperType">
+              <ID name="CaracteristiqueProduitLogement" mc="Standard.Class" uid="2b9503f9-491d-4ce7-aa97-7ec2c3ac8f98"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="fb8b7c10-8d81-486d-8bde-240132f22e4e"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Cette classe correspond aux caractéristiques des produits logements à définir au niveau du logement (comme option de logement)
+
+Cette classe devrait etre créée au niveau du produit logement et correspondra aux options logements disponibles pour le logement associé au produit logement
+
+NB: La propriété de cette classe  correspondra à la proprieteProduitLogement de la classe valeurcaracteristique qui sera créée au niveau du logement associé au dit produitLogement
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Contraintes" mc="Infrastructure.Note" uid="63119b60-0c8c-4744-80b6-383344157fb0"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+C1 : Au niveau du même produit logement, Il ne peut avoir une instance de valeurCaracteristiqueNonDefini associée à une propriete produit logement de type non numerique s'il existe  déja une instance de valeur caracteristique associée à la même propriété.
+
+C2: Au niveau du même produit logement, seules les instances de valeurCaracteritiqueNonDéfini associées à des propriétés produit logement de type numérique peuvent cohabiter avec des instances de valeurCaracteristique de même propriété au niveau du même produit logement.
+
+C3: Au niveau du logement, une valeur caracteristique supplémentaire ne peut pas être une instance de la classe ValeurCaracteristiquenonDefini
+
+C4: Au niveau du logement, une valeur caracterisitique supplémentaire ne peut être créé que si elle a la même propriété qu'une valeurCaracteristiqueNonDefini du produit logement associé au dit logement
+
+C5: Au niveau du logement, si une valeur caracteristique supplémentaire de type numérique a la même propriété qu'une valeur caracteristique au niveau du produit logement, alors la valeur finale de la caracteristique au niveau du logement est égale à la somme de la valeur caracterisitique supplémentaire du logement et de la valeur caracteristique (de la même propriété) du produit logement.]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Contraintes]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

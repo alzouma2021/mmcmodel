@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ProgrammeImmobilierDocument" version="4">
+  <OBJECT>
+    <ID name="ProgrammeImmobilierDocument" mc="Standard.ClassDiagram" uid="bf64a790-98e2-45e2-8717-d647ef865d1c"/>
+    <PID name="Classes DAO" mc="Standard.Package" uid="3a0c46d3-5dd1-4b06-a70e-27aa971b67db"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">4</ATT>
+      <ATT name="UiData"><![CDATA[eJztml9v4jgQwL9KlHcCSflXle2qhRVXLS0V3K1091JNkoF668TINlvop187EK7Qlg0hBFTlpY0neDyOfzOZid36Oguo8Qu5ICz8YtpWxTS+Xrb67k/0pEF8JTINOZ/gF5PxsRUwHylh1jSglpAgyZNPYMwhsNAnknELKQYYSrG468V3u8EwancWbdMI4CfjD6txK+Zl656zCXI5N0II1HAU5mwqOyBB3fsBdIpLO8IppWb5slWOO7zpOpRziubaLJz3ZhFbJ/TvheUxjtaibwL72iA88NGPB/s2kwMcJRzlTqlY9jRwJjvujbIxutQXt4uexpk125hoeTGlbZPnSEGir2zZeG63WmT80hL9iCD0gftWm4IQy2Ux3FG9Co3zSum8iU6pWlN/mg27UfLr1QaOmvWab3vbH73SJr+H7DnsgYt0w4Kh5CQcm5eqjx4uwJsgYC6hBHmHeVMNTqscddg6QUbxJmyzYMIEkWp5Phglgar2I6E+R62hR4RcI+YsHfcehZcXxXv0XPfifKAsgXCsEVku2plTv7Cd6oVTq100Kzv7QPXgPqAdYOFtuWBrVJtOczSqjEo1266Vqra6gobjluB85DiNCjiNZu1AvF71TwfVWgao3nMSAJ/fqd4ZU1u5qKQltp6UWKVqNt8b22qB7U7Y3gIJNTB74ttIh69WLCbg4SOqxeQK5LtY8lckyT/LaObLa73gdSdeF1gkUCge2fMD8d4oumZqJAhXz2kEVOD2mUeqnnD+zLifgTYJ3tODkMiR/UGb5NMkptF3FmR3VeAKycGTKWa4gvaVH52nfqEJQUYkCgbtVWOAgryAS7HL2XSSf1SwK0VYOOWwsOfry05ZIYNU47tTiWONpSL2KhYci9PERXI2nNqbCWEB6nZQ1wFJg215+W97+LVT1r5aJ2j7Y6L7seBYRCcueQuij1NBoHxk/qFxTlkfk1DlWaFKWVT+48mpoqQb3Cxlw1h2BKhzrooLqHeEOmZk37wiZV2cCNtjBeScK2T7k+XCGVJ66KCbsoZLRO9/LDxC4HVyruM+G7wHD7wai4yJTga7k7IEJGGIPPpqEVGuGvtvG2lnGeuPn8u1Ltm7g14UgqcNeoTKnumFk7LI+4DZIyUUTs4VnlNsbZ5UmuGkru3epRjFkVKLnGu6AuOTTi3e3toYh4gfqkU8SLF1k3yUt0cDrCVsf8g5zhLs8Thpy9sAxrja+422r7QLa6ne/x1q6QKVLLOozaMBCVw651K3OLywm0cP1dQpJTKJW3+G/eCktqXcEM4krPVI+CS2xM6Nn1+POxye1Wr2YK58dd393v3+sAoqcTTxFwqERbUKFUjWNOaTB+zW67jnO8kmtLE7dbpW7+rfb4OH66v29+6g/89dJ+v35YdaXq/Z//i8Psu59ctNAcPBYPi7f59b1vQbWXVpMw==]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABkCAIAAADCEmNlAAAEo0lEQVR4nO3ZfUzUdRwH8A91HdzvByQw5UwMUNSOpww0owHWVs6eTtdIBqSgpcU5E0WEqcA0mLkmj4mzYBBRmqHgkhKCk6YpCR4oz4+d4BgZtXyAxLutvve7NM7rwY3u54D3e++/2O93Y699eXO/O/odESV0v3+ByRJAixRAixRAixRAixRAixRAixRAixRAi5T/gM7Z9Rp6jx0r9K1fLwptNOnVJrM2m7VldHXXWs3aZtZ2k17vMGunWbtMeqPbrD1m/WF09UNas14ybe/dHe4z62VAAxrQgAa0gPvtOle6HQk/Y97TqtwTVwFtIWin4Mg9KfG7d0QtdZOSlWtcdTugLQI9a9NR43T8VhYxjUiRUKY7He1OtCQ+OcSdW7iriilfqU6O8JPbSR/ipytCUw8PXGfKLZo0pa+c5+WPq7LWBxpuPKE/s36W4cadIe78wndP6oc66/evCHBz4Lgps4NWHm7WGnDPbphN9HxiusrPSSabuiimqP7QKn9nzn5GQFJly6SA1p16243II/aYri5GQWQ37ck309OPn2vQXUp7yZZkPuG5JQX5b3nLiHv5wzpdY/x8K+L9IguKs2MXO0qJPLeV6zWbPYUb16ZnltU26hu2+jxAj4al15THBXPELf/gGoPWxLJrODdl9tcfx/lLiGxdlyeUH48L5OjB4JT+CQzt+saBrubqjrqDWa84EzmsPtqkO7+JWTiszLspjMaV7CAiaeinbYa5+OVAKEf03O7uLHaIpSuK2tlojHwZ7miEro8VbswfMU7HwNmLtRU9/WxVvkt9gmjOhgsMun4Lu+YRVTE73a07fYj4qBKtfrghg72efPWpCQw9KjLvqBwtO9oCtPf2cuM6X9g2l8g5psq4yyUbXYi8Yr5K9hJ+KAx0fazXKGjvHd/8udF9h5JeUEy3s5ZaSyVW7G8n+vxtaN8kNiy9l9OeInLZeppNc1feUiLH16smMLRcmVB8MOfI53nqc98PG99yCNC+iRVG6MF9wcLhbTVAD+571YbN8J6ujAAi67DPOhj0TdMT7ZtUZYSu3cKmfqaqrHFkSJ2kmPTQf230nZpC63ozlfZk4xORf6wgd81j1mQfUqjRCXPML1hTeCRrc5CD9O+gT0azf67O4R+VqjOXedrZ0JQXc5uaRgD9j9A3un9UJ0YscpvKc84e/qv2lv5k2JCmMylL5jnJbF0WbHwv0pfNyfaKu6BvNewN9XSQyZzmh71f80XkHF768LKMnycj9JieDLuH+mu0fZ2Gja5eN5Po2QwN3kdbALonZbGErP3XllYWZSjlJFGkavDAYpET3dlWGPWMhyNvw8vnBr7ziXoYT4b4UAnQgB6/0LWV++/713HjojjR4+REAxrQgAY0oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAFtSWj0Hjsm6DsZHNC2aCrRf+n/A42MMYAWKYAWKYAWKYAWKYAWKYAWKYAWKYAWKYAWKX8A23mPbWq/HFwAAAAASUVORK5CYII=]]></ATT>
+      <ATT name="Name"><![CDATA[ProgrammeImmobilierDocument]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="ProgrammeImmobilierDAO" mc="Standard.Class" uid="4828ff0f-5115-410f-a72b-a9f2270a2785"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="6824aa10-af8d-4e51-b5ff-eaf649795a87"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

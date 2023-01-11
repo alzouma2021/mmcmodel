@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="User" version="4">
+  <OBJECT>
+    <ID name="User" mc="Standard.Package" uid="f40de221-e08b-4f13-ad13-e9a280821324"/>
+    <PID name="EPIC03_DemanderLacquisationDunLogement" mc="Standard.Package" uid="5220e292-dad3-49a3-a555-b2d74ffe4a79"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[User]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CU03-03Seconnecter" mc="Standard.UseCase" uid="37439ce9-b570-4c32-b314-3bdd686716e6"/>
+        <COMPID name="CU03-02ConfirmerUnCompteUser" mc="Standard.UseCase" uid="0a05498b-5278-4050-a49f-fa8039af2201"/>
+        <COMPID name="Fournisseur authentification" mc="Standard.Actor" uid="ed0c40bc-a771-4b33-bf84-78bb53da7e6f"/>
+        <COMPID name="CU03-01CreerModifierUnCompteUser" mc="Standard.UseCase" uid="899b7e49-b89e-4c6f-b81f-d4b004195025"/>
+        <COMPID name="CU03-04ChangerMotDePasseUser" mc="Standard.UseCase" uid="6b7160c1-d294-4682-b337-7531c91b57f7"/>
+        <COMPID name="CU03-05RegenerUnMotDePasseOublie" mc="Standard.UseCase" uid="b38f5d37-61e0-4b32-8906-7afbf11605e2"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name=" EPIC03_DemanderLacquisationDunLogement" mc="Standard.UseCaseDiagram" uid="9c27c7d3-9da4-4021-b9a9-f0a8bae2202f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,188 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU09-24-01ValiderModeFinancementParEFi" version="4">
+  <OBJECT>
+    <ID name="CU09-24-01ValiderModeFinancementParEFi" mc="Standard.UseCase" uid="91b4130f-f4de-4b6a-bdfc-4b8d9186af64"/>
+    <PID name="EPIC09_GereLesActivitesDeLEfi" mc="Standard.Package" uid="caa79e22-10b1-472d-9056-1353e97cebe3"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU09-24-01ValiderModeFinancementParEFi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="1e5436a9-8d5f-46d3-90e5-948e42cac967"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="d00cfc8b-ba60-4ef6-8539-29e1eb0dee88"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[1.CODE	CU09-24-01
+
+2. REFERENCE
+
+Titre: 	 Valider un programme immobilier
+Date:     07/04/2021
+
+3.	MODIFICATIONS
+
+Date			Rev	Auteur								Observation
+06/04/2021  	 1		Alzouma Moussa Mahamadou		Identification et Spec détaillée
+
+
+4. DESCRIPTION
+
+L'EFi   souhaite valider un crédit bancaire associé à un programme immobilier . Et par consequent , il verifie les informations relatives au crédit immobilier acquereur et les ajuste si necessaire .Ensuite il confirme lecrédit bancaire et charge la lettre de confort ( ou tout document equivalent ). Puis  le systeme envoie une notification au promoteur. 
+
+
+5. LISTE DES ACTEURS
+
+Principal : 	EFi]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="8b78281b-b83d-4142-971e-093ad64dcc31"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="b6c27b9d-e32d-4a2a-b16d-e6667ee8d16e"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="Infrastructure.NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="dd8ad867-cb4c-43c6-ac6c-5f6147330f0d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="11d6c255-1a32-4b4b-8f6c-3aec780e19d8"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Que le programme immobilier soit validé par le promoteur]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="8e90c6d8-9b0e-4f1b-b89c-0766d8390019"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Le crédit bancaire associé au programme immobilier est validé par l'EFi.]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario nominal" mc="Infrastructure.Note" uid="13212367-e1bf-4afb-b9c0-735d4c890a74"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[	
+	1.L'EFi selectionne le crédit bancaire associé au programme immobilier
+
+	2.Le Système affiche les informations relatives du crédit immobilier acquereur de l'EFi concerné
+
+	3.l'EFi charge la lettre de confort ou tout document equivalent
+
+	4.L'EFi confirme les informations relatives du crédit immobilier acquereur
+
+	5.Le Système verifie les informations relatives du crédit immobilier acquereur de l'EFi concerné
+
+	6.Le Système valide  le crédit bancaire associé au  programme immobilier 
+
+	7.Le Système envoie une notification au promoteur
+
+	8.Fin]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario nominal]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario alternatif" mc="Infrastructure.Note" uid="d2ee3d46-12a9-4079-bded-e1163240fc96"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+Scénario alternatif A1 : Mises à jour des informations relatives du crédit immobilier acquereur de l'EFi concerné
+
+Condition : Les informations  ne sont pas complètes
+
+Branchement:	  Aprés  l'étape 2
+
+
+Scénario alternatif A2 : Echec de  la verification  des informations relatives  au  crédit immobilier acquereur de l'EFi concerné
+
+Condition : Les informations ne sont pas cohérentes
+
+Branchement:	  Aprés  l'étape 5
+
+		1. Retourne un message d'echec
+
+		2.Aller à l'etape  2
+		
+		]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario alternatif]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

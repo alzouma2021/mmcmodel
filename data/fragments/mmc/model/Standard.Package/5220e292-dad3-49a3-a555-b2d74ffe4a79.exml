@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EPIC03_DemandeReservationLogement" version="4">
+  <OBJECT>
+    <ID name="EPIC03_DemandeReservationLogement" mc="Standard.Package" uid="5220e292-dad3-49a3-a555-b2d74ffe4a79"/>
+    <PID name="CUs" mc="Standard.Package" uid="137d2496-e2ef-4b12-b3b4-92c230756efb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[EPIC03_DemandeReservationLogement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="User" mc="Standard.Package" uid="f40de221-e08b-4f13-ad13-e9a280821324"/>
+        <COMPID name="CU03-08-01CreerModifierUneDemandeReservationLogement" mc="Standard.UseCase" uid="53442bed-faf0-4763-a820-c8dc0902f2e0"/>
+        <COMPID name="CU03-08-02SoumettreUneDemandeReservationLogement" mc="Standard.UseCase" uid="0ef270b9-d727-496b-8fee-3b4201151661"/>
+        <COMPID name="CU03-08-03SupprimerUneDemandeReservationLogement" mc="Standard.UseCase" uid="30b343a7-2f51-4a40-ae81-b9765a47bf57"/>
+        <COMPID name="CU03-08-04SuivreUneDemandeReservationLogement" mc="Standard.UseCase" uid="d1996e46-b206-4edf-b2b6-95c889b96d57"/>
+        <COMPID name="systèmeNumerisation" mc="Standard.Actor" uid="f0ecf638-11e7-47b3-b4b3-42c63bd18c2f"/>
+        <COMPID name="CU03-08-05AnnulerUneDemandeReservationLogement" mc="Standard.UseCase" uid="18a56a30-ebfc-403d-ba52-17ce94750aef"/>
+        <COMPID name="CU03-08-06ChangerLogementDemandeReservationLogement" mc="Standard.UseCase" uid="4e6f5970-4974-42c7-97ce-3a8a115902d3"/>
+        <COMPID name="BoiteEmail" mc="Standard.Actor" uid="4fb821db-9698-48a0-a508-a19d8e2ec63b"/>
+        <COMPID name="Cu03-08-09RepondreDemandeInfosComplémentaires" mc="Standard.UseCase" uid="e88b1f4c-d6ef-4622-90ac-6d0f8485aeb7"/>
+        <COMPID name="Actor" mc="Standard.Actor" uid="c6770397-e5b2-4f61-9cca-e60cc880b292"/>
+        <COMPID name="CU03-08-10RechercherUneDemandeReservationLogement" mc="Standard.UseCase" uid="08e777d6-cb34-4424-a12a-8813b1c17c2b"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation ST008_DemanderReservationLogement" mc="Standard.UseCaseDiagram" uid="3daafa4a-0f75-455b-9796-a5480e6893a5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

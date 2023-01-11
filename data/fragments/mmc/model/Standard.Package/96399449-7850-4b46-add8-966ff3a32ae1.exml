@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EPIC01_RechercherDesLogements" version="4">
+  <OBJECT>
+    <ID name="EPIC01_RechercherDesLogements" mc="Standard.Package" uid="96399449-7850-4b46-add8-966ff3a32ae1"/>
+    <PID name="CUs" mc="Standard.Package" uid="137d2496-e2ef-4b12-b3b4-92c230756efb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[EPIC01_RechercherDesLogements]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CU01-01 RechercherUnProduitLogement" mc="Standard.UseCase" uid="62055243-92b0-4fde-81b6-835d80aa7835"/>
+        <COMPID name="CU01-02 ConsulterLesSpecificitesDunProduitLogement" mc="Standard.UseCase" uid="689c6a71-f3cc-4765-9305-a4bc3955e36f"/>
+        <COMPID name="Prospect" mc="Standard.Actor" uid="1b0bb201-c4b9-4140-960b-5c579a4e0b5e"/>
+        <COMPID name="CU01-03 RechercherUnLogement" mc="Standard.UseCase" uid="bd63d91e-b2f4-446d-a5b7-75db4ee6c55d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation EPIC01_RechercherDesLogements" mc="Standard.UseCaseDiagram" uid="c753acd4-05ec-42d2-add3-b1d33a38ea5b"/>
+        <COMPID name="Diagramme de classe EPIC01_RechercherDesLogements" mc="Standard.ClassDiagram" uid="efc3ca21-d3d0-4b87-9728-c08b5b024efa"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

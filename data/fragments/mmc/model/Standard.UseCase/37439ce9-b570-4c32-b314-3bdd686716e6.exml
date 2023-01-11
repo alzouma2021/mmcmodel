@@ -1,0 +1,223 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU03-03Seconnecter" version="4">
+  <OBJECT>
+    <ID name="CU03-03Seconnecter" mc="Standard.UseCase" uid="37439ce9-b570-4c32-b314-3bdd686716e6"/>
+    <PID name="User" mc="Standard.Package" uid="f40de221-e08b-4f13-ad13-e9a280821324"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU03-03Seconnecter]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="0f234508-3463-4f32-b2ce-063bf6db4f3b"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="b309f20f-cf73-486f-b50e-3f789052455b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.CODE	CU03-01
+
+2. REFERENCE
+
+Titre: 	Se connecter à son compte utilisateur 
+Date:     25/08/2021
+
+3.	MODIFICATIONS
+
+Date			Rev	Auteur								Observation
+25/08/2021  	 1		Alzouma Moussa Mahamadou		Identification et Spec détaillée
+
+
+4. DESCRIPTION
+
+L'utilisateur veut se connecter à son compte personnel.Pour ce faire, le sysème l'invite à fournir ses parametres de connexion ou de choisir un tiers fournisseur.Ensuite, le système lui ouvre une session, àpres vérifications.
+
+5. LISTE DES ACTEURS
+
+Principal :  utilisateur non authentifé
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="1fed668b-2201-44e1-9d21-dffb7cab0ca3"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Pour ouvrir une session , il faut que le compte existe et soit actif.]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="f47f31ce-1c3f-443c-92f9-8ddbe5e9f4a5"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="Infrastructure.NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="06d4d6b9-f4ac-4a90-9d3c-d1c2430ffdd3"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="bf307c99-e68c-4fcd-a072-17482503d949"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="39383999-2269-4244-8659-6c2f6c769509"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scenario nominal" mc="Infrastructure.Note" uid="d7a64d59-132e-4984-9591-6bbf6d5b8a55"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[1. L'utilisateur renseigne ses parametres de connexion 
+
+2. Le système valide le mot de passe
+
+3. Le système lui ouvre une session
+
+4.Fin
+
+]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scenario nominal]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scenario alternatif" mc="Infrastructure.Note" uid="e5284d43-fd54-4cdd-9070-b4f4383cede4"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Scénario alternatif A1 : Echec à la verification des paramètres de connexion
+
+Condition :         Le mot de passe saisi n'est pas valide 
+Branchement:	  Aprés  l'étape 2
+
+		1.  Le système renvoie un message d'echec
+		
+		2. Aller à l'etape 1
+
+
+
+Scénario alternatif A2: Creation d'un compte utilisateur
+
+Condition :         Le compte utilisateur n'existe pas  
+Branchement:	  Aprés  l'étape 2
+
+		1.	Aller au Use Case CU03-01CreerModfierUnCompteUser
+
+		2.    Aller à l'etape 3
+
+
+Scénario alternatif A3: Utilisation d'un fournisseur d'authentification
+
+Condition :  L'utilisateur a selectionné un fournisseur d'authentification alternatif
+Branchement:	  Avant  l'étape 1
+
+		1.  L'utilisateur demande son authentification auprés d'un tiers fournisseur
+
+ 		2.  Le fournisseur tiers authentifie l'utilisateur en  lui renvoyant un jeton d'acces
+               
+                3.  Le  système vérifie la validité du jeton d'accés auprès du tiers fournisseur
+
+		4.  Le système vérifie l'existence du compte utilisateur
+ 
+		5.  Aller à l'etape 3
+
+
+
+
+Scénario alternatif A3.1: Creation d'un compte utilisateur
+
+Condition :  Le compte utilisateur n'existe pas 
+
+Branchement:	  Aprés  l'étape 4 du  scénario alternatif A3
+
+		  1.	Aller au Use Case CU03-01CreerModfierUnCompteUser
+
+		  2.  Aller à l'etape 5 du A3
+		
+
+
+Scénario alternatif A4: Activation d'un  compte utilisateur
+
+Condition :         Le compte utilisateur existe et inactif
+Branchement:	  Aprés  l'étape 2
+
+		1. Envoyer un message d'erreurs
+
+		2.Aller à l'etape
+		]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scenario alternatif]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

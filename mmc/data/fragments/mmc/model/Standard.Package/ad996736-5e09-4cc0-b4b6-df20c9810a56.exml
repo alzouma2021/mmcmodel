@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EPIC89_GererLesActivitesDuneOrganisation" version="4">
+  <OBJECT>
+    <ID name="EPIC89_GererLesActivitesDuneOrganisation" mc="Standard.Package" uid="ad996736-5e09-4cc0-b4b6-df20c9810a56"/>
+    <PID name="CUs" mc="Standard.Package" uid="137d2496-e2ef-4b12-b3b4-92c230756efb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[EPIC89_GererLesActivitesDuneOrganisation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Organisation" mc="Standard.Actor" uid="e0f065eb-bf31-42ae-9e74-143d4a64d2a9"/>
+        <COMPID name="CU89-01DemanderCreationUnCompteOrganisation" mc="Standard.UseCase" uid="ed0837d5-cee3-43e5-a7ea-4ed598a19a5f"/>
+        <COMPID name="CU89-02ModifierUnCompteOrganisation" mc="Standard.UseCase" uid="d416a2be-e737-4af4-b4a9-ac656f46f677"/>
+        <COMPID name="Admin Organisation" mc="Standard.Actor" uid="91e46c91-2be4-4547-8e6e-2611b0ade895"/>
+        <COMPID name="CU04-10-4NotifierDemandeAcquisationLogementNonTraitee" mc="Standard.UseCase" uid="039522d3-21f8-4a57-bfc0-9def6a0017cc"/>
+        <COMPID name="Système" mc="Standard.Actor" uid="d982ef41-4b4c-48b4-ab60-d2ad81d6ec2f"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation EPIC89_GererLesActivitesDuneOrganisation" mc="Standard.UseCaseDiagram" uid="d577937c-7d4c-4182-8c75-56cfaaee096e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

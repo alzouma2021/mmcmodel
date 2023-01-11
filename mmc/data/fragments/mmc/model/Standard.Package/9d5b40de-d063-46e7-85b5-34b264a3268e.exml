@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ProduitLogement" version="4">
+  <OBJECT>
+    <ID name="ProduitLogement" mc="Standard.Package" uid="9d5b40de-d063-46e7-85b5-34b264a3268e"/>
+    <PID name="Classes de domaine" mc="Standard.Package" uid="9ec1ff16-fa1a-4e22-8537-7e99385de7fa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ProduitLogement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CommoditeEntier" mc="Standard.Class" uid="423e9c98-f3ab-4437-a24b-f8040c2b63c3"/>
+        <COMPID name="CommoditeBoolean" mc="Standard.Class" uid="e26fbe0d-fa0c-4c5b-9090-239ee2ad11a8"/>
+        <COMPID name="ProgrammeImmobilier" mc="Standard.Class" uid="59daab20-0c30-4ddd-a52c-038effc411d4"/>
+        <COMPID name="Promoteur" mc="Standard.Class" uid="c8d2300c-251e-4cfc-ba84-723cd3687f0c"/>
+        <COMPID name="Pays" mc="Standard.Class" uid="5974abf9-d827-42ad-b5ff-9f801df2d50a"/>
+        <COMPID name="Ville" mc="Standard.Class" uid="90f87c5f-a88c-4895-9781-a638081d2d56"/>
+        <COMPID name="ValeurCaracteristiqueProduitLogementEntier" mc="Standard.Class" uid="7c8479b4-ba78-40db-a356-59c14ddcbcb3"/>
+        <COMPID name="ValeurCaracteristiqueProduitLogementTexte" mc="Standard.Class" uid="428400cc-cf87-4e9f-b307-1dc021cba9ac"/>
+        <COMPID name="ValeurCaracteristiqueProduitLogementBoolean" mc="Standard.Class" uid="ee97a469-e375-4a00-9464-5e67a390c1c6"/>
+        <COMPID name="ProprieteProduitLogement" mc="Standard.Class" uid="0b8e0cef-1330-4ac8-a0c4-3eda4d75a8ad"/>
+        <COMPID name="FamilleReference" mc="Standard.Class" uid="9320505c-53bb-4000-a0fd-ed5e4889106d"/>
+        <COMPID name="CritereRechercheProduitLogement" mc="Standard.Class" uid="1f9509c8-a11e-48f7-a04b-48c0b1805f28"/>
+        <COMPID name="Valeur" mc="Standard.Class" uid="c94fb1d9-83a9-4815-a33d-d23cb7ae814e"/>
+        <COMPID name="ValeurEntier" mc="Standard.Class" uid="557f103d-490e-4fbf-9d8c-0e317cc1d37a"/>
+        <COMPID name="ValeurBoolean" mc="Standard.Class" uid="c3b635c3-de76-4529-82ad-672422e6e9d7"/>
+        <COMPID name="CaracteristiqueProduitLogement" mc="Standard.Class" uid="2b9503f9-491d-4ce7-aa97-7ec2c3ac8f98"/>
+        <COMPID name="Reference" mc="Standard.Class" uid="aa6a568c-3e7b-4a10-a7b3-f9e932d3d93b"/>
+        <COMPID name="ValeurCaracteristiqueProduitLogementDocument" mc="Standard.Class" uid="adc60a28-fe24-415e-9dd9-51ba7d3313d1"/>
+        <COMPID name="OperateurCritere" mc="Standard.Class" uid="a66f4f47-94bf-4ef4-8e22-44d11bba4d6f"/>
+        <COMPID name="ProduitLogementDocument" mc="Standard.Class" uid="9b25c608-2c50-4e74-8b40-4ce6c9ad6412"/>
+        <COMPID name="ProduitLogementTransfert" mc="Standard.Class" uid="2c53540e-1e37-49f0-a4fd-4044b4599114"/>
+        <COMPID name="ProgrammeImmobilierDocument" mc="Standard.Class" uid="8b3a5d5f-75ed-45d8-aaa1-3a7c9f4b2cec"/>
+        <COMPID name="ValeurCaracteristiqueDemandeReservationLogement" mc="Standard.Class" uid="2a2031fc-be0c-42fc-a3c7-d950be100c0c"/>
+        <COMPID name="ValeurCaracteristiqueDemandeReservationBoolean" mc="Standard.Class" uid="16ecc95f-1257-463c-8f38-cd55c67b0ac6"/>
+        <COMPID name="ProduitLogement" mc="Standard.Class" uid="b054fb0b-0281-4928-ad64-73f5335df478"/>
+        <COMPID name="ValeurCaracteristiqueProduitLogementNonDefinie" mc="Standard.Class" uid="fa955c0a-f2ca-4b06-ba86-e975d9b1b392"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="ProduitLogement" mc="Standard.ClassDiagram" uid="55a8e3ad-bb8b-4b42-b781-8c34ad0a6676"/>
+        <COMPID name="CaracteristiqueProprieteProduitLogement" mc="Standard.ClassDiagram" uid="a926e2cc-3523-4fb9-af74-f15263e0e5cd"/>
+        <COMPID name="CritereRechercheProduitLogement" mc="Standard.ClassDiagram" uid="c8dc1d2e-7d18-40c7-a3e7-f69400fe2a0a"/>
+        <COMPID name="ValeurDeReference" mc="Standard.ClassDiagram" uid="56e3df85-9318-4fd8-98fa-303135ff6e6b"/>
+        <COMPID name="ValeurCritere" mc="Standard.ClassDiagram" uid="bb67b795-0268-4f95-ae25-3b0626ade4be"/>
+        <COMPID name="ProprieteProduitLogement" mc="Standard.ClassDiagram" uid="dbe716ce-a3e6-43a1-817b-ad226b3bb9a8"/>
+        <COMPID name="ValeurCaracteristiqueProduitLogement" mc="Standard.ClassDiagram" uid="ef86b61c-2417-40db-bae0-a1e715c4955d"/>
+        <COMPID name="Diagramme de classe produit logement1" mc="Standard.ClassDiagram" uid="1dd14afa-8656-448c-9e68-45fce07b9ba0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

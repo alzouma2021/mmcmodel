@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Logement" version="4">
+  <OBJECT>
+    <ID name="Logement" mc="Standard.Package" uid="b835df18-2b0b-42d4-b4ce-cc6face1158e"/>
+    <PID name="Classes de domaine" mc="Standard.Package" uid="9ec1ff16-fa1a-4e22-8537-7e99385de7fa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Logement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Logement" mc="Standard.Class" uid="99056238-fa10-4a85-a5c4-67827d0429ec"/>
+        <COMPID name="OptionLogement" mc="Standard.Package" uid="6691038d-3d20-48c3-b6eb-065bc9019c28"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="ReservationLogement" mc="Standard.ClassDiagram" uid="7ddd1999-5ddc-40fb-8fac-aa1bf2ec1b3e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

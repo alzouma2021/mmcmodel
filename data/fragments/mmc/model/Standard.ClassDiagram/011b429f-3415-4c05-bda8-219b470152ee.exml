@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="RechercherUnLogementPage" version="4">
+  <OBJECT>
+    <ID name="RechercherUnLogementPage" mc="Standard.ClassDiagram" uid="011b429f-3415-4c05-bda8-219b470152ee"/>
+    <PID name="Classes de contrôle" mc="Standard.Package" uid="82bb5a09-3cb9-4b78-a7f2-ff937b5922ef"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">4</ATT>
+      <ATT name="UiData"><![CDATA[eJztmm1v4jgQgP9KxHdCHKClKttVCyuuWvoiuF3p7ks1SQbw1omRbbbQX792IFyhLQ2BhqqXD1XxJB6/zDOTmTjNr9OQWb9RSMqjLyViOyXr61nzxvuFvrJooEUlS83G+KXExdAOeYCMcnsSMlsqUPQ+oDAUENoYUMWFjQxDjJScX/WTq52wH7fb83bJCuEXF3fLcZ3SWfNW8DEKNbMiCPVwDGZ8otqgQF/7CWyCi3lEE8ZKlbNmJenwrGtfzRiWVlbhvrSKZHbS3C9tnwu0531TzK8F0ocAg2Swb1PVw0HKUa61ikVPC6eq7V3qOcY/zY+reU+rak/XFlqZL2nT4gUyUBjouazt25URWb+NxGwRRAGIwG4xkHJhFsshxKu5J4NytUbq5Zrv1MteAI2yS0682rFD6i7i5q3X2tT3iD9EXfCQrc2grwSNhqWzHvojFObvR9Tlw5iYWxhisxLfvXF1nOFl1OLhmEuqtG1eGSKFqtaIskCg0dClUq3gUs0Gvc/g8VHDHm/qTpDrLdIWGho+FhZzj8kpIcen1bpz2nC2doDauzuAoX/uarkwaxEA4jdOGmXERrVcC5xq2QNyVCbuie/6gwC8o/r/Atb6HmC9FTQEMbvWvffMrXPqZGX2KC2zWtV0tjO4tQLcLcG9AhoZZHYE+DgbwEaxHIOPI9TmFBrl60TyVyzJP81o5EvsUUHslsTOwUihUI74wx31nym64HokiJY7NQAm38iJYlX3OHvgItiDNgX+/Z1UKJC/oU2JSZqpsRdMsr0q8KQS4KsMK1xi+8STTjI/1KSkAxqHg9ay0UNJH8Fj2BF8Ms4/LhCnCAwfOzDs+AgjGctkUHp8b6JwaMDUzJ4ngkORmrpS3g+pZD0tLFB9C9VVRLKAW1n82xyCScYq2OgEM/+E6ZtEcCimUxe/BdOHqiRQjXjw3kBnrJRppLOtSCcuOgvy1URz0gkvF7J+IjsA1jnXxwXWW2OdULJrdpGxQk4F7qGCcs61MvlkOfEeKX3vsJuxlktF7788OkDodXOu5z4bvDmEXgPGnplOh7ubsRSkUaS3xFgh5lw3dj9GMu4yNC9CF9Yuk+1RLwrCj456DMuOKYabsdh7hdoDJRVuzpWeWxx2frBkw81c473IMcoDJRg513YFyB88wXh+aW0cKn/qFvUhw1FO+lGefy5gL3B7I/OopjjzcbOWuaG27PI0OD7OMk5spOZEuG+kc1j2mUutfy6QwqlzLnmLDxq29em+XjxjVKXR+RlOiNPOLeMR8V4CW5dG93JD9Fy7/WLYFvCgrdmFmfbWVQd88U3EMqwk8SSYK5A2Myp0KFnRmE8usF2vw370SdehTdyp3bG75/98691dnLe+d3o3P67b+35ivqrlqc3+w+fpN54b3+EUMLwbDH/f3OaWN/0Bhbl9lg==]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABkCAIAAADCEmNlAAACAUlEQVR4nO3ZwSuDcRzH8V+bIisHSzmQUk4cmJ208BcsF2epHeTg4LDaRNG0dnUwpZwUSuGoVrRcJBS2Gc82R4rCnDjwjDg9D6vt+a7l/e5z2+Xp1a/f9jT1TiKpSj/AfwlooYAWCmihgBYKaKGAFgpooYAW6g/oxblhVuRKhX59PPveufGeLoyWMFnScG/PKZNdGi1tvPyVya5NphnsJWOyrMlyXwMaaKCBBrqi0PGxNvWTvd7Z4vKO7yQ1oC2BdvaPRuYDkZA/OOJqUqrWM5sD2gro9smd70vjINyrVN3QdgE6A3SZodt8y1oiriX2TrYm+hzK1uNP69CpENAW3dF6tsZOb/Qwpd8buYgb6DJDN3uDm2tLG1MDDcrePb37+nlBnwY6gLbmjs7vznTZlGNwJVuAvlvwAG3Vl+HD+pBTqVbfal4/1Ol5oK371bEfdttVTWfoWP9UA5o3Q6CBBhpooIGuDuijWLTif8dVxTjRVXKigQYaaKCBBhpooIEGGmiggQYaaKCBBhpooIEGGmiggQYaaKCBBhpooIEGGmiggQYaaKCBBhpooIEGGmiggQYaaKCBBhpooIEGGmiggQYaaKCBBhpooIEGGmiggQYaaKCBBtpKaFbkSoL+6f72JnkSY7+sPNBUYkALBbRQQAsFtFBACwW0UEALBbRQQAv1AaV1vDhL9EvQAAAAAElFTkSuQmCC]]></ATT>
+      <ATT name="Name"><![CDATA[RechercherUnLogementPage]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="0f1e75f8-1fef-463b-9c86-a75de38f4aa7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

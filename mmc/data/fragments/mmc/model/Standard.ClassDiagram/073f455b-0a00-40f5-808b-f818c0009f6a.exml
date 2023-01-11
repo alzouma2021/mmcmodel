@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Control CU01-02 Consulter les specificites d un produit logement" version="4">
+  <OBJECT>
+    <ID name="Control CU01-02 Consulter les specificites d un produit logement" mc="Standard.ClassDiagram" uid="073f455b-0a00-40f5-808b-f818c0009f6a"/>
+    <PID name="Classes de contrôle" mc="Standard.Package" uid="82bb5a09-3cb9-4b78-a7f2-ff937b5922ef"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">7</ATT>
+      <ATT name="UiData"><![CDATA[eJztU1Fv2jAQ/itW3mNMgY1JKVWbVKgqLRWsk/ZUXeJL5taxI9tp4d/PIdAVNhCTqvVlT/H58n333fm76GxRSvKMxgqtToMuZQE5G0XT9BEzRwT3VwFxywpPA20KWmqOUmhal5JaB048cQGFgZIiF04bihJLVM622WyTHZfzVZy0cUBKeNTm4bUuC0bRndEVGrckCkpfTsJS1y4BBz73DWSNax2qljLojKLOBvAbdO6WEoOtLk7+1MVGnW3+tzTTBmmLPUJfDDYDjnxT7HLhZpgfWeXWU6yRBBcuSa+8xtWxOdy0SNKji51GO21Lh5o3KMEh91p25nbTXJHn5qYZESgOhtNYgrXrZyHscy/vDwZpyICxsM/yQThkwzTMh91hxhj7kn+Cw6P3bO5a6Rc1gRTljoK5M0IVwSjWyhktSXzPuiE7IT62tXRoiB8QsRVmIheZcD7gpFakMprXwhGpi5W7os6K9eAUtMQrFeuy0lY4/4Z7pBxBFf8QkhtsGCbCNrNff/YiJkI92eN/vygSAy9ezgSWaLZ92zvk29dl4y3eUtkw+G3bIvw3y/Z3qI91qeB77JCM6eT8++Xs4eI8vh7Ppve3yfs45IjFfftmv9zzxgv9/174EC98nd69twn2pn4CBmKgkA==]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAIAAAAmdTLBAAAAGElEQVR4nGP4TxlgGNU/qn9U/6j+EaofAB8cJiE1IQRUAAAAAElFTkSuQmCC]]></ATT>
+      <ATT name="Name"><![CDATA[Control CU01-02 Consulter les specificites d un produit logement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="91d0021f-331e-45ae-9065-564b2443fddb"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

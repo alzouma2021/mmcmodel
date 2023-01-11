@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EPIC05_EvaluerUneDemandeReservationLogementParEfi" version="4">
+  <OBJECT>
+    <ID name="EPIC05_EvaluerUneDemandeReservationLogementParEfi" mc="Standard.Package" uid="7fbde964-b5bd-4515-aa0c-4bc2195ce3e2"/>
+    <PID name="CUs" mc="Standard.Package" uid="137d2496-e2ef-4b12-b3b4-92c230756efb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[EPIC05_EvaluerUneDemandeReservationLogementParEfi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CU05-12-1TraiterDemandeAcquisationLogementParEfi" mc="Standard.UseCase" uid="65290ada-61a2-4f56-9ca7-d361e73a8964"/>
+        <COMPID name="CU05-12-2AccepterDemandeAcquisationLogementParEfi" mc="Standard.UseCase" uid="a3521295-2dc2-4bf7-9ec6-8383314a094e"/>
+        <COMPID name="CU05-12-3RefuserDemandeAcquisationLogementParEfi" mc="Standard.UseCase" uid="b0576447-835e-4901-8b2b-8959f0d3d657"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation EPIC05_EvaluerUneDemandeAcquisationDunLogementParEfi" mc="Standard.UseCaseDiagram" uid="d29891f3-c365-443b-b19c-00f3892769bf"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

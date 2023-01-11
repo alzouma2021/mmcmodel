@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Simulation" version="4">
+  <OBJECT>
+    <ID name="Simulation" mc="Standard.Package" uid="0eb37c70-e21c-4a7f-aecd-c36d303d36ed"/>
+    <PID name="Classes de domaine" mc="Standard.Package" uid="9ec1ff16-fa1a-4e22-8537-7e99385de7fa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Simulation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="SimulationFinancementImmobilier" mc="Standard.Class" uid="7a4e17e5-25b8-4406-981a-abd4a75e2e59"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Simulation" mc="Standard.ClassDiagram" uid="c3aa3e48-79a1-441d-9308-9ba71d3e3210"/>
+        <COMPID name="Simulation1" mc="Standard.ClassDiagram" uid="d5b95393-4cc4-4d16-906a-6478f7ae6d0d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

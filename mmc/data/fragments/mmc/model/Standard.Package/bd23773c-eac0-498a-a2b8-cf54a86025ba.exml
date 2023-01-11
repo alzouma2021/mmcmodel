@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Financement" version="4">
+  <OBJECT>
+    <ID name="Financement" mc="Standard.Package" uid="bd23773c-eac0-498a-a2b8-cf54a86025ba"/>
+    <PID name="Classes de domaine" mc="Standard.Package" uid="9ec1ff16-fa1a-4e22-8537-7e99385de7fa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Financement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="ModeFinancement" mc="Standard.Class" uid="3122762a-8c08-4667-a1eb-cdb936354521"/>
+        <COMPID name="Comptant" mc="Standard.Class" uid="ec77e40f-d299-46ed-8fe0-f636efdbf1d9"/>
+        <COMPID name="ComptantViaCompteSequestre" mc="Standard.Class" uid="507f1e06-cd81-44eb-9f8a-f06bc1ae8fc2"/>
+        <COMPID name="ComptantSurSItuation" mc="Standard.Class" uid="b523c725-de15-49d5-9dfa-f8ef2c02463c"/>
+        <COMPID name="CreditBancaire" mc="Standard.Class" uid="dabb129b-05c5-447d-ad31-63b9ba76a58d"/>
+        <COMPID name="PallierComptantSurSituation" mc="Standard.Class" uid="90835270-d7da-4595-b779-126bde786e34"/>
+        <COMPID name="Compte" mc="Standard.Class" uid="a6d995de-385e-447b-8afc-dda74a7a2b59"/>
+        <COMPID name="EFi" mc="Standard.Class" uid="1f41df87-f736-48aa-baf5-f0f0aafb2549"/>
+        <COMPID name="TypeFinancement" mc="Standard.Class" uid="960c5289-fb5b-4017-8391-042505fdeb6d"/>
+        <COMPID name="Temperament" mc="Standard.Class" uid="ad0be706-99e8-4849-bf22-40fbdea90846"/>
+        <COMPID name="TiersCollecteur" mc="Standard.Class" uid="e6b3cb81-addd-4193-81a6-9e28ce03e79f"/>
+        <COMPID name="Tiers" mc="Standard.Class" uid="4c235460-d69b-4ecd-8e58-bbae7fffdcd1"/>
+        <COMPID name="EcheanceFinancementTemperement" mc="Standard.Class" uid="0d44ba18-eace-45cc-9922-bc4ce09ab5d4"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="ModeFinancementSave" mc="Standard.ClassDiagram" uid="7bd460a9-8b08-4a40-9fb2-6c630b2ffe55"/>
+        <COMPID name="Efi" mc="Standard.ClassDiagram" uid="e51cca9f-19c1-4d61-ba3a-379c4f1a1514"/>
+        <COMPID name="ModeFinancement" mc="Standard.ClassDiagram" uid="49ee41a0-e67e-4245-8122-97bdd0633014"/>
+        <COMPID name="ModeFInancementSuite" mc="Standard.ClassDiagram" uid="189c044e-71c2-4587-acc3-8ed38517f729"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

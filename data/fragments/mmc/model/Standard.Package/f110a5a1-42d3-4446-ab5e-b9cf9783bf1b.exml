@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="document" version="4">
+  <OBJECT>
+    <ID name="document" mc="Standard.Package" uid="f110a5a1-42d3-4446-ab5e-b9cf9783bf1b"/>
+    <PID name="Common" mc="Standard.Package" uid="60a0ca2f-80cf-4820-9b95-9716356b3b82"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[document]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Document" mc="Standard.Class" uid="96c6e9b8-0709-499f-88bb-0b62d71a94dd"/>
+        <COMPID name="DocumentFormat" mc="Standard.Class" uid="89568fc1-59bd-47f4-bd84-797faed6e1db"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Document main diagram" mc="Standard.ClassDiagram" uid="09677bfe-8381-439a-a6a4-f7477dd23f6c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

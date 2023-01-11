@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CallBackUrlPage" version="4">
+  <OBJECT>
+    <ID name="CallBackUrlPage" mc="Standard.ClassDiagram" uid="966b6485-64e1-4326-855d-eb1fdd5a79d2"/>
+    <PID name="Classes de dialogue" mc="Standard.Package" uid="78b9d791-3645-4965-854c-e68ec093f092"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">4</ATT>
+      <ATT name="UiData"><![CDATA[eJztmm1v4jgQgP9KlO+EJISXqmxXLay4aumL4Haluy/VJDHUW8dGttlCf/3ZgXCFtqwbIFRVPoEn8XhsP57MZNL+OkuI9RtxgRn9YnuOa1tfz9o34S8USQvHSmRbcj5BX2zGx07CYkQwc6YJcYQEiR9iDGMOiYNiLBl3EEEJolIsrkbZ1V4yTNvdRdu2EvjF+N1qXNc+a99yNkFczi0KiRqOwJxNZRckqGs/gUzR0g46JcSunrWrWYcXXYdyTpC9Ngv/tVlk1gl9v3AixpGz6GtgXwdEBDGKs8G+zeQAjQxHuVYqlj0tNJPd8FLZmP7Vf64WPa2aM9uYaHUxpW2T54iARLGyZWPdrrTI+q0leomAxsBjp0NAiOW2WCeNRtgIWvVKI0BeJaj5jUqrXo8rKPRGcVyH5knsb196pU1+p+yR9iFEZMOCoeSYju2zDhByAdHDD05uYYza1fSmrZNiBF3SDksmTGCptuQNzQaqOveYxBxpDX0s5BoltXysRwSenhTj6VruxPZAWQJ0rLFYbpTfbJ16fvPUb9ROW+67uQ8Ozr2GfnHCCkHVCppN1/WDqDIKglElcMOg0oqjZsWDulcfoWgErdFnZrS+B0ZvOU6Az69V7z3j6p66eVFtmKKqVM3mO/MalLya8XoFmGpSduS2mY9brVhMIEL3SO0iVwRfZ5K/UknxsUSrWFAbJahmoC54MFAo7tnjHY5eKLpgaiSgqwUaARFo+5RTVQ9o/sh4vAdtUi3MnZCII/YHbZJPTUwjr+zE+1VBKCSHSOaY4YrWZwfoJPcjTAg8wqkX6KwaAyTwE4QE9TibTop3B55b+oMP6Q92fGB5OTNfkGr8cCrRWPOoUD3PBMcC1Dj53Q+g3mbsVxL6huZ1MvLwWl3+bHe4Xs7EVusEbX+G8k0mOBbKxvlsiXLBWQKS9yw+NMc5k19MVUhFVXSiQp1IThUeveRyKRtmsiPQXHDKW9JsSnMGx64hRM6k14jXY7nggtNf75PFu3uk9NDeNmeeZkTvv4weweP6Bedqnw3ew3lczcOeUTaj3M+Z5mFKEU9fSaR4q8bu5R99Ssb6leZykyve+wkvk70PSnjKyI4BhZ8zkXsD1iOFEH7BWZxf1iY/RkTh587fXsUXiSNFEQXnbSW/HzOKeHlpYxwsfqoWjiBHCcZ8lJdFfWdJ2R/Ci5pBrcbPm8ImamdXxdu0DKXPrpbqAu5QSxeM7DNg2izqG5zlgtPZ8rMDw6M8VHMmBEsTnZ+hoGtqW86K7l78WR/TB7HFaW7cfjHucnhUu9mHuTqk6+fu1ZcLK2+SuZF4oUA4RKtQHmRNYzFP/vf1Ou73l3gT2uw4dXtO//yfb4O7i/PO997g5sd1d98Pyje1PN+z//F5/t3l1tcyJQwHg+Hvm9vCwqX/ADxcSq8=]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABkCAIAAADCEmNlAAACvUlEQVR4nO3ZT0iTYQDH8WcSc1vYtoxiB6WMxC2MCoo8KAhCGriNIEQh6BZTLEZZHULC6hBC2KEMTOoUURBEeIhET8loOM3cmjr/bIIsMNCpkRbUSjD2vpay2SOj74/vcYfx4eV5nzHxnUmZ2Owv8L8MaEkDWtKAljSgJQ1oSQNa0oCWNKAlbQ3oe02naJ2lCr00M/Cr98pmB1X5Ewso+hr7oCqoakjZ3HBiI6pCyuZHVY2pGlf0bWEisbCqiLLPkysBDTTQQAMtC3q667G7/HCuUafV78i1VtQ1+z7+GbqvwSbWkAR6VWhPe7lJiAzLkco6t8tVWWDUCHPZrXGgNxj6Te0eIQylN8JzyyfGyNvG0iL7hc6pOG6or7WqaLfZYDDtLT79NBAGOnnomfulQmicD4dXOaP7LxdmiNzqFs+rSyUGYXDejQGdNPTQ9QNCbDvbsdrLMOoZ8L4em4p/rOfmISHy698BnTR0rK0s/kTb24O/iWdHvyxDTz5prLBasjK1mdotGiHyanuBTv6M7nVbhdCVXBuNLUOHeq8UZufbH/kj3ovx0zuntmNwcaG70Qp0qreO/uc1Fk381nHUca6h/vzJ/SaNMBY3Becj3a6dQuyqaXvRdcdpy9IJ04kHfv8i0Mnfo2d7Xl51HMsz67W67TkFx13NvujPo2Op/3aVzazXZx+sbvY8O7Nvq9boaPkENL8MgQYaaKCBBjqNoL2drZv+d1xaxBOdJk800EADDTTQQAMNNNBAAw000EADDTTQQAMNNNBAAw000EADDTTQQAMNNNBAAw000EADDTTQQAMNNNBAAw000EADDTTQQAMNNNBAAw000EADDTTQQAMNNNBAAw000EADDTTQQP9LaFpnKUGvbDo6EfB10l/aGGiW4oCWNKAlDWhJA1rSgJY0oCUNaEkDWtKAlrQfcP3TZ6fY624AAAAASUVORK5CYII=]]></ATT>
+      <ATT name="Name"><![CDATA[CallBackUrlPage]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="CallBackUrlPage" mc="Standard.Class" uid="4770024c-f44f-40b4-8dc7-1a515fecfa8f"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="8fa7ffda-a575-48d0-9d52-125abece0bd5"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

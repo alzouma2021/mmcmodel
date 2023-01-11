@@ -1,0 +1,240 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU03-08-02SoumettreUneDemandeReservationLogement" version="4">
+  <OBJECT>
+    <ID name="CU03-08-02SoumettreUneDemandeReservationLogement" mc="Standard.UseCase" uid="0ef270b9-d727-496b-8fee-3b4201151661"/>
+    <PID name="EPIC03_DemandeReservationLogement" mc="Standard.Package" uid="5220e292-dad3-49a3-a555-b2d74ffe4a79"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU03-08-02SoumettreUneDemandeReservationLogement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="5a6393e8-ead2-48d2-8d22-fe7799fa9f6b"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="998c36f3-1a41-439f-aeac-0e6236df60c6"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.CODE	CU03-08-02
+
+2. REFERENCE
+
+Titre: 	Soumettre une demande reservation d'un logement
+Date:     23/11/2021
+
+3.	MODIFICATIONS
+
+Date			Rev	Auteur								Observation
+23/11/2021  	 1		Alzouma Moussa Mahamadou		Identification et Spec détaillée
+
+
+4. DESCRIPTION
+
+Le prospect souhaite soumettre une demande reservation d'un logement.Pour cela,le prospect selectionne une demande de réservation d'un logement et soumet la demande .
+
+
+Ensuite,le système  evalue la demande reservation et véri .
+
+le résultat de l'évaluation est  :
+
+1.  Le statut de la demande :
+
+-Recommandée ( Ni avertissement , ni erreur )
+-Récommandée avec avertissements ( Au moins un avertissement mais aucune erreur )
+-Non récommandée ( Au moins une erreur )
+
+2.  Les messages  ( Information , avertissement ou erreur )
+
+
+Enfin, le système transfère la demande reservation de logement au promoteur et notifie le promoteur et le prospect.
+
+5. LISTE DES ACTEURS
+
+Principaux: Prospect]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="450983f1-f045-4ff2-b8b0-267bfb20d15d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="b9942728-d18e-4c82-9e91-01e8d4591f07"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="Infrastructure.NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="aea146dd-7fe1-4cca-835a-d6d2dc63067a"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="087e1abd-73ea-4341-955a-b250d615c2b7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+
+1.	Le statut de la demande réservation doit être :  demande enregistrée]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="11f3ee89-5e7f-41bb-a39b-8efb24a3df0f"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+
+-	Le statut de la demande de réservation doit être   "Soumis au promoteur "']]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario nominal" mc="Infrastructure.Note" uid="8eeddf53-c55b-495c-a596-e4d52e30d5ae"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.	Le prospect selectionne une demande reservation d'un logement 
+
+2.	Le système affiche la demande réservation selectionée
+
+3.	Le prospect soumet la demande réservation selectionnée
+
+4.	Le système vérifie les informations de la demande réservation de logement
+
+5.	Le système évalue de la demande réservation 
+
+6.	Le système transfère la demande reservation de logement au promoteur et actualisé le demande  à  "soumis au promoteur"
+
+7.	Le système envoie une notification au promoteur et au prospect
+
+8.	Fin]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario nominal]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scenario alternatif" mc="Infrastructure.Note" uid="e29daa25-84ed-41f6-a8de-a935ff877973"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+
+Scénario alternatif A1: Modification des informations de la demande reservation de logement
+
+Condition : Le prospect souhaite modifier sa demande reservation
+
+Branchement:	  Avant  l'étape 3
+
+		1.  Aller à l'etape 1 du CU03-08-01CreerModifierUneDemandereservation
+
+		2.  Aller à l'etape	3
+
+
+
+
+Scénario alternatif A2 : Echec à la vérification des informations relatives à la demande reservation de logement
+
+Condition :  Toutes les informations de la demande  ne sont pas correctes
+
+Branchement:	  Aprés  l'étape 4
+
+		1.  Le système renvoie un message d'echec
+		
+		2.  Aller à l'etape 2
+
+
+]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scenario alternatif]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="6fbc66b7-80bb-4d76-a881-9c84de2ea4f3"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+
+
+Methode evauler :
+
+
+Vérification de toutes les règles metiers decouvertes precedemment.
+
+Contraintes(du modéle de données) liées aux relations
+
+Contraintes (Use case )]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

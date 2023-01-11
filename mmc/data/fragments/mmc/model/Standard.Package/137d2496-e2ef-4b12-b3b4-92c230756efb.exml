@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CUs" version="4">
+  <OBJECT>
+    <ID name="CUs" mc="Standard.Package" uid="137d2496-e2ef-4b12-b3b4-92c230756efb"/>
+    <PID name="mmc" mc="Standard.Project" uid="ff61c6b2-ec99-4f28-a2dd-d08eba728b51"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CUs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="EPIC01_RechercherDesLogements" mc="Standard.Package" uid="96399449-7850-4b46-add8-966ff3a32ae1"/>
+        <COMPID name="EPIC03_DemanderLacquisationDunLogement" mc="Standard.Package" uid="5220e292-dad3-49a3-a555-b2d74ffe4a79"/>
+        <COMPID name="EPIC08_GererLesActivitesDuPromoteur" mc="Standard.Package" uid="e478737b-2917-4f2f-b612-4c3d49d0973d"/>
+        <COMPID name="EPIC09_GereLesActivitesDeLEfi" mc="Standard.Package" uid="caa79e22-10b1-472d-9056-1353e97cebe3"/>
+        <COMPID name="EPIC10_AdministrerLaPlateforme" mc="Standard.Package" uid="27feae94-1a16-47f0-8e4b-f95667837dd6"/>
+        <COMPID name="EPIC89_GererLesActivitesDuneOrganisation" mc="Standard.Package" uid="ad996736-5e09-4cc0-b4b6-df20c9810a56"/>
+        <COMPID name="EPIC04_EvaluerUneDemandeAcquisationDunLogementParPromoteur" mc="Standard.Package" uid="bb531d2f-4adf-4708-b8eb-c7b479d175a4"/>
+        <COMPID name="EPIC05_EvaluerUneDemandeAcquisationDunLogementParEfi" mc="Standard.Package" uid="7fbde964-b5bd-4515-aa0c-4bc2195ce3e2"/>
+        <COMPID name="EPIC02_SimulerUnCreditSurUnProduitLogement" mc="Standard.Package" uid="e2fd59c0-bde0-4284-9616-8c1036d24bd0"/>
+        <COMPID name="EPIC06_ReserverUnLogement" mc="Standard.Package" uid="06145806-9aeb-4355-8140-19c559ae4600"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

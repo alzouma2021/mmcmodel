@@ -1,0 +1,220 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU05-12-2AccepterDemandeReservationLogementParEfi" version="4">
+  <OBJECT>
+    <ID name="CU05-12-2AccepterDemandeReservationLogementParEfi" mc="Standard.UseCase" uid="a3521295-2dc2-4bf7-9ec6-8383314a094e"/>
+    <PID name="EPIC05_EvaluerUneDemandeReservationLogementParEfi" mc="Standard.Package" uid="7fbde964-b5bd-4515-aa0c-4bc2195ce3e2"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU05-12-2AccepterDemandeReservationLogementParEfi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="1058cf25-95f1-4ceb-abe0-f20ec2c72514"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="CU05-12-1TraiterDemandeReservationLogementParEfi" mc="Standard.UseCase" uid="65290ada-61a2-4f56-9ca7-d361e73a8964"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="097e7eec-ed9d-4944-8d45-6e968395df07"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="2e3d14e6-fd80-4967-9478-8f0431c64f7e"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.CODE	CU05-12-2
+
+2. REFERENCE
+
+Titre: 	Accpeter une demande reservation d'un logement parefi
+Date:     22/11/2021
+
+3.	MODIFICATIONS
+
+Date			Rev	Auteur								Observation
+22/11/2021  	 1		Alzouma Moussa Mahamadou		Identification et Spec détaillée
+
+
+4. DESCRIPTION
+
+Un collaborateur d'un efi  souhaite  accepter une demande reservation de logement .Pour ce faire,il approuve les conditions portant sur le  crédit bancaire de la demande de réservation de logement.
+
+Puis, l'efi numérise et charge le document de l'accord de financement signé que l'efi accorde au prospect.
+
+Ensuite,le  système transfère la demande de réservation au promoteur en changeant le statut de la demande  en "Demande acceptée par l'efi".
+
+Enfin, le système notifie le promoteur et le prospect
+
+5. LISTE DES ACTEURS
+
+Principal: Collaborateur Efi]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="0cf99fba-6400-47d1-82d5-4c689ddc4d32"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+
+Contraintes liées à la notification:
+
+
+1.	Le prospect et le promoteur seront notifiés si  le statut de la demande est  à "Accepté par l'efi concerné"
+
+2.	Le prospect sera notifié ( de changer son logement de la demande ) si le statut de la demande est à   " En attente de changement de logement "
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="c84c683e-54d7-4cc1-a9fc-54cc7da92a63"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="Infrastructure.NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="140b455d-45cc-4f68-a7d9-9c00347b7abf"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="97119546-dd55-4af2-9fec-9f3e43879d50"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+-	Extension du use case CU05-12-1
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="73aa8fd9-975f-480a-967c-f2d79ab8bb92"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario nominal " mc="Infrastructure.Note" uid="7810c333-91fa-40c1-b3a6-be62005bf6eb"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.	Le système vérifie la disponibilité du logement
+
+2.	L'efi concerné joint le document justificatif scanné et signé.
+
+3.	L'efi concerné confirme l'acceptation des conditions rélatives au crédit immobilier  de la demande de réservation
+
+4.	Le système  valide la demande de réservation avec statut "Accepté par l'efi concerné"
+
+5.	Le système transfère la demande de réservation au promoteur
+
+6.	Le système notifie le promoteur et le prospect de l'acceptation  de la demande de réservation
+
+7.	Le système  actualise  le statut de la demande réservation à  " Demande validée " 
+
+8.	Fin]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario nominal ]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario alternatif" mc="Infrastructure.Note" uid="447ff9fb-9f45-4ec4-b120-918bc6d63da3"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+Scénario alternatif A2: Indisponibilité de logement 
+
+Condition : Le logement de la demande de r n'est plus disponible
+Branchement:	  Aprés  l'étape 1
+		
+		
+		1.  Le système change l'etape de la demande à  "En attente de changement de logement "
+
+		2.  Le système notifie le prospect de l'indisponilité de logement et lui demander de changer son logement ou de faire une nouvelle demande de réservation ( la notification contiendra  un lien vers la modification de la demande de réservation et un autre , vers la création d'une nouvelle de demande )
+
+		3.  Fin
+
+
+
+
+
+]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario alternatif]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

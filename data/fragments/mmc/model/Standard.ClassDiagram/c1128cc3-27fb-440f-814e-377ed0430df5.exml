@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="OptionLogement" version="4">
+  <OBJECT>
+    <ID name="OptionLogement" mc="Standard.ClassDiagram" uid="c1128cc3-27fb-440f-814e-377ed0430df5"/>
+    <PID name="Classes de dialogue" mc="Standard.Package" uid="78b9d791-3645-4965-854c-e68ec093f092"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">4</ATT>
+      <ATT name="UiData"><![CDATA[eJztmm1v2jAQgP9KxHdCXigvKuvUwsSq0VLBNmn7UpnkoF4dG9lmhf762YGwQluWmjSsVT5BLvH5bD93uYvd+jiPiPUbuMCMfii5tlOyPp60+qNfEEgLh0pUsuRiCh9KjE/siIVAMLNnEbGFRBLfhhhNOIpsCLFk3AYCEVAplneD5G43GsbXneV1yYrQL8av1/06pZPWFWdT4HJhURSp7ghasJnsIInUve+IzGBlB50RUqqctCpJg0dNh3JBoLQxCu+pUSTWCf28sAPGwV62TWFfG4kAhRAmnX2aywGMU/ZyqVSsWlowl53RubIx/qv/XCxbWr493xpoZTmkXYPnQJCEUNmyNW8XWmT91hI9RYiGiId2myAhVstiBa7rNYLAL3v18ahcrTrjcsOtQtmv1yF0qr4Tjo92T73SJr9Qdkd7aARky4Kh5JhOSif9qVSz2mOTmJVWJX5m55gYgXPaZtGUCazbPqM4har2DSYhB62hh4XcgMQ3Qz0g6P5eIR5P5V5oD5QliE40Fat1chuNY9evHXtN/7jhvBj76qtjr5lfOlgupFq1Wj10/XqzHHgNVK42vaNyY+xBeVT1nCZyYVwb1TNAtM0BuPJDPMbAv1HYRPYKTeD/wfYoA2yvOI4QX1yq1hkT7Bw7pvTW0tKrVM0XeyNcLRA2RvgCYarh2RPluhnKWrGYogBuQC0sV1BfJpLPsST/hKORL7u1gl1jdpeIpFAobtjdNQ4eKTpjqidE13M2RkTA7lmIVd3C4o7xMANtEgW310ICB/YPbZLP0phGnlicl6tCIyE5CqTBCNcAP/CppvGLToiYpORtF18MQOB7NCLQ5Ww2zT9CuE4RIt5KiNjzteYaFtFIqv5HMwkTjaii9zQRHIrZ1HV0Nsy620ljAW16aDdhMUG4svrZHZZdw7pZ60Ta/oTufiI4FN2py+WC7oPTfQHyhoWvjbZhbY2pysWoSmtUjhTImSKmG52vZMNEdgDAc66oC8D3ADzhZd/cw7CmToXwoQJ1ztW1+85y5wwpfe0AbFjzpaL3J6MHCMJeznXfe4M31yCsEcmY7nTge4YlI6YUePzFIyZeXey/LaUdZ6I/oq7Wvey+HPqicHw70MfY7Jl2eIZF4TP8HijR8HKuCL1iG/W/TUU841rwSaJBHCj9yLkGLJB+M+nH41tb/WDxXV3hABlsDaXv5fGRBHsF3j/yEj/FHpJnWg5HamXX+8zx9ph2Zy3Ve81DLV1ik2WmtX0kIYV751waF4cmzL17qKaBECzT6HwPe89pbTPcfM4kxPUwvRU74ujW42eTDkd3ajV7aKH8dtMVn/x2sQ4wSWQJlwqETbQKFVQ2NOaTH7ys1WGPmOJtaBN36nTt3umPT4Prs9P2l+6g/+2yk/W781ktD9fsLz4Pz5bu/OpTwPBqMHztX+WWQf0BcbWi2A==]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABkCAIAAADCEmNlAAAFdklEQVR4nO3Ze0xTBxQG8FOR2pZHUYfCfKDONLydKBFRJOrQOcA4hRnB8IcOEV/AhrqBwECZmgwRp5hhGWzRGLfoeIiCIhNURAErIlBqBZ1ABAm+MOquyXbbWxShbi64a4rfl+8PctKblF9OTkugvxBeQm/7DbwrATRPATRPATRPATRPATRPATRPATRPATRP+Rfo1AR/9DXbV+g/713RtlpP71/t1Rp9re1R5kGdvip7tV5PH6p69Zq+qnu287q+NvRqY+8+e3SjV2/2KKABDWhA91/o1mMHwr1cRpmLhKL3RtnOC/22suWNQheH2BAbi+BcFUf89NhSS81k9NelrwGt+NKeyD6qgPvBOfbUs0fqi1s9x5mLJBb+Ryoi2aFBQJ9OnyslGmA9+ZNV4cErfWRSAQ2evbnhDUMbGRsLRq7+hYMuDR8lGGg04L9Ct57K359aoKh59uj4hnEseaSSXefWovz9ew0B+syKMUSSmXE37nEX48qFTZ5TfdedvFXPnFk5lmjOhhi/MRLX+BPsixuPrPZ1HGYmkti4L8tVc+713YbLc9Va+rOh2gfjNA8mFGqhB078UEYfhF7SQJ+IsSNHJztBF3Tb6bhAFyszobGJtd3ixF9vP2R9lYqd3jLpIBPrCaHxAQ4vbfRPiROpK3MOlBvIRt9NnUEkWJBepedGl4fZEZkNc/086bujZRVM7TczJGQ5N6rknDzMeeCgmQnNLHRtgnYYXXIuXTvc3MxCV4TrHtyx4+gFBXc6FoUEWZHtlqrrjDLalSxXhXysOx03k71NSewUIP8tMyPESUwSn7RK5mqUi4DM3ddkF2bEzRpi9BJ0ftOl5EArIqfgY2dK7igMBLo+3pE1WZGj78OwIoz9HQYvTXuivRuN21yITJdnaRa5JdmNBK67G1SN2yZph5pFbkmeqh1eYyojtA/Kn3S70Qvl+4Kk5L79bEvKtAHSRdlyHXTb9x5EwsUHlJrT0ZG2WEL00Tb1rulE4qWH1JrrkR9k2fNG534xmmhqbBN7OgwF+v4PM9mNnr/v8gvijprH3aAdo/K4A634ajz7SmOx2EQiNhGxSzZifbFK31AH7Rid3/3DcGFm9SE/idGcuD2+QlP/1HuZOuiqKBnR8PBT3I3OChtJ5BCRFcdeC6uIIu2Nvhzp0A+gmYtrbYlEM6LVdzno6oqNDkNl3hnVOmjnTcc56NaUaUTSQPlJZRXXopY2VesubliorOL6e0ubDto5puBlaFVHupfQbISN1HjBj9WPu6Db93iyG/3Z/joNdHvqQhF7eLerd7qzbyrg4DUW+mnOksH9AfpB2eElVgL2W4erz9rIles+tbcQkNQjRnm/JzRTF+8pJut5G/MKMpICJjh7riluVzHKzV3DzK7hK6GZW1tns0tvNH1f0/Xn0MwfKfPNSeQUmJGdKV9mO4jM/X5WMJcj2YtmOiX4YPaeSI8hwn4BXcd0FOVEebuNtRALRUNGyuaGJFY2vzgdL6Af1DYeDvW2H2YmNn3fcVZsTqn2W4ey8fCqbsPzmm8dr4LuLEt2FwjcY5s6u0F3NrQWxQROGWNpIhk+fnJQUvYdzbe6mvNbvGRDxaYjJkXsDnUjkq3PM3xo/GUIaEADGtCABvQ7D11euPet/zvOIIqNNpCNBjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaEADGtCABjSgAQ1oQAP6/4RGX7N9gn6e9ts3ai8Vov/QNwON9DGA5imA5imA5imA5imA5imA5imA5imA5imA5il/A3sDpQQ75VzwAAAAAElFTkSuQmCC]]></ATT>
+      <ATT name="Name"><![CDATA[OptionLogement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="CreerModifierUneOptionLogementPage" mc="Standard.Class" uid="667d1379-c28a-4925-8f2e-b4209a1ef6b7"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="17987d47-21df-44e9-8008-109cdc92d877"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

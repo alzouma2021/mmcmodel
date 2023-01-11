@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EPIC08_GererLesActivitesDuPromoteur" version="4">
+  <OBJECT>
+    <ID name="EPIC08_GererLesActivitesDuPromoteur" mc="Standard.Package" uid="e478737b-2917-4f2f-b612-4c3d49d0973d"/>
+    <PID name="CUs" mc="Standard.Package" uid="137d2496-e2ef-4b12-b3b4-92c230756efb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[EPIC08_GererLesActivitesDuPromoteur]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CU08-20-01CreerModifierUnProgrammeImmobilier" mc="Standard.UseCase" uid="3ec33037-e328-4576-9ae7-4517833ff773"/>
+        <COMPID name="CU08-20-02CreerModifierUnProduitLogement" mc="Standard.UseCase" uid="f81556f0-2664-44f5-9048-660434648bda"/>
+        <COMPID name="CU08-20-03ValiderUnProduitLogementParPromoteur" mc="Standard.UseCase" uid="ed705764-975d-4713-a540-a8d4d7ba8668"/>
+        <COMPID name="CU08-20-04ValiderUnPogrammeImmobilierParPromoteur" mc="Standard.UseCase" uid="daccdc84-45b5-4147-9c1c-108f167b81c6"/>
+        <COMPID name="CU08-21-01ActiverUnProduitLogement" mc="Standard.UseCase" uid="6a87b02b-83d9-4cab-a187-e4125e2cf019"/>
+        <COMPID name="CU08-21-02DesactiverUnProduitLogement" mc="Standard.UseCase" uid="2300853a-e814-49ef-b3c0-46a4076fdf38"/>
+        <COMPID name="CU08-20-05SupprimerUnProduitLogement" mc="Standard.UseCase" uid="a4a7173d-3dc9-49b4-b50d-205d3fd831fa"/>
+        <COMPID name="CU08-20-06SupprimerUnProgrammeImmobilier" mc="Standard.UseCase" uid="679c1d9b-2059-43dc-a946-84b4289fff76"/>
+        <COMPID name="Promoteur" mc="Standard.Actor" uid="637d1b85-e798-49eb-b903-be4e22b7f165"/>
+        <COMPID name="CU08-13-1CreerModifierUnLogement" mc="Standard.UseCase" uid="5d951699-6a6f-46e8-bc17-4d18d9949567"/>
+        <COMPID name="CU08-13-2SupprimerUnLogement" mc="Standard.UseCase" uid="56595233-910b-40da-965b-7e4d6cdecbeb"/>
+        <COMPID name="CU08-13-3ActiverUnLogement" mc="Standard.UseCase" uid="5ed84e0a-d36b-4bb5-ae7f-11c517cae792"/>
+        <COMPID name="CU08-13-4DesactiverUnLogement" mc="Standard.UseCase" uid="4655016a-bbae-4170-8730-e6182776d2c0"/>
+        <COMPID name="CU03-08-07AssocierCaracteristiqueDemandeReservationLogement" mc="Standard.UseCase" uid="9ffbc189-3743-46e9-9dc1-49fbce5e62b5"/>
+        <COMPID name="CU03-08-08AssocierTypeDocumentDemandeReservationLogement" mc="Standard.UseCase" uid="2bf867ff-523f-4ce1-8ac1-0a557ab4d42a"/>
+        <COMPID name="CU06-13-1SignerUnContratReservationParPromoteur" mc="Standard.UseCase" uid="ec30009e-ae97-4622-a6aa-d40ea16bea99"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation EPIC08_GererLesActivitesDuPromoteur" mc="Standard.UseCaseDiagram" uid="7f7ad710-18fb-49c8-b636-14286f4e8d4b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

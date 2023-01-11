@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagramme de classe Mde Financement" version="4">
+  <OBJECT>
+    <ID name="Diagramme de classe Mde Financement" mc="Standard.ClassDiagram" uid="02e86751-b8f9-467b-8cbb-1bcc57264359"/>
+    <PID name="Classes DAO" mc="Standard.Package" uid="3a0c46d3-5dd1-4b06-a70e-27aa971b67db"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">7</ATT>
+      <ATT name="UiData"><![CDATA[eJztml9v4jgQwL9KxDshCf9VtqsW9rhqaangbqW7l8pJBuqtYyPbbKGf/uyEcIW2bAghoCpPJBM8Hse/mcxk0vm6CIjxC7jAjH4p2aZVMr5edobuT/CkgX0lKhlyOYMvJcanZsB8IJiZ84CYQiKJn3yMphwFJvhYMm4CgQCoFNFVL77aD8bheS86LxkB+sn4w3peq3TZuedsBlwuDYoCNR1BSzaXPSSRuvYDkTms7KBzQkqVy04lHvBm6FguCZQ2VuG8t4rYOqH/L0yPcTCjsQns6yLhIR/8eLJvCzmCScJZ7pSK1UgDFrLn3igbw0N9cBuNNKrmYmuhlWhJuxbPgSAJvrJl677dapHxS0v0LULUR9w3uwQJsdoWw3Kg1WjW7bLbmrTLtUbTLbc81y3brufVm06jVq23d996pU1+p+yZDpALZMuCseSYTkuXq+kCMHwwPG0AGLfq8A9MEfVCgDqVcODOhTICN7TLghkTWKpt+mC2BKq6j5j4HLSGARZyg5xqOv7Vsl5eFPfh/T2I95GyBNGpRmW1eU6rfWHXGhdO3bloWXv7Qu3ovqAdIfK6XPA1PKfqNpE1KVuTOpRrftUut92GXbYA2bZn+3bDzYJb7ZevGO1dDc8H03oGmN5zHCC+vFOjMybWurDS0tpISqtStVgejGytQDYxsrcIUw3Lgeg206GrFYsZ8uAR1EZyBfFdLPkzlOSfZbTyZbVRsJqY1QiJBArFI3t+wN4bRddMzYTo+h5NEBGwe9WhqidYPjPuZ6BNIu/pQUjgwH6jTfJ5EtPIO5uxvyrkCsmRJ1OscA3sKx9qp36QCYEnOAwE3fXJCAR+QS6BPmfzWf4RwbaKkHCuIeHAx5adsjJGUs3vziVMNZKK1qtYcCpGExfH2TBqbyeBBaQfQ7oJRxpkK6uf3WHXTlnnap1I2x/TPIwFp6I5cXlb0Jx/xQDykfnHRjllLYypyq2oSlNUzuPJuSKkH9ysZONYdgKgc66AC6D3ADrm49BcImUNnAjZUwXinKth+5PlvhlSeuyAm7JmS0Tvv4yeIOg6Oddtnw3eowZdjUTGNCcD3UlZ8mFKgYdvKELC1cnhbSHtKFP9knO1z2V7f8iLwu98IQ8xOTCtcFIWdR/weqJEwsm5onOKtuXZpBZO6lruXYJBnCidyLmGKxA+23Ti7aWtebD4oc6wh1K0ZpLP8rblb65A+02eUU3Qw3HSlrMBmsK6rxu2p7T7aqnu7Y61NMIky8xpu+WfwJ1zLm2LjxKSe/NYLZsQLJO49Gfo9Sa1LWWzN5OQNsD0SeyIm1t/v572OHpWuzlAS+Wnm6737ruGdUCJI4kfKRAm0SpUENnQmM/zf79Rp/1uE29Du/5Ws28Orv75Nnq4vup+74+Gf9/1sn5Wfqjl9Z79j8/rbzN3vqUpYDgaDH8N73PLmP4DPMxeTQ==]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAABkCAIAAADCEmNlAAAD+klEQVR4nO3ZeUjTcRgG8HfNzV26DoaalYFlaVpphaGZdBLZRVmSC4MusYtVGmRldlkG0aVFucwiIYsozUTKDhQtCGxdOs3mTKmMIR2rqAn126E4JyVY36g9D89fg43x4eXhN0bfESahv/0FnCWAZhRAMwqgGQXQjAJoRgE0owCaUQDNKL+APr5rIdrN9hT627vHlj6x6/unDn3m0KqONX2odqjWvjWd+7HWvs8dWte5xhf21Tm0vmNbP+kd2mDfl537udGhTVwBDWhAAxrQ3YAujfchLr1XXqu14n4tWqIwvzJoS0U3oB8mBhAFJN/oGroswfLhHdJ/efnDJO4tzgnNFwh4A9ZctEJXqAbyXPi9fh90v8jl6WnbbD2W19h8tzj3pHNCuwSP9iPfhEoz9M3t/hQY5M9rg357N1UZ4ukmFEi9/GPSLjUbOd8azeFZw+SuUq9RCTuVI2zQ9fqr62cHeriJpD7hqwp1De3Qvpuu202HE180LYiP86Thex7pTNpt40ixOn6GbToaDkXJSBwUq75y9kx8kJgks7IqW58lh/DIPXxtQUnOjsl9+VZo7d6JElLM2FF275xqpIvrpH2v2qB9VmTXVd+ztb76mzNDz1dnxckpLL381ZHwXvLofLUN+u2xCCJhTG6NeTpaTsVIiKbu15lfFC+5WMdNh6k4TmGB1qePJZKtKDAf8uvDYcQLzdB3tdERu984NXTOk7xoCX96auZsoWzhiXc5NuhHyX5EHqpb1o2+qhpANGJDUSq3Fp4b71g2WpNonQ7NlqFEPIFYIpVKpCIXIu/NZTZoz7nbL+epbS2p+Ozc0LUtp6cJ3bx95IJ52U+/tEEbMiO5i150XmuGNhyfLyKafuAFd7Akir1gvuivBYv7WKAtty9XZpdqH1tb/tqAje4K2tS4bwo3t/wJWU26dmjTy6Nz3EkUpDyTf1a9bLgruUef07RqkgK5mQhddaEgMzGir9C60bVpkWLymrm16EbuwdjgkZGq0hZAdwltvH8ojMcLS2kydoA21jffTlGGDlZIJR5Dxi49mG8wP9VV3d87bVg/scx7zIaM1eOJ/JKKWj/p9FfWRQV4uIll/QOnphRW4qkDvwwBDWhAAxrQgP4foB+UnPjrf8f9E8VF/yMXDWhAAxrQgAY0oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAY0oAENaEADGtCABjSgAQ1oQAMa0IAGNKABDWhAAxrQgAb0n4RGu9keQbfH8EZfVVmC/qS/BxrpYQDNKIBmFEAzCqAZBdCMAmhGATSjAJpRAM0oPwDH5cpm3rVmXAAAAABJRU5ErkJggg==]]></ATT>
+      <ATT name="Name"><![CDATA[Diagramme de classe Mde Financement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="ModeFinancementDAO" mc="Standard.Class" uid="c23b7a0f-0f5e-4d31-9b61-0ea11c1d16b9"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="82665c73-e52d-47d9-a446-1961bf408445"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

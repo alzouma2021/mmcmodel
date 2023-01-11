@@ -1,0 +1,201 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU01-03 RechercherUnLogement" version="4">
+  <OBJECT>
+    <ID name="CU01-03 RechercherUnLogement" mc="Standard.UseCase" uid="bd63d91e-b2f4-446d-a5b7-75db4ee6c55d"/>
+    <PID name="EPIC01_RechercherDesLogements" mc="Standard.Package" uid="96399449-7850-4b46-add8-966ff3a32ae1"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU01-03 RechercherUnLogement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="17d15cad-eefc-41e2-9396-194f66258946"/>
+        <COMPID name="Interaction1" mc="Standard.Interaction" uid="cb9b088a-6240-4a82-8343-5f062538adef"/>
+        <COMPID name="Interaction2" mc="Standard.Interaction" uid="e3321a89-a456-4e7d-8d3a-e3010aa8e394"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="7264209b-1165-48e0-b169-0a70d17c45a6"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[liste1.	CODE :		CU 01-03
+
+2.	REFERENCE	DU CAS D'UTILSATION
+
+Titre: 	Rechercher un  logement
+Date:    15/02/2022
+
+3.	MODIFICATIONS
+
+Date			Rev	Auteur								Observation
+15/02/2022  	 1		E. EZAN 				Identification et Spec détaillée
+
+4. DESCRIPTION
+
+Le Prospect effectue une recherche d'un logement. 
+
+Deux possibilités s'offrent à lui:
+
+   -choisir les critères correspondant à son logement
+   -utiliser une requête pré-enregistrée
+
+Le système lui renvoie tous les logements disponibles correspondant à ses critères, classés par produit logement.
+
+5. LISTE DES ACTEURS
+
+Principal	:	Utilisateur non authentifé
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="2d442a1d-e5b9-4025-bb43-ca954d43f885"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+Le système affichera uniquement les logements encore disponibles.]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="922f1397-ec7e-4c49-952f-7571d6dd2d65"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="Infrastructure.NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="a7fe5799-b5ce-4c16-89cc-19af3a3272ab"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="f2b6d0e5-da79-4f3a-852f-de8250912504"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="99699393-6f87-43a3-be5c-ed0ba654c67c"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario nominal" mc="Infrastructure.Note" uid="7de7bfcc-7743-43c8-9647-ae3355b357ff"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+    1.Le prospect choisit de faire la recherche d'un  logement par liste de critère 
+
+    2.Le systéme lui renvoie l'ensemble de propriétes  logement
+    
+    3.Le prospect spécifie les critères de recherche d'un  logement
+
+    4.Le système vérifie les critères de recherche (au niveau local)
+
+    5.Le système effectue la recherche en fonction des critères du prospect
+
+    6. Le système affiche les résultats de la recherche (logements disponibles par produit logement)
+
+    7. Fin]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"><![CDATA[Scénario nominal]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario alternatif" mc="Infrastructure.Note" uid="573797fa-2b25-4f1e-bcba-4bf2a0ac1544"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Scénario alternatif A1 : Recherche à partir d'une requête pré enregistrée
+      Condition : Au moins une requête pré enregistrée existe 
+				et  a été choisie par le Prospect 
+      Branchement : avant l’étape 1
+    
+    1. Le Prospect sélectionne une requête pré enregistrée
+    2. Aller à l'étape 3
+
+
+Scénario alternatif A2: Recherche d'un logement à partir d'un mot clé
+      Condition :  Le mot clé doit être défini par le Prospect
+      Branchement : Avant l'étape 1
+    
+    1. Le Prospect enregistre la requête spécifiée
+     2. Aller à l'étape 4  du scénario nominal
+
+
+ Scénario alternatif A23: Enregistrement de la requête
+      Condition : La requête a été spécifiée
+				et le Prospect choisit de l'enregistrer
+      Branchement : Apres l’étape 1 ou 3
+    
+    1. Le Prospect enregistre la requête spécifiée
+     2. Aller à l'étape suivante du scénario nominal
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"><![CDATA[Scénario alternatif]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

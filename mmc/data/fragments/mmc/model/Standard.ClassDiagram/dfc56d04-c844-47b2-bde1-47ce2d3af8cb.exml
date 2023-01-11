@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SelectionnerUnLogement" version="4">
+  <OBJECT>
+    <ID name="SelectionnerUnLogement" mc="Standard.ClassDiagram" uid="dfc56d04-c844-47b2-bde1-47ce2d3af8cb"/>
+    <PID name="Classes de contrôle" mc="Standard.Package" uid="82bb5a09-3cb9-4b78-a7f2-ff937b5922ef"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">4</ATT>
+      <ATT name="UiData"><![CDATA[eJztml9zojoUwL8Kw7sIiNU7td1pdcfbWftndHdn7n3pBBJptiFxkrjVfvpNQNxqW4uI6HR4ghzIyUnyy+Ecks6XWUSM34gLzOiZ6Vi2aXw579z6v1AgDQyVyDTkfILOTMZDK2IQEcysaUQsIYHEjxCDkIPIQhBLxi1EUISoFMnTIH3aj0ZxuZeUTSMCvxi/X7Zrm+edO84miMu5QUGkmiNgzqayByRQz34CMkULO+iUELN+3qmnFV5VHck5QeZKL9y3epFaJ/T7wgoYR1ZSN4N9XSACABFMG/s6k0M0ztjKjVKxqGmgmez5V8rG+FbfXCc1jYY1W+toPenSps5zRIBEUNmyNm7XWmT81hI9RIBCwKHVJUCIxbQYcBw0T6Dt1YK259W8lu/WfIgcdRcgFzbAuB34m4deaZPfKHuiA+AjsmbBSHJMQ/N8pCgJpBpYivgPOmBhzEynHr+7sW+MoCvaZdGECawVvNNABlXdB0wgR1rDAAu5AksjH/IBAc/PCvV4SHdCfKgsATTUdCzmy2nbp23v1HWc07a9Nf3e3unX6CfrrBRgDcdpNT1oN2uK0XbNazqw5gdNWGu0Gn4TKExdu7U3Uu9AiI6H1mYBtN5xHAE+v1G1CwbXPrXzUnuSlVqlajbfGV2vQndrdK8BphqaHRFu5UNYKxYTEKAHpCaUK5hvUsm/saT8OKNdLrMnFbNbM5ugkUGheGBP9zh4peiSqZYAXY7VGBCBNvc+VvWI5k+MwwK0SRA83guJOGIfaJN8msU08sakbK8K+EJyEMgcPVyC+2It/ZP7wyYEHuPYIXSXhSES+Bn4BPU5m07K9wyOXbmGY3cNO37GnJy5MpCqfX8qUajRVNRepIJDsZo5XS6GVWc9OKxg/RjWVUjyoFtfXDa7YSdnOqx1Am1/SvVtKjgU1ZnT4Irqw2UUSD4wuG+kc+bMmKqYi6rwRcVCgZwqUvrR1UI2SmUHALvkTLkCOwfYKSe7xhg5c+VM6B7KMZecNTufLDYukNJ9O96cOV0mev9n9ADO1y05r/ts8JbifDUaBVOdDXg3Z0qI9XDEfzJi0lVh910lvWBC/VN0Md81Z3vYq8Tw+GGPcdkxzHBzJn3vcHugwMItOeNzq+3Pows53Ny53pskI3GgMKPkHK9C+ejDjNeP1trB4qcq4QDk2NrJ3srrIwTWArgP4o9Ghj0gN2+6G6mZXe4Px9tbehlrqd4jHmlpgkuREdX6EYIMy7rk1Lc65LD9qh6p7hOCZRadn2HPOKttOTeNC3FtA0wfxQb/ufb6Zdjj4EnN5gDM1XpdXYJv/pNYOpbUo8BEgbCIVqGcyYrGcuKB7Wod9iQoXoc2XU69vjW4+O/r8P7yovutP7z9cdMr+pv5rpaXc/YXn5dHPzf+zalg2BsM32/vSouc/gAcH4Js]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,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]]></ATT>
+      <ATT name="Name"><![CDATA[SelectionnerUnLogement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="SelectionnerUnLogementPage" mc="Standard.Class" uid="11754d05-7b28-451d-bc5d-373b5a8cb207"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="af5546fa-214c-49f6-b288-20f2aaaed272"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="OffreFinancement" version="4">
+  <OBJECT>
+    <ID name="OffreFinancement" mc="Standard.Package" uid="36316d0e-1579-45fb-939f-1dc809726539"/>
+    <PID name="Classes de domaine" mc="Standard.Package" uid="9ec1ff16-fa1a-4e22-8537-7e99385de7fa"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[OffreFinancement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="OffreFinancement" mc="Standard.Class" uid="0571fc60-a7c1-4196-9e06-e5ae1a3ef537"/>
+        <COMPID name="OffreFinancementTemperamment" mc="Standard.Class" uid="b27f026a-dbc7-49d5-b536-3eaf910f0ad3"/>
+        <COMPID name="OffreFinancementCredit" mc="Standard.Class" uid="75ec9792-4905-4249-89f9-72b5f5b829db"/>
+        <COMPID name="OffreFinancementParPallier" mc="Standard.Class" uid="c16bb5f3-698f-4cd8-8e88-d05a3f560ff6"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="OffreFinancement" mc="Standard.ClassDiagram" uid="fbdbd11b-50df-4ae6-bcd5-a8bf7d13803f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

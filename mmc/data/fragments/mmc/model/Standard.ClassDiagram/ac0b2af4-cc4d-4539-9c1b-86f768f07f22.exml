@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="caracteristiqueProduitLogement" version="4">
+  <OBJECT>
+    <ID name="caracteristiqueProduitLogement" mc="Standard.ClassDiagram" uid="ac0b2af4-cc4d-4539-9c1b-86f768f07f22"/>
+    <PID name="Classes DAO" mc="Standard.Package" uid="3a0c46d3-5dd1-4b06-a70e-27aa971b67db"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">3</ATT>
+      <ATT name="UiData"><![CDATA[eJztmt1y2joQgF/Fwz3GNj8hE5pOAh1OpiRkoO3MOTeZtS0TNbLFkeQE8vSVDKYBEuoIxzQZX2Gv0WolfbvetdT5PAuJcY8YxzT6VLFNq2J8Pu0M3Z/IEwb2pahiiPkUfapQNjFD6iOCqRmHxOQCBL7zMUwYhCbysaDMRASFKBJ88dRLn/bDcXLfW9xXjBB+Unaz6teqnHauGZ0iJuZGBKHsjsCcxqIHAuSzH0BitLQjigmp1E47tbTBVtOxmBNUWRuF89woUuu4+j83PcqQuWibwb4ucA985KedfZmJEQoy9nIlVSxbGmgmeu6FtDG5VBeXi5ZG3ZxtDLS2GNKuwTNEQCBf2rIxb5dKZNwriZoiiHxgvtklwPlyWQzwLNeBoFH1vIZfbTTrx9Vjz3ar7VZw1GoH1lHgOLunXmoTXyP6EA3ARWTDgrFgOJpUTj1g4AnEMBf4/xhJFX6MxYBOEnY6taTNzjFSgi6iLg2nlGMhV+iFjjKo6t5i4jOkNAykPWvQ1PXQ9wg8Pkrkk6ndC/WRtASiiaJkuW52s31iN45ObMs6aVuvdoPGm7uB8oGFwxVCrgHtoFl3UVCtN0Ei6zueRLblVNuB4ztOA1p+080B2e5OZHtnw7+H2mYO1F4zHAKbX8nWOQNsnVi68LaywitVzeZ7E9woCdYl+BJwpNjZk+QjPZKVYj4FD90iua5MMn2VSv5JJMWnH+1i0W2V6OqiuyAkg0J+Sx9usLel6JzKniBaTVkAhKPdk5CoukPzB8r8HLQJ8O5uuJwvRP+gTbA4i2nkmbV5vSpwuVDrqDHCFb9PXOpY+zXHOQ5wEhe6q5sR4vgRXIL6jMbT4gOEbZUR4p1EiD1farZmQQ1C9u/GAk0UoRLes1RwKGQz19T5IGtvZowls5mZXWdFh+Da8md3ULY1S2alE5T9KdzDVHAouDNXyiXch4b7Eolb6r812ZplNY7kLEQyp5EJkidiCUw/vFjKxqnsAHwXXEyXfOvzneKyb+KhWU5nIvhQYbrgwtr+YHlzjpS+dfzVrPcy0fsfjQ4Qg52Ca76PBm+RMVgRkjPc2bh3NMtFHEWIJR87EuDlzf7bUcpvJurz6XLZq/brmS+LxnfDfELNnkmHo1kQvoDvgdIMp+BqcGuXvaT2b8lDHO068FmgET9Q7lFw/VcS/V5yj+1HG/1g/kPeYQ80toSy97J9EMFccveHpKSeYe/I0S2FQ5ig1fZysi2mvFlJ1RbzWEkX1OSZZm0eRMjg3QWXxeVRCW3nHstZIASLLB7+Ebacs9qmueecS4Qb4OiO7wijG38/n/QYPMjVHMBcuu26Jz772WIVX9LA4i8UcJMoFTKmrGksJjt4XavDHjPFm9Cm7tTrm4Ozf7+Mbs7Pul/7o+H3q17er84XtTxds9/4PD1PuvODTwnDm8HwbXhdWAL1C8zMse0=]]></ATT>
+      <ATT name="PreviewData"><![CDATA[data:image/png;base64,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]]></ATT>
+      <ATT name="Name"><![CDATA[caracteristiqueProduitLogement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="CaracteristiqueProduitLogementDAO" mc="Standard.Class" uid="a8f53bef-35ad-4d2c-9c62-8f2d224a6d5b"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="f820ba7e-3d25-4d5f-bbc6-f30bc59febb5"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

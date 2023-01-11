@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="EPIC09_GereLesActivitesDeLEfi" version="4">
+  <OBJECT>
+    <ID name="EPIC09_GereLesActivitesDeLEfi" mc="Standard.Package" uid="caa79e22-10b1-472d-9056-1353e97cebe3"/>
+    <PID name="CUs" mc="Standard.Package" uid="137d2496-e2ef-4b12-b3b4-92c230756efb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[EPIC09_GereLesActivitesDeLEfi]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CU09-24-01ValiderModeFinancementParEFi" mc="Standard.UseCase" uid="91b4130f-f4de-4b6a-bdfc-4b8d9186af64"/>
+        <COMPID name="r17" mc="Standard.Class" uid="f1d46634-6bcd-4d36-a40d-844038322d4c"/>
+        <COMPID name="CU09-24-02CreerModifierUnCreditBancaire" mc="Standard.UseCase" uid="018dcbb3-6f4d-418b-b6f6-2c1f1572f3be"/>
+        <COMPID name="Efi" mc="Standard.Actor" uid="e9d0542b-0c16-4711-88fe-2782c76c2e79"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation EPIC09_GereLesActivitesDeLEfi" mc="Standard.UseCaseDiagram" uid="49d783bf-863c-4109-bd49-ba7a022c7693"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

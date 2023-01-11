@@ -1,0 +1,230 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU03-08-06ChangerLogementDemandeReservationLogement" version="4">
+  <OBJECT>
+    <ID name="CU03-08-06ChangerLogementDemandeReservationLogement" mc="Standard.UseCase" uid="4e6f5970-4974-42c7-97ce-3a8a115902d3"/>
+    <PID name="EPIC03_DemandeReservationLogement" mc="Standard.Package" uid="5220e292-dad3-49a3-a555-b2d74ffe4a79"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU03-08-06ChangerLogementDemandeReservationLogement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="7327b858-91d8-4730-86c0-1b8a062ac7fc"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="073dabee-29ad-410a-b3f7-e8683dcd7343"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.CODE	CU03-08-06
+
+2. REFERENCE
+
+Titre: 	Changer le logement d'une demande de reservation de logement
+Date:     23/11/2021
+
+3.	MODIFICATIONS
+
+Date			Rev	Auteur								Observation
+23/11/2021  	 1		Alzouma Moussa Mahamadou		Identification et Spec détaillée
+
+
+4. DESCRIPTION
+
+
+Le système invite le prospect à changer son  logement de sa demande de reservation par notification.Pour ce faire, le prospect clique sur lien de changement de logement contenu dans la notification.
+
+Le système retourne la demande de reservation de logement.
+
+Si le delai de changement n'est pas depassé :
+
+	-	Le prospect selectionne un nouveau logement
+
+	-	Le système change le logement de la demande 
+
+	-	Le système enregistre la demande de reservation ( le statut devient demande validée)
+
+	-	Le système notifie le prospect de la validation de sa demande de logement
+
+
+
+Sinon ,
+
+	-	 Le système change  le statut de la demande de reservation en " Demanden annulée"
+
+	-	Le système annule la demande de reservation et invite le prospect à faire une nouvelle demande de reservation de logement.
+
+
+
+5. LISTE DES ACTEURS
+
+Principal: Prospect]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="99f301bd-26c6-4a42-9403-cd2158853d7e"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.	Le système renvoie uniquement les informations necessaires au changement du logement
+
+
+
+Contraintes liées à la notification :
+
+
+2.	Le prospect sera notifié si le statut de la demande est à "Demande validée"
+
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="755928c5-80a5-408f-a8d6-4a659c6747fd"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="Infrastructure.NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="031a6074-76fa-430f-b33c-7dc217ec3942"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="9cee642f-304c-4030-8ac3-aeefd4a09a35"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+
+-	Le statut de la demande de reservation  doit être  à "En attente de changement de logement "]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="de73b926-4cf3-4995-8746-d076b0360215"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario nominal" mc="Infrastructure.Note" uid="e270a5fd-a35d-4134-88b0-1271aa4173c2"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+1.	Le système vérifie le délai de changement de logement
+
+2.	Le système retourne la demande de reservation de logement ( les informations necessaires )
+
+3.	Le prospect selectionne un nouveau logement  correspondant  aux criteres de sa demande
+
+4.	Le prospect  approuve le changement du logement
+
+5.	Le système enregistre la demande de réservation de logement et actualise le statut de la demande à  "Demande validée "
+
+6.	Le système notifie  le promoteur , le prospect , et eventuellement l'efi concerné.
+
+7.	Fin]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario nominal]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Scénario alternatif " mc="Infrastructure.Note" uid="fd8e254b-dd1c-4ce4-9972-6af0f9c59007"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[
+Scénario alternatif A1: Dépassement du délai de changemet de logement
+
+Condition :Le délai de changement de  logement est expiré
+
+Branchement:	  Aprés  l'étape 1
+
+		1.	Aller au use case CU03-08-05	
+
+
+
+Scénario alternatif A2: Indisponibilité de logement
+
+Condition :Aucun logement correspondant au produit logement de la demande n'est disponible
+
+Branchement:	  A l'etape 3
+
+		1.  Le système annule la demande
+
+		2. Le système notifie le prospect d'effectuer une nouvelle de demande de réservation de logement
+
+		3.  Aller au use case CU03-08-01
+
+
+
+
+
+]]></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"><![CDATA[Scénario alternatif ]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="comment" mc="Infrastructure.NoteType" uid="00000000-0000-3e80-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

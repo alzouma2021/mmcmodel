@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="OptionLogement" version="4">
+  <OBJECT>
+    <ID name="OptionLogement" mc="Standard.Package" uid="6691038d-3d20-48c3-b6eb-065bc9019c28"/>
+    <PID name="Logement" mc="Standard.Package" uid="b835df18-2b0b-42d4-b4ce-cc6face1158e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[OptionLogement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Product">
+        <COMPID name="OptionLogement" mc="Standard.ClassDiagram" uid="e1700b4e-766c-4e74-af68-c9e1a04c8788"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
